@@ -1,0 +1,110 @@
+{
+    "url": "https://www.booking.com/index.pl.html?label=gen173nr-1BCAEoggI46AdIM1gEaLYBiAEBmAEeuAEXyAEM2AEB6AEBiAIBqAIDuALNuZivBsACAdICJDQwMmU5ODJhLTI3MDItNGM4Yy1hN2JlLTI1N2Y4YThjOWRiYdgCBeACAQ&sid=163195d568cd0a11d2779d4185f543ea&keep_landing=1&sb_price_type=total&",
+    "extensionVersion": "4.76.0",
+    "axeVersion": "4.8.2",
+    "standard": "WCAG 2.1 AA",
+    "testingStartDate": "2024-03-04T19:11:22.468Z",
+    "testingEndDate": "2024-03-04T19:11:22.468Z",
+    "bestPracticesEnabled": false,
+    "experimentalEnabled": false,
+    "issueSummary": {
+        "critical": 1,
+        "serious": 1,
+        "moderate": 0,
+        "minor": 0,
+        "bestPractices": 0,
+        "needsReview": 0
+    },
+    "remainingTestingSummary": {
+        "run": false
+    },
+    "igtSummary": [],
+    "failedRules": [
+        {
+            "name": "aria-progressbar-name",
+            "count": 1,
+            "mode": "automated"
+        },
+        {
+            "name": "aria-valid-attr-value",
+            "count": 1,
+            "mode": "automated"
+        }
+    ],
+    "needsReview": [],
+    "source": {
+        "productName": "extension-chrome",
+        "productVersion": "4.76.0",
+        "productComponentName": "axe-extension"
+    },
+    "testDetails": {
+        "testId": "",
+        "axeVersion": "4.8.2",
+        "engine": "axe-core",
+        "standard": "WCAG 2.1 AA",
+        "startDate": "2024-03-04T19:11:22.468Z",
+        "endDate": "2024-03-04T19:11:22.468Z",
+        "bestPracticesEnabled": false,
+        "experimentalEnabled": false
+    },
+    "allIssues": [
+        {
+            "issueId": null,
+            "ruleId": "aria-progressbar-name",
+            "description": "Ensures every ARIA progressbar node has an accessible name",
+            "help": "ARIA progressbar nodes must have an accessible name",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-progressbar-name?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".a9883fe675"
+            ],
+            "summary": "Fix any of the following:\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<div class=\"a9883fe675\" role=\"progressbar\" aria-valuenow=\"0\" aria-valuemin=\"0\" aria-valuemax=\"0\"><div class=\"db7bf77dce ae649ec8cf\"></div></div>",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag111",
+                "EN-301-549",
+                "EN-9.1.1.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:11:22.468Z",
+            "isExperimental": false,
+            "testUrl": "https://www.booking.com/index.pl.html?label=gen173nr-1BCAEoggI46AdIM1gEaLYBiAEBmAEeuAEXyAEM2AEB6AEBiAIBqAIDuALNuZivBsACAdICJDQwMmU5ODJhLTI3MDItNGM4Yy1hN2JlLTI1N2Y4YThjOWRiYdgCBeACAQ&sid=163195d568cd0a11d2779d4185f543ea&keep_landing=1&sb_price_type=total&",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Booking.com | Oficjalna strona | Najlepsze hotele, loty, samochody na wynajem i zakwaterowanie"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-valid-attr-value",
+            "description": "Ensures all ARIA attributes have valid values",
+            "help": "ARIA attributes must conform to valid values",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-valid-attr-value?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "button[aria-controls=\"ROMANCE\"]"
+            ],
+            "summary": "Fix all of the following:\\n  Invalid ARIA attribute value: aria-controls=\"ROMANCE\"",
+            "source": "<button data-testid=\"webcore-filter-carousel-tab-trigger\" role=\"tab\" aria-selected=\"true\" aria-controls=\"ROMANCE\" tabindex=\"0\" type=\"button\" class=\"a83ed08757 f3441ccb97 ec66406250\">",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:11:22.468Z",
+            "isExperimental": false,
+            "testUrl": "https://www.booking.com/index.pl.html?label=gen173nr-1BCAEoggI46AdIM1gEaLYBiAEBmAEeuAEXyAEM2AEB6AEBiAIBqAIDuALNuZivBsACAdICJDQwMmU5ODJhLTI3MDItNGM4Yy1hN2JlLTI1N2Y4YThjOWRiYdgCBeACAQ&sid=163195d568cd0a11d2779d4185f543ea&keep_landing=1&sb_price_type=total&",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Booking.com | Oficjalna strona | Najlepsze hotele, loty, samochody na wynajem i zakwaterowanie"
+        }
+    ]
+}

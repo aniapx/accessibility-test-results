@@ -1,0 +1,173 @@
+bigsize\eu_volkswagen_main_page.json
+Critical Issues:
+button-name: 1: Ensures buttons have discernible text;
+
+Serious Issues:
+svg-img-alt: 2: Ensures <svg> elements with an img, graphics-document or graphics-symbol role have an accessible text;
+aria-hidden-focus: 1: Ensures aria-hidden elements are not focusable nor contain focusable elements;
+aria-prohibited-attr: 1: Ensures ARIA attributes are not prohibited for an element's role;
+
+courier\eu_dhl_main_page.json
+Critical Issues:
+aria-allowed-attr: 6: Ensures an element's role supports its ARIA attributes;
+aria-valid-attr-value: 3: Ensures all ARIA attributes have valid values;
+aria-required-children: 2: Ensures elements with an ARIA role that require child roles contain them;
+image-alt: 1: Ensures <img> elements have alternate text or a role of none or presentation;
+meta-viewport: 1: Ensures <meta name="viewport"> does not disable text scaling and zooming;
+
+Serious Issues:
+object-alt: 3: Ensures <object> elements have alternate text;
+listitem: 2: Ensures <li> elements are used semantically;
+svg-img-alt: 2: Ensures <svg> elements with an img, graphics-document or graphics-symbol role have an accessible text;
+nested-interactive: 1: Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies;
+
+courier\eu_dhl_ship.json
+Critical Issues:
+aria-allowed-attr: 3: Ensures an element's role supports its ARIA attributes;
+aria-required-children: 2: Ensures elements with an ARIA role that require child roles contain them;
+meta-viewport: 1: Ensures <meta name="viewport"> does not disable text scaling and zooming;
+
+Serious Issues:
+color-contrast: 18: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+autocomplete-valid: 14: Ensure the autocomplete attribute is correct and suitable for the form field;
+svg-img-alt: 6: Ensures <svg> elements with an img, graphics-document or graphics-symbol role have an accessible text;
+listitem: 2: Ensures <li> elements are used semantically;
+
+ecommerce\eu_bol_main_page.json
+Serious Issues:
+color-contrast: 5: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+link-in-text-block: 1: Ensure links are distinguished from surrounding text in a way that does not rely on color;
+list: 1: Ensures that lists are structured correctly;
+
+ecommerce\eu_bol_product_details.json
+Serious Issues:
+aria-prohibited-attr: 21: Ensures ARIA attributes are not prohibited for an element's role;
+link-name: 21: Ensures links have discernible text;
+aria-hidden-focus: 4: Ensures aria-hidden elements are not focusable nor contain focusable elements;
+color-contrast: 3: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+list: 1: Ensures that lists are structured correctly;
+
+ecommerce\eu_bol_product_list.json
+Serious Issues:
+link-name: 37: Ensures links have discernible text;
+color-contrast: 29: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+aria-prohibited-attr: 27: Ensures ARIA attributes are not prohibited for an element's role;
+link-in-text-block: 7: Ensure links are distinguished from surrounding text in a way that does not rely on color;
+list: 2: Ensures that lists are structured correctly;
+
+education\eu_uva_main_page.json
+Critical Issues:
+
+Serious Issues:
+education\eu_uva_majors_list.json
+Critical Issues:
+
+Serious Issues:
+education\eu_uva_major_details.json
+Critical Issues:
+
+Serious Issues:
+entertainment\eu_spotify_items_list.json
+Critical Issues:
+aria-allowed-attr: 6: Ensures an element's role supports its ARIA attributes;
+aria-required-children: 5: Ensures elements with an ARIA role that require child roles contain them;
+aria-required-attr: 1: Ensures elements with ARIA roles have all required ARIA attributes;
+aria-valid-attr-value: 1: Ensures all ARIA attributes have valid values;
+meta-viewport: 1: Ensures <meta name="viewport"> does not disable text scaling and zooming;
+
+entertainment\eu_spotify_item_details.json
+Critical Issues:
+aria-allowed-attr: 7: Ensures an element's role supports its ARIA attributes;
+aria-required-children: 4: Ensures elements with an ARIA role that require child roles contain them;
+aria-required-attr: 1: Ensures elements with ARIA roles have all required ARIA attributes;
+aria-valid-attr-value: 1: Ensures all ARIA attributes have valid values;
+meta-viewport: 1: Ensures <meta name="viewport"> does not disable text scaling and zooming;
+
+Serious Issues:
+nested-interactive: 1: Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies;
+
+entertainment\eu_spotify_main_page.json
+Critical Issues:
+aria-required-children: 4: Ensures elements with an ARIA role that require child roles contain them;
+aria-allowed-attr: 2: Ensures an element's role supports its ARIA attributes;
+aria-required-attr: 1: Ensures elements with ARIA roles have all required ARIA attributes;
+aria-valid-attr-value: 1: Ensures all ARIA attributes have valid values;
+meta-viewport: 1: Ensures <meta name="viewport"> does not disable text scaling and zooming;
+
+Serious Issues:
+aria-prohibited-attr: 1: Ensures ARIA attributes are not prohibited for an element's role;
+
+gov\eu_france_main_page.json
+Critical Issues:
+
+Serious Issues:
+gov\eu_france_services_list.json
+Critical Issues:
+
+Serious Issues:
+gov\eu_france_service_details.json
+Critical Issues:
+
+Serious Issues:
+healthcare\eu_nhs_disease_details.json
+Critical Issues:
+
+Serious Issues:
+healthcare\eu_nhs_disease_list.json
+Serious Issues:
+list: 1: Ensures that lists are structured correctly;
+
+healthcare\eu_nhs_main_page.json
+Critical Issues:
+
+Serious Issues:
+news\eu_elpais_article.json
+Serious Issues:
+color-contrast: 1: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+
+news\eu_elpais_main_page.json
+Serious Issues:
+color-contrast: 5: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+link-name: 1: Ensures links have discernible text;
+
+nonprofit\eu_legambiente_donate.json
+Critical Issues:
+image-alt: 1: Ensures <img> elements have alternate text or a role of none or presentation;
+meta-viewport: 1: Ensures <meta name="viewport"> does not disable text scaling and zooming;
+
+Serious Issues:
+color-contrast: 10: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+frame-title: 1: Ensures <iframe> and <frame> elements have an accessible name;
+html-has-lang: 1: Ensures every HTML document has a lang attribute;
+
+nonprofit\eu_legambiente_main_page.json
+Critical Issues:
+image-alt: 6: Ensures <img> elements have alternate text or a role of none or presentation;
+button-name: 1: Ensures buttons have discernible text;
+
+Serious Issues:
+color-contrast: 20: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+link-name: 7: Ensures links have discernible text;
+aria-hidden-focus: 2: Ensures aria-hidden elements are not focusable nor contain focusable elements;
+
+nonprofit\eu_legambiente_volunteer.json
+Critical Issues:
+image-alt: 8: Ensures <img> elements have alternate text or a role of none or presentation;
+
+Serious Issues:
+color-contrast: 27: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+link-name: 6: Ensures links have discernible text;
+svg-img-alt: 1: Ensures <svg> elements with an img, graphics-document or graphics-symbol role have an accessible text;
+
+mediumsize\eu_booking_main_page.json
+Critical Issues:
+aria-valid-attr-value: 1: Ensures all ARIA attributes have valid values;
+
+Serious Issues:
+aria-progressbar-name: 1: Ensures every ARIA progressbar node has an accessible name;
+
+smallsize\eu_osnabrueckhalle_main_page.json
+Serious Issues:
+link-name: 18: Ensures links have discernible text;
+color-contrast: 3: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+

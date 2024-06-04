@@ -1,0 +1,143 @@
+{
+    "url": "https://www.facebook.com/IMovieQuotes/posts/742594361349807",
+    "extensionVersion": "4.76.0",
+    "axeVersion": "4.8.2",
+    "standard": "WCAG 2.1 AA",
+    "testingStartDate": "2024-03-04T18:46:58.505Z",
+    "testingEndDate": "2024-03-04T18:46:58.505Z",
+    "bestPracticesEnabled": false,
+    "experimentalEnabled": false,
+    "issueSummary": {
+        "critical": 1,
+        "serious": 2,
+        "moderate": 0,
+        "minor": 0,
+        "bestPractices": 0,
+        "needsReview": 0
+    },
+    "remainingTestingSummary": {
+        "run": false
+    },
+    "igtSummary": [],
+    "failedRules": [
+        {
+            "name": "aria-allowed-attr",
+            "count": 1,
+            "mode": "automated"
+        },
+        {
+            "name": "aria-hidden-focus",
+            "count": 2,
+            "mode": "automated"
+        }
+    ],
+    "needsReview": [],
+    "source": {
+        "productName": "extension-chrome",
+        "productVersion": "4.76.0",
+        "productComponentName": "axe-extension"
+    },
+    "testDetails": {
+        "testId": "",
+        "axeVersion": "4.8.2",
+        "engine": "axe-core",
+        "standard": "WCAG 2.1 AA",
+        "startDate": "2024-03-04T18:46:58.505Z",
+        "endDate": "2024-03-04T18:46:58.505Z",
+        "bestPracticesEnabled": false,
+        "experimentalEnabled": false
+    },
+    "allIssues": [
+        {
+            "issueId": null,
+            "ruleId": "aria-allowed-attr",
+            "description": "Ensures an element's role supports its ARIA attributes",
+            "help": "Elements must only use supported ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-attr?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "div[aria-posinset=\"1\"]"
+            ],
+            "summary": "Fix all of the following:\\n  ARIA attribute is not allowed: aria-posinset=\"1\"",
+            "source": "<div aria-posinset=\"1\" aria-describedby=\":R1al9aqqd9emhpapd5aqH1: :R1al9aqqd9emhpapd5aqH2: :R1al9aqqd9emhpapd5aqH3: :R1al9aqqd9emhpapd5aqH5: :R1al9aqqd9emhpapd5aqH4:\" aria-labelledby=\":R1al9aqqd9emhpapd5aq:\" class=\"x1a2a7pz\">",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:46:58.505Z",
+            "isExperimental": false,
+            "testUrl": "https://www.facebook.com/IMovieQuotes/posts/742594361349807",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "(1) Movie Quotes - YES 🥹🖤 - Killing Eve 📺 | Facebook"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-hidden-focus",
+            "description": "Ensures aria-hidden elements are not focusable nor contain focusable elements",
+            "help": "ARIA hidden element must not be focusable or contain focusable elements",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-hidden-focus?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".xqtp20y.x1emribx.x78zum5 > .xt0psk2 > a"
+            ],
+            "summary": "Fix all of the following:\\n  Focusable content should have tabindex=\"-1\" or be removed from the DOM",
+            "source": "<a aria-hidden=\"true\" class=\"x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz xt0b8zv xzsf02u\" href=\"https://www.facebook.com/IMovieQuotes?__cft__[0]=AZXQnMY7Lz5y75EIZgGRUrYaQ8Iuu00mCcAnQ2F3dNCOizrI1bdqXsTXVWYp04yrKGSVjbiFd9iDFPWJY1wmU6EI-jmuVL5lvAMscyp1512ou5H5pRA-CqfnAaBc0h_6gyzq0Gjroz87Z65jeYkHZFcv&amp;__tn__=%3C%2CP-R\" role=\"link\" tabindex=\"-1\">",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:46:58.505Z",
+            "isExperimental": false,
+            "testUrl": "https://www.facebook.com/IMovieQuotes/posts/742594361349807",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "(1) Movie Quotes - YES 🥹🖤 - Killing Eve 📺 | Facebook"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-hidden-focus",
+            "description": "Ensures aria-hidden elements are not focusable nor contain focusable elements",
+            "help": "ARIA hidden element must not be focusable or contain focusable elements",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-hidden-focus?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".xr9ek0c.x1w0mnb.xqcrz7y > .x3nfvp2.xjqpnuy[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix all of the following:\\n  Focusable content should have tabindex=\"-1\" or be removed from the DOM",
+            "source": "<div aria-hidden=\"true\" class=\"x1i10hfl x1qjc9v5 xjbqb8w xjqpnuy xa49m3k xqeqjp1 x2hbi6w x13fuv20 xu3j5b3 x1q0q8m5 x26u7qi x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xdl72j9 x2lah0s xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r x2lwn1j xeuugli xexx8yu x4uap5 x18d9i69 xkhd6sd x1n2onr6 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x1o1ewxj x3x9cwd x1e5q0jg x13rtm0m x3nfvp2 x1q0g3np x87ps6o x1lku1pv x1a2a7pz\" role=\"button\" tabindex=\"-1\">",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:46:58.505Z",
+            "isExperimental": false,
+            "testUrl": "https://www.facebook.com/IMovieQuotes/posts/742594361349807",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "(1) Movie Quotes - YES 🥹🖤 - Killing Eve 📺 | Facebook"
+        }
+    ]
+}

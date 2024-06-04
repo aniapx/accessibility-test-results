@@ -1,0 +1,487 @@
+{
+    "url": "https://www.gov.pl/web/gov/uslugi-dla-obywatela/",
+    "extensionVersion": "4.76.0",
+    "axeVersion": "4.8.2",
+    "standard": "WCAG 2.1 AA",
+    "testingStartDate": "2024-03-04T18:57:19.176Z",
+    "testingEndDate": "2024-03-04T18:57:19.176Z",
+    "bestPracticesEnabled": false,
+    "experimentalEnabled": false,
+    "issueSummary": {
+        "critical": 0,
+        "serious": 14,
+        "moderate": 0,
+        "minor": 0,
+        "bestPractices": 0,
+        "needsReview": 0
+    },
+    "remainingTestingSummary": {
+        "run": false
+    },
+    "igtSummary": [],
+    "failedRules": [
+        {
+            "name": "link-in-text-block",
+            "count": 13,
+            "mode": "automated"
+        },
+        {
+            "name": "valid-lang",
+            "count": 1,
+            "mode": "automated"
+        }
+    ],
+    "needsReview": [],
+    "source": {
+        "productName": "extension-chrome",
+        "productVersion": "4.76.0",
+        "productComponentName": "axe-extension"
+    },
+    "testDetails": {
+        "testId": "",
+        "axeVersion": "4.8.2",
+        "engine": "axe-core",
+        "standard": "WCAG 2.1 AA",
+        "startDate": "2024-03-04T18:57:19.176Z",
+        "endDate": "2024-03-04T18:57:19.176Z",
+        "bestPracticesEnabled": false,
+        "experimentalEnabled": false
+    },
+    "allIssues": [
+        {
+            "issueId": null,
+            "ruleId": "link-in-text-block",
+            "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+            "help": "Links must be distinguishable without relying on color",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "li:nth-child(12) > div > .category-section:nth-child(3) > .accordion-element:nth-child(5) > .accordion-link"
+            ],
+            "summary": "Fix any of the following:\\n  The link has insufficient color contrast of 2.25:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0052a5, surrounding text: #1b1b1b)\\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+            "source": "<a class=\"accordion-link\" href=\"https://www.gov.pl/web/gov/uzyskaj-becikowe\">Uzyskaj becikowe</a>",
+            "tags": [
+                "cat.color",
+                "wcag2a",
+                "wcag141",
+                "TTv5",
+                "TT13.a",
+                "EN-301-549",
+                "EN-9.1.4.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:57:19.176Z",
+            "isExperimental": false,
+            "testUrl": "https://www.gov.pl/web/gov/uslugi-dla-obywatela/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Uslugi dla obywatela - Gov.pl - Portal Gov.pl"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-in-text-block",
+            "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+            "help": "Links must be distinguishable without relying on color",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "li:nth-child(12) > div > .category-section:nth-child(4) > .accordion-element:nth-child(3) > .accordion-link"
+            ],
+            "summary": "Fix any of the following:\\n  The link has insufficient color contrast of 2.25:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0052a5, surrounding text: #1b1b1b)\\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+            "source": "<a class=\"accordion-link\" href=\"https://www.gov.pl/web/gov/skorzystaj-z-programu-mieszkanie-dla-mlodych\">Skorzystaj z programu Mieszkanie dla mlodych</a>",
+            "tags": [
+                "cat.color",
+                "wcag2a",
+                "wcag141",
+                "TTv5",
+                "TT13.a",
+                "EN-301-549",
+                "EN-9.1.4.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:57:19.176Z",
+            "isExperimental": false,
+            "testUrl": "https://www.gov.pl/web/gov/uslugi-dla-obywatela/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Uslugi dla obywatela - Gov.pl - Portal Gov.pl"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-in-text-block",
+            "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+            "help": "Links must be distinguishable without relying on color",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "li:nth-child(12) > div > .category-section:nth-child(4) > .accordion-element:nth-child(4) > .accordion-link"
+            ],
+            "summary": "Fix any of the following:\\n  The link has insufficient color contrast of 2.25:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0052a5, surrounding text: #1b1b1b)\\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+            "source": "<a class=\"accordion-link\" href=\"https://www.gov.pl/web/gov/uzyskaj-dodatek-mieszkaniowy\">Uzyskaj dodatek mieszkaniowy</a>",
+            "tags": [
+                "cat.color",
+                "wcag2a",
+                "wcag141",
+                "TTv5",
+                "TT13.a",
+                "EN-301-549",
+                "EN-9.1.4.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:57:19.176Z",
+            "isExperimental": false,
+            "testUrl": "https://www.gov.pl/web/gov/uslugi-dla-obywatela/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Uslugi dla obywatela - Gov.pl - Portal Gov.pl"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-in-text-block",
+            "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+            "help": "Links must be distinguishable without relying on color",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "li:nth-child(12) > div > .category-section:nth-child(5) > .accordion-element > .accordion-link"
+            ],
+            "summary": "Fix any of the following:\\n  The link has insufficient color contrast of 2.25:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0052a5, surrounding text: #1b1b1b)\\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+            "source": "<a class=\"accordion-link\" href=\"https://www.gov.pl/web/gov/uzyskaj-zasilek-pogrzebowy\">Uzyskaj zasilek pogrzebowy</a>",
+            "tags": [
+                "cat.color",
+                "wcag2a",
+                "wcag141",
+                "TTv5",
+                "TT13.a",
+                "EN-301-549",
+                "EN-9.1.4.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:57:19.176Z",
+            "isExperimental": false,
+            "testUrl": "https://www.gov.pl/web/gov/uslugi-dla-obywatela/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Uslugi dla obywatela - Gov.pl - Portal Gov.pl"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-in-text-block",
+            "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+            "help": "Links must be distinguishable without relying on color",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".category-section:nth-child(7) > .accordion-element:nth-child(5) > .accordion-link"
+            ],
+            "summary": "Fix any of the following:\\n  The link has insufficient color contrast of 2.25:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0052a5, surrounding text: #1b1b1b)\\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+            "source": "<a class=\"accordion-link\" href=\"https://www.gov.pl/web/gov/skorzystaj-z-pomocy-spolecznej\">Skorzystaj z pomocy spolecznej</a>",
+            "tags": [
+                "cat.color",
+                "wcag2a",
+                "wcag141",
+                "TTv5",
+                "TT13.a",
+                "EN-301-549",
+                "EN-9.1.4.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:57:19.176Z",
+            "isExperimental": false,
+            "testUrl": "https://www.gov.pl/web/gov/uslugi-dla-obywatela/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Uslugi dla obywatela - Gov.pl - Portal Gov.pl"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-in-text-block",
+            "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+            "help": "Links must be distinguishable without relying on color",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".category-section:nth-child(7) > .accordion-element:nth-child(6) > .accordion-link"
+            ],
+            "summary": "Fix any of the following:\\n  The link has insufficient color contrast of 2.25:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0052a5, surrounding text: #1b1b1b)\\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+            "source": "<a class=\"accordion-link\" href=\"https://gov.pl/web/gov/zglos-sie-do-urzedu-pracy\">Zglos sie do urzedu pracy&nbsp;</a>",
+            "tags": [
+                "cat.color",
+                "wcag2a",
+                "wcag141",
+                "TTv5",
+                "TT13.a",
+                "EN-301-549",
+                "EN-9.1.4.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:57:19.176Z",
+            "isExperimental": false,
+            "testUrl": "https://www.gov.pl/web/gov/uslugi-dla-obywatela/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Uslugi dla obywatela - Gov.pl - Portal Gov.pl"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-in-text-block",
+            "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+            "help": "Links must be distinguishable without relying on color",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".category-section:nth-child(8) > .accordion-element:nth-child(14) > .accordion-link"
+            ],
+            "summary": "Fix any of the following:\\n  The link has insufficient color contrast of 2.25:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0052a5, surrounding text: #1b1b1b)\\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+            "source": "<a class=\"accordion-link\" href=\"https://www.gov.pl/web/gov/skorzystaj-z-dofinansowania-do-zakupu-oprzyrzadowania-samochodu--narzad-ruchu\">Skorzystaj z dofinansowania do zakupu oprzyrzadowania samochodu – narzad ruchu</a>",
+            "tags": [
+                "cat.color",
+                "wcag2a",
+                "wcag141",
+                "TTv5",
+                "TT13.a",
+                "EN-301-549",
+                "EN-9.1.4.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:57:19.176Z",
+            "isExperimental": false,
+            "testUrl": "https://www.gov.pl/web/gov/uslugi-dla-obywatela/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Uslugi dla obywatela - Gov.pl - Portal Gov.pl"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-in-text-block",
+            "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+            "help": "Links must be distinguishable without relying on color",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".category-section:nth-child(8) > .accordion-element:nth-child(15) > .accordion-link"
+            ],
+            "summary": "Fix any of the following:\\n  The link has insufficient color contrast of 2.25:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0052a5, surrounding text: #1b1b1b)\\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+            "source": "<a class=\"accordion-link\" href=\"https://www.gov.pl/web/gov/skorzystaj-z-dofinansowania-do-zakupu-oprzyrzadowania-samochodu---narzad-sluchu\">Skorzystaj z dofinansowania do zakupu oprzyrzadowania samochodu - narzad sluchu</a>",
+            "tags": [
+                "cat.color",
+                "wcag2a",
+                "wcag141",
+                "TTv5",
+                "TT13.a",
+                "EN-301-549",
+                "EN-9.1.4.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:57:19.176Z",
+            "isExperimental": false,
+            "testUrl": "https://www.gov.pl/web/gov/uslugi-dla-obywatela/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Uslugi dla obywatela - Gov.pl - Portal Gov.pl"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-in-text-block",
+            "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+            "help": "Links must be distinguishable without relying on color",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".category-section:nth-child(8) > .accordion-element:nth-child(17) > .accordion-link"
+            ],
+            "summary": "Fix any of the following:\\n  The link has insufficient color contrast of 2.25:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0052a5, surrounding text: #1b1b1b)\\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+            "source": "<a class=\"accordion-link\" href=\"https://www.gov.pl/web/gov/skorzystaj-z-dofinansowania-do-zakupu-przedmiotow-ortopedycznych-i-srodkow-pomocniczych\">Skorzystaj z dofinansowania do zakupu przedmiotów ortopedycznych i srodków pomocniczych</a>",
+            "tags": [
+                "cat.color",
+                "wcag2a",
+                "wcag141",
+                "TTv5",
+                "TT13.a",
+                "EN-301-549",
+                "EN-9.1.4.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:57:19.176Z",
+            "isExperimental": false,
+            "testUrl": "https://www.gov.pl/web/gov/uslugi-dla-obywatela/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Uslugi dla obywatela - Gov.pl - Portal Gov.pl"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-in-text-block",
+            "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+            "help": "Links must be distinguishable without relying on color",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".category-section:nth-child(8) > .accordion-element:nth-child(18) > .accordion-link"
+            ],
+            "summary": "Fix any of the following:\\n  The link has insufficient color contrast of 2.25:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0052a5, surrounding text: #1b1b1b)\\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+            "source": "<a class=\"accordion-link\" href=\"https://www.gov.pl/web/gov/skorzystaj-z-dofinansowania-do-zakupu-skutera-inwalidzkiego-lub-oprzyrzadowania-elektrycznego-do-wozka-recznego\">Skorzystaj z dofinansowania do zakupu skutera inwalidzkiego lub oprzyrzadowania elektrycznego do wózka recznego</a>",
+            "tags": [
+                "cat.color",
+                "wcag2a",
+                "wcag141",
+                "TTv5",
+                "TT13.a",
+                "EN-301-549",
+                "EN-9.1.4.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:57:19.176Z",
+            "isExperimental": false,
+            "testUrl": "https://www.gov.pl/web/gov/uslugi-dla-obywatela/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Uslugi dla obywatela - Gov.pl - Portal Gov.pl"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-in-text-block",
+            "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+            "help": "Links must be distinguishable without relying on color",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".category-section:nth-child(8) > .accordion-element:nth-child(21) > .accordion-link"
+            ],
+            "summary": "Fix any of the following:\\n  The link has insufficient color contrast of 2.25:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0052a5, surrounding text: #1b1b1b)\\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+            "source": "<a class=\"accordion-link\" href=\"https://www.gov.pl/web/gov/skorzystaj-z-dofinansowania-do-zakupu-uslugi-tlumacza-jezyka-migowego-lub-tlumacza-przewodnika\">Skorzystaj z dofinansowania do zakupu uslugi tlumacza jezyka migowego lub tlumacza przewodnika</a>",
+            "tags": [
+                "cat.color",
+                "wcag2a",
+                "wcag141",
+                "TTv5",
+                "TT13.a",
+                "EN-301-549",
+                "EN-9.1.4.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:57:19.176Z",
+            "isExperimental": false,
+            "testUrl": "https://www.gov.pl/web/gov/uslugi-dla-obywatela/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Uslugi dla obywatela - Gov.pl - Portal Gov.pl"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-in-text-block",
+            "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+            "help": "Links must be distinguishable without relying on color",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".category-section:nth-child(8) > .accordion-element:nth-child(24) > .accordion-link"
+            ],
+            "summary": "Fix any of the following:\\n  The link has insufficient color contrast of 2.25:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0052a5, surrounding text: #1b1b1b)\\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+            "source": "<a class=\"accordion-link\" href=\"https://www.gov.pl/web/gov/skorzystaj-z-rehabilitacji-finansowanej-przez-zus\">Skorzystaj z rehabilitacji finansowanej przez ZUS</a>",
+            "tags": [
+                "cat.color",
+                "wcag2a",
+                "wcag141",
+                "TTv5",
+                "TT13.a",
+                "EN-301-549",
+                "EN-9.1.4.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:57:19.176Z",
+            "isExperimental": false,
+            "testUrl": "https://www.gov.pl/web/gov/uslugi-dla-obywatela/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Uslugi dla obywatela - Gov.pl - Portal Gov.pl"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-in-text-block",
+            "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+            "help": "Links must be distinguishable without relying on color",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".category-section:nth-child(8) > .accordion-element:nth-child(28) > .accordion-link"
+            ],
+            "summary": "Fix any of the following:\\n  The link has insufficient color contrast of 2.25:1 with the surrounding text. (Minimum contrast is 3:1, link text: #0052a5, surrounding text: #1b1b1b)\\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+            "source": "<a class=\"accordion-link\" href=\"https://www.gov.pl/gov/uzyskaj-swiadczenie-wspierajace\">Uzyskaj swiadczenie wspierajace</a>",
+            "tags": [
+                "cat.color",
+                "wcag2a",
+                "wcag141",
+                "TTv5",
+                "TT13.a",
+                "EN-301-549",
+                "EN-9.1.4.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:57:19.176Z",
+            "isExperimental": false,
+            "testUrl": "https://www.gov.pl/web/gov/uslugi-dla-obywatela/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Uslugi dla obywatela - Gov.pl - Portal Gov.pl"
+        },
+        {
+            "issueId": null,
+            "ruleId": "valid-lang",
+            "description": "Ensures lang attributes have valid values",
+            "help": "lang attribute must have a valid value",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/valid-lang?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "span[lang=\"ua-UA\"]"
+            ],
+            "summary": "Fix all of the following:\\n  Value of lang attribute not included in the list of valid languages",
+            "source": "<span lang=\"ua-UA\">&nbsp;Strona dla obywateli Ukrainy –</span>",
+            "tags": [
+                "cat.language",
+                "wcag2aa",
+                "wcag312",
+                "TTv5",
+                "TT11.b",
+                "EN-301-549",
+                "EN-9.3.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:57:19.176Z",
+            "isExperimental": false,
+            "testUrl": "https://www.gov.pl/web/gov/uslugi-dla-obywatela/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Uslugi dla obywatela - Gov.pl - Portal Gov.pl"
+        }
+    ]
+}

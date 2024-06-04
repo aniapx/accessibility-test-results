@@ -1,0 +1,116 @@
+{
+    "url": "https://www.linkedin.com/in/anna-plust-11433517b/",
+    "extensionVersion": "4.76.0",
+    "axeVersion": "4.8.2",
+    "standard": "WCAG 2.1 AA",
+    "testingStartDate": "2024-03-04T18:37:43.733Z",
+    "testingEndDate": "2024-03-04T18:37:43.733Z",
+    "bestPracticesEnabled": false,
+    "experimentalEnabled": false,
+    "issueSummary": {
+        "critical": 0,
+        "serious": 2,
+        "moderate": 0,
+        "minor": 0,
+        "bestPractices": 0,
+        "needsReview": 0
+    },
+    "remainingTestingSummary": {
+        "run": false
+    },
+    "igtSummary": [],
+    "failedRules": [
+        {
+            "name": "aria-hidden-focus",
+            "count": 1,
+            "mode": "automated"
+        },
+        {
+            "name": "frame-title",
+            "count": 1,
+            "mode": "automated"
+        }
+    ],
+    "needsReview": [],
+    "source": {
+        "productName": "extension-chrome",
+        "productVersion": "4.76.0",
+        "productComponentName": "axe-extension"
+    },
+    "testDetails": {
+        "testId": "",
+        "axeVersion": "4.8.2",
+        "engine": "axe-core",
+        "standard": "WCAG 2.1 AA",
+        "startDate": "2024-03-04T18:37:43.733Z",
+        "endDate": "2024-03-04T18:37:43.733Z",
+        "bestPracticesEnabled": false,
+        "experimentalEnabled": false
+    },
+    "allIssues": [
+        {
+            "issueId": null,
+            "ruleId": "aria-hidden-focus",
+            "description": "Ensures aria-hidden elements are not focusable nor contain focusable elements",
+            "help": "ARIA hidden element must not be focusable or contain focusable elements",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-hidden-focus?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "main > .pv-profile-card.mt2[data-view-name=\"profile-card\"]:nth-child(6) > .svlexhdJRwfUAofIjkoWMSYAyoQAxeqJosmzw > .pvs-header__top-container--no-stack > .pvs-header__left-container--stack > .pvs-header__title-container > .IMOEauJsHKMIIQKpLPyYepOgoXyPUebPYavVBg.pvs-header__optional-link.text-body-small > span[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix all of the following:\\n  Focusable content should have tabindex=\"-1\" or be removed from the DOM",
+            "source": "<span aria-hidden=\"true\"><a class=\"app-aware-link \" target=\"_self\" href=\"https://www.linkedin.com/feed/followers/\" data-test-app-aware-link=\"\"><strong><!---->176 followers<!----></strong></a></span>",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:37:43.733Z",
+            "isExperimental": false,
+            "testUrl": "https://www.linkedin.com/in/anna-plust-11433517b/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "(8) Anna Plust | LinkedIn"
+        },
+        {
+            "issueId": null,
+            "ruleId": "frame-title",
+            "description": "Ensures <iframe> and <frame> elements have an accessible name",
+            "help": "Frames must have an accessible name",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/frame-title?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#humanThirdPartyIframe"
+            ],
+            "summary": "Fix any of the following:\\n  Element has no title attribute\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+            "source": "<iframe id=\"humanThirdPartyIframe\" src=\"https://li.protechts.net/index.html?ts=1709577434617&amp;r_id=AAYS2gN6aI1jAVEjEE4Cog%3D%3D&amp;app_id=PXdOjV695v&amp;uc=scraping&amp;d_id=06d4b51a50e8425d72849cf7931d9250850e4e329422d95338d570095a563295\" sandbox=\"allow-same-origin allow-scripts\" style=\"height: 0px; width: 0px; border: none; position: absolute; left: -9999px;\">",
+            "tags": [
+                "cat.text-alternatives",
+                "wcag2a",
+                "wcag412",
+                "section508",
+                "section508.22.i",
+                "TTv5",
+                "TT12.d",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:37:43.733Z",
+            "isExperimental": false,
+            "testUrl": "https://www.linkedin.com/in/anna-plust-11433517b/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "(8) Anna Plust | LinkedIn"
+        }
+    ]
+}

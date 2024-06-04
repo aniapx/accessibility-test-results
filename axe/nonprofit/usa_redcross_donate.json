@@ -1,0 +1,209 @@
+{
+    "url": "https://www.redcross.org/donate/donation.html/",
+    "extensionVersion": "4.76.0",
+    "axeVersion": "4.8.2",
+    "standard": "WCAG 2.1 AA",
+    "testingStartDate": "2024-03-04T18:59:41.277Z",
+    "testingEndDate": "2024-03-04T18:59:41.277Z",
+    "bestPracticesEnabled": false,
+    "experimentalEnabled": false,
+    "issueSummary": {
+        "critical": 0,
+        "serious": 5,
+        "moderate": 0,
+        "minor": 0,
+        "bestPractices": 0,
+        "needsReview": 0
+    },
+    "remainingTestingSummary": {
+        "run": false
+    },
+    "igtSummary": [],
+    "failedRules": [
+        {
+            "name": "color-contrast",
+            "count": 2,
+            "mode": "automated"
+        },
+        {
+            "name": "link-in-text-block",
+            "count": 3,
+            "mode": "automated"
+        }
+    ],
+    "needsReview": [],
+    "source": {
+        "productName": "extension-chrome",
+        "productVersion": "4.76.0",
+        "productComponentName": "axe-extension"
+    },
+    "testDetails": {
+        "testId": "",
+        "axeVersion": "4.8.2",
+        "engine": "axe-core",
+        "standard": "WCAG 2.1 AA",
+        "startDate": "2024-03-04T18:59:41.277Z",
+        "endDate": "2024-03-04T18:59:41.277Z",
+        "bestPracticesEnabled": false,
+        "experimentalEnabled": false
+    },
+    "allIssues": [
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "p[data-aa-donation-payment-type=\"credit card\"] > span[_ngcontent-yxp-c45=\"\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 1.6 (foreground color: #cccccc, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1",
+            "source": "<span _ngcontent-yxp-c45=\"\"><span _ngcontent-yxp-c45=\"\" class=\"hidden-off-screen\">Pay with </span> Credit Card <span _ngcontent-yxp-c45=\"\" class=\"hidden-off-screen\"> disabled. Please select a donation amount first.</span><!----></span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:59:41.277Z",
+            "isExperimental": false,
+            "testUrl": "https://www.redcross.org/donate/donation.html/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Donate Now - Online Donations | American Red Cross"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "p[data-aa-donation-payment-type=\"paypal\"] > span[_ngcontent-yxp-c45=\"\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 1.6 (foreground color: #cccccc, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1",
+            "source": "<span _ngcontent-yxp-c45=\"\"><span _ngcontent-yxp-c45=\"\" class=\"hidden-off-screen\">Pay with </span> PayPal <span _ngcontent-yxp-c45=\"\" class=\"hidden-off-screen\"> disabled. Please select a donation amount first.</span><!----></span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:59:41.277Z",
+            "isExperimental": false,
+            "testUrl": "https://www.redcross.org/donate/donation.html/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Donate Now - Online Donations | American Red Cross"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-in-text-block",
+            "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+            "help": "Links must be distinguishable without relying on color",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "p:nth-child(1) > a[data-aa-link-button=\"modf-donate-by-mail-form\"][target=\"_blank\"]"
+            ],
+            "summary": "Fix any of the following:\\n  The link has insufficient color contrast of 1.09:1 with the surrounding text. (Minimum contrast is 3:1, link text: #007caf, surrounding text: #6d6e70)\\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+            "source": "<a href=\"/content/dam/redcross/donations/2019_Updated%20IRF%20Form_v1_FINAL_RSG00000MCDF.PDF\" data-aa-link-button=\"modf-donate-by-mail-form\" target=\"_blank\">donation form</a>",
+            "tags": [
+                "cat.color",
+                "wcag2a",
+                "wcag141",
+                "TTv5",
+                "TT13.a",
+                "EN-301-549",
+                "EN-9.1.4.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:59:41.277Z",
+            "isExperimental": false,
+            "testUrl": "https://www.redcross.org/donate/donation.html/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Donate Now - Online Donations | American Red Cross"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-in-text-block",
+            "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+            "help": "Links must be distinguishable without relying on color",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "p:nth-child(1) > a[href=\"tel:1-800-435-7669\"]"
+            ],
+            "summary": "Fix any of the following:\\n  The link has insufficient color contrast of 1.09:1 with the surrounding text. (Minimum contrast is 3:1, link text: #007caf, surrounding text: #6d6e70)\\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+            "source": "<a href=\"tel:1-800-435-7669\">1-800-HELP NOW</a>",
+            "tags": [
+                "cat.color",
+                "wcag2a",
+                "wcag141",
+                "TTv5",
+                "TT13.a",
+                "EN-301-549",
+                "EN-9.1.4.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:59:41.277Z",
+            "isExperimental": false,
+            "testUrl": "https://www.redcross.org/donate/donation.html/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Donate Now - Online Donations | American Red Cross"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-in-text-block",
+            "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+            "help": "Links must be distinguishable without relying on color",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "a[data-aa-link-button=\"modf-donate-by-daf\"]"
+            ],
+            "summary": "Fix any of the following:\\n  The link has insufficient color contrast of 1.09:1 with the surrounding text. (Minimum contrast is 3:1, link text: #007caf, surrounding text: #6d6e70)\\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+            "source": "<a href=\"/donations/ways-to-donate/donor-advised-funds.html\" data-aa-link-button=\"modf-donate-by-daf\" target=\"_blank\">Donor Advised Fund</a>",
+            "tags": [
+                "cat.color",
+                "wcag2a",
+                "wcag141",
+                "TTv5",
+                "TT13.a",
+                "EN-301-549",
+                "EN-9.1.4.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:59:41.277Z",
+            "isExperimental": false,
+            "testUrl": "https://www.redcross.org/donate/donation.html/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Donate Now - Online Donations | American Red Cross"
+        }
+    ]
+}

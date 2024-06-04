@@ -1,0 +1,24 @@
+.\mediumsize\eu_booking.html
+aria-progressbar-name: 2: Ensures every ARIA progressbar node has an accessible name;
+aria-valid-attr-value: 2: Ensures all ARIA attributes have valid values;
+
+.\mediumsize\pl_ccc.html
+aria-allowed-attr: 121: Ensures ARIA attributes are allowed for an element's role;
+aria-input-field-name: 121: Ensures every ARIA input field has an accessible name;
+aria-required-children: 121: Ensures elements with an ARIA role that require child roles contain them;
+button-name: 121: Ensures buttons have discernible text;
+color-contrast: 121: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+image-alt: 121: Ensures <img> elements have alternate text or a role of none or presentation;
+link-name: 121: Ensures links have discernible text;
+list: 121: Ensures that lists are structured correctly;
+listitem: 121: Ensures <li> elements are used semantically;
+meta-viewport: 121: Ensures <meta name="viewport"> does not disable text scaling and zooming;
+
+.\mediumsize\usa_ubereats.html
+aria-allowed-attr: 195: Ensures ARIA attributes are allowed for an element's role;
+button-name: 195: Ensures buttons have discernible text;
+color-contrast: 195: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+link-name: 195: Ensures links have discernible text;
+list: 195: Ensures that lists are structured correctly;
+listitem: 195: Ensures <li> elements are used semantically;
+

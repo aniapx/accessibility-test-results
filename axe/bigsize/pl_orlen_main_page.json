@@ -1,0 +1,308 @@
+{
+    "url": "https://www.orlen.pl/pl",
+    "extensionVersion": "4.76.0",
+    "axeVersion": "4.8.2",
+    "standard": "WCAG 2.1 AA",
+    "testingStartDate": "2024-03-04T19:15:54.070Z",
+    "testingEndDate": "2024-03-04T19:15:54.070Z",
+    "bestPracticesEnabled": false,
+    "experimentalEnabled": false,
+    "issueSummary": {
+        "critical": 1,
+        "serious": 7,
+        "moderate": 0,
+        "minor": 0,
+        "bestPractices": 0,
+        "needsReview": 0
+    },
+    "remainingTestingSummary": {
+        "run": false
+    },
+    "igtSummary": [],
+    "failedRules": [
+        {
+            "name": "aria-valid-attr-value",
+            "count": 1,
+            "mode": "automated"
+        },
+        {
+            "name": "link-name",
+            "count": 1,
+            "mode": "automated"
+        },
+        {
+            "name": "nested-interactive",
+            "count": 6,
+            "mode": "automated"
+        }
+    ],
+    "needsReview": [],
+    "source": {
+        "productName": "extension-chrome",
+        "productVersion": "4.76.0",
+        "productComponentName": "axe-extension"
+    },
+    "testDetails": {
+        "testId": "",
+        "axeVersion": "4.8.2",
+        "engine": "axe-core",
+        "standard": "WCAG 2.1 AA",
+        "startDate": "2024-03-04T19:15:54.070Z",
+        "endDate": "2024-03-04T19:15:54.070Z",
+        "bestPracticesEnabled": false,
+        "experimentalEnabled": false
+    },
+    "allIssues": [
+        {
+            "issueId": null,
+            "ruleId": "aria-valid-attr-value",
+            "description": "Ensures all ARIA attributes have valid values",
+            "help": "ARIA attributes must conform to valid values",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-valid-attr-value?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".cmp-navigationtabs__tablist"
+            ],
+            "summary": "Fix all of the following:\\n  Invalid ARIA attribute value: aria-controls=\"-tabpanel\"",
+            "source": "<ol role=\"tablist\" aria-controls=\"-tabpanel\" class=\"cmp-navigationtabs__tablist\" aria-multiselectable=\"false\">",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:15:54.070Z",
+            "isExperimental": false,
+            "testUrl": "https://www.orlen.pl/pl",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "ORLEN - Napedzamy Przyszlosć. Odpowiedzialnie."
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-name",
+            "description": "Ensures links have discernible text",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#image-687d64ff3b > .cmp-image__link[data-cmp-hook-image=\"link\"][data-cmp-clickable=\"\"]"
+            ],
+            "summary": "Fix all of the following:\\n  Element is in tab order and does not have accessible text\\n\\nFix any of the following:\\n  Element does not have text that is visible to screen readers\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<a class=\"cmp-image__link\" href=\"/pl/o-firmie/o-spolce/organy-i-struktura-spolki/dokumenty-korporacyjne\" target=\"_self\" data-cmp-clickable=\"\" data-cmp-hook-image=\"link\">",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag244",
+                "wcag412",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.2.4.4",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:15:54.070Z",
+            "isExperimental": false,
+            "testUrl": "https://www.orlen.pl/pl",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "ORLEN - Napedzamy Przyszlosć. Odpowiedzialnie."
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#navigationtabs-efb3dc8d74-item-614bd1702c-tab"
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<li role=\"tab\" id=\"navigationtabs-efb3dc8d74-item-614bd1702c-tab\" class=\"cmp-navigationtabs__tab\">\\n          <a href=\"#\" class=\"cmp-navigationtabs__tab-link\">O firmie</a>\\n        </li>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:15:54.070Z",
+            "isExperimental": false,
+            "testUrl": "https://www.orlen.pl/pl",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "ORLEN - Napedzamy Przyszlosć. Odpowiedzialnie."
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#navigationtabs-efb3dc8d74-item-d7b11e5880-tab"
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<li role=\"tab\" id=\"navigationtabs-efb3dc8d74-item-d7b11e5880-tab\" class=\"cmp-navigationtabs__tab\">\\n          <a href=\"#\" class=\"cmp-navigationtabs__tab-link\">Dla Ciebie</a>\\n        </li>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:15:54.070Z",
+            "isExperimental": false,
+            "testUrl": "https://www.orlen.pl/pl",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "ORLEN - Napedzamy Przyszlosć. Odpowiedzialnie."
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#navigationtabs-efb3dc8d74-item-c36b30784c-tab"
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<li role=\"tab\" id=\"navigationtabs-efb3dc8d74-item-c36b30784c-tab\" class=\"cmp-navigationtabs__tab\">\\n          <a href=\"#\" class=\"cmp-navigationtabs__tab-link\">Dla biznesu</a>\\n        </li>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:15:54.070Z",
+            "isExperimental": false,
+            "testUrl": "https://www.orlen.pl/pl",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "ORLEN - Napedzamy Przyszlosć. Odpowiedzialnie."
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#navigationtabs-efb3dc8d74-item-903c7ee8ab-tab"
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<li role=\"tab\" id=\"navigationtabs-efb3dc8d74-item-903c7ee8ab-tab\" class=\"cmp-navigationtabs__tab\">\\n          <a href=\"#\" class=\"cmp-navigationtabs__tab-link\">Zrównowazony rozwój</a>\\n        </li>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:15:54.070Z",
+            "isExperimental": false,
+            "testUrl": "https://www.orlen.pl/pl",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "ORLEN - Napedzamy Przyszlosć. Odpowiedzialnie."
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#navigationtabs-efb3dc8d74-item-ca751f93ab-tab"
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<li role=\"tab\" id=\"navigationtabs-efb3dc8d74-item-ca751f93ab-tab\" class=\"cmp-navigationtabs__tab\">\\n          <a href=\"#\" class=\"cmp-navigationtabs__tab-link\">Relacje inwestorskie</a>\\n        </li>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:15:54.070Z",
+            "isExperimental": false,
+            "testUrl": "https://www.orlen.pl/pl",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "ORLEN - Napedzamy Przyszlosć. Odpowiedzialnie."
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#navigationtabs-efb3dc8d74-item-fb38cac680-tab"
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<li role=\"tab\" id=\"navigationtabs-efb3dc8d74-item-fb38cac680-tab\" class=\"cmp-navigationtabs__tab\">\\n          <a href=\"#\" class=\"cmp-navigationtabs__tab-link\">Kariera</a>\\n        </li>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:15:54.070Z",
+            "isExperimental": false,
+            "testUrl": "https://www.orlen.pl/pl",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "ORLEN - Napedzamy Przyszlosć. Odpowiedzialnie."
+        }
+    ]
+}

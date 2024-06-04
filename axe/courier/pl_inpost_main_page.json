@@ -1,0 +1,1130 @@
+{
+    "url": "https://inpost.pl/",
+    "extensionVersion": "4.76.0",
+    "axeVersion": "4.8.2",
+    "standard": "WCAG 2.1 AA",
+    "testingStartDate": "2024-03-04T19:06:47.716Z",
+    "testingEndDate": "2024-03-04T19:06:47.716Z",
+    "bestPracticesEnabled": false,
+    "experimentalEnabled": false,
+    "issueSummary": {
+        "critical": 4,
+        "serious": 29,
+        "moderate": 0,
+        "minor": 0,
+        "bestPractices": 0,
+        "needsReview": 0
+    },
+    "remainingTestingSummary": {
+        "run": false
+    },
+    "igtSummary": [],
+    "failedRules": [
+        {
+            "name": "aria-required-children",
+            "count": 2,
+            "mode": "automated"
+        },
+        {
+            "name": "button-name",
+            "count": 1,
+            "mode": "automated"
+        },
+        {
+            "name": "color-contrast",
+            "count": 2,
+            "mode": "automated"
+        },
+        {
+            "name": "image-alt",
+            "count": 1,
+            "mode": "automated"
+        },
+        {
+            "name": "link-name",
+            "count": 12,
+            "mode": "automated"
+        },
+        {
+            "name": "listitem",
+            "count": 15,
+            "mode": "automated"
+        }
+    ],
+    "needsReview": [],
+    "source": {
+        "productName": "extension-chrome",
+        "productVersion": "4.76.0",
+        "productComponentName": "axe-extension"
+    },
+    "testDetails": {
+        "testId": "",
+        "axeVersion": "4.8.2",
+        "engine": "axe-core",
+        "standard": "WCAG 2.1 AA",
+        "startDate": "2024-03-04T19:06:47.716Z",
+        "endDate": "2024-03-04T19:06:47.716Z",
+        "bestPracticesEnabled": false,
+        "experimentalEnabled": false
+    },
+    "allIssues": [
+        {
+            "issueId": null,
+            "ruleId": "aria-required-children",
+            "description": "Ensures elements with an ARIA role that require child roles contain them",
+            "help": "Certain ARIA roles must contain particular children",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-required-children?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".main--menu"
+            ],
+            "summary": "Fix any of the following:\\n  Element has children which are not allowed: li[tabindex]\\n  Element uses aria-busy=\"true\" while showing a loader",
+            "source": "<ul region=\"primary_menu\" class=\"main--menu mainMenu\" role=\"menu\">",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag131",
+                "EN-301-549",
+                "EN-9.1.3.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:06:47.716Z",
+            "isExperimental": false,
+            "testUrl": "https://inpost.pl/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "InPost dla Ciebie - Paczkomat®, Kurier, Przesylki Kurierskie i Paczki"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-required-children",
+            "description": "Ensures elements with an ARIA role that require child roles contain them",
+            "help": "Certain ARIA roles must contain particular children",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-required-children?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".menu--fotter"
+            ],
+            "summary": "Fix any of the following:\\n  Element has children which are not allowed: li[tabindex]\\n  Element uses aria-busy=\"true\" while showing a loader",
+            "source": "<ul region=\"footer_menu\" class=\"menu--fotter\" role=\"menu\">",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag131",
+                "EN-301-549",
+                "EN-9.1.3.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:06:47.716Z",
+            "isExperimental": false,
+            "testUrl": "https://inpost.pl/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "InPost dla Ciebie - Paczkomat®, Kurier, Przesylki Kurierskie i Paczki"
+        },
+        {
+            "issueId": null,
+            "ruleId": "button-name",
+            "description": "Ensures buttons have discernible text",
+            "help": "Buttons must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/button-name?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".bottom--mat"
+            ],
+            "summary": "Fix any of the following:\\n  Element does not have inner text that is visible to screen readers\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute\\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+            "source": "<button type=\"button\" class=\"bottom--mat footerMatToTop\">",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag412",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:06:47.716Z",
+            "isExperimental": false,
+            "testUrl": "https://inpost.pl/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "InPost dla Ciebie - Paczkomat®, Kurier, Przesylki Kurierskie i Paczki"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".cta--main--box > .language-switcher-language-url.language--switcher > .en[hreflang=\"en\"][data-drupal-link-system-path=\"<front>\"] > .language-link[href=\"/en\"][hreflang=\"en\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 2.64 (foreground color: #007bff, background color: #ffcd00, font size: 0.0pt (0px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<a href=\"/en\" class=\"language-link\" hreflang=\"en\" data-drupal-link-system-path=\"<front>\">English</a>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:06:47.716Z",
+            "isExperimental": false,
+            "testUrl": "https://inpost.pl/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "InPost dla Ciebie - Paczkomat®, Kurier, Przesylki Kurierskie i Paczki"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".cta--main--box > .language-switcher-language-url.language--switcher > .uk[hreflang=\"uk\"][data-drupal-link-system-path=\"<front>\"] > .language-link[href=\"/ua\"][hreflang=\"uk\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 2.64 (foreground color: #007bff, background color: #ffcd00, font size: 0.0pt (0px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<a href=\"/ua\" class=\"language-link\" hreflang=\"uk\" data-drupal-link-system-path=\"<front>\">Ukrainian</a>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:06:47.716Z",
+            "isExperimental": false,
+            "testUrl": "https://inpost.pl/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "InPost dla Ciebie - Paczkomat®, Kurier, Przesylki Kurierskie i Paczki"
+        },
+        {
+            "issueId": null,
+            "ruleId": "image-alt",
+            "description": "Ensures <img> elements have alternate text or a role of none or presentation",
+            "help": "Images must have alternate text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/image-alt?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".tracking--phone--img"
+            ],
+            "summary": "Fix any of the following:\\n  Element does not have an alt attribute\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute\\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+            "source": "<img src=\"/sites/default/files/2020-01/tracking.png\" class=\"tracking--phone--img\">",
+            "tags": [
+                "cat.text-alternatives",
+                "wcag2a",
+                "wcag111",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT7.a",
+                "TT7.b",
+                "EN-301-549",
+                "EN-9.1.1.1",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:06:47.716Z",
+            "isExperimental": false,
+            "testUrl": "https://inpost.pl/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "InPost dla Ciebie - Paczkomat®, Kurier, Przesylki Kurierskie i Paczki"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-name",
+            "description": "Ensures links have discernible text",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".btnSearchDesktop"
+            ],
+            "summary": "Fix all of the following:\\n  Element is in tab order and does not have accessible text\\n\\nFix any of the following:\\n  Element does not have text that is visible to screen readers\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<a href=\" /szukaj \" class=\"btn--search btnSearchDesktop\">\\n                <i class=\"icon-search\"></i>\\n              </a>",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag244",
+                "wcag412",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.2.4.4",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:06:47.716Z",
+            "isExperimental": false,
+            "testUrl": "https://inpost.pl/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "InPost dla Ciebie - Paczkomat®, Kurier, Przesylki Kurierskie i Paczki"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-name",
+            "description": "Ensures links have discernible text",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".big--bg--box"
+            ],
+            "summary": "Fix all of the following:\\n  Element is in tab order and does not have accessible text\\n\\nFix any of the following:\\n  Element does not have text that is visible to screen readers\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<a href=\"https://inpostpay.pl/?utm_source=inpostpl&amp;utm_medium=baner&amp;utm_campaign=PAY20_uniwersalny&amp;utm_term=sg\" target=\"_blank\" class=\"big--bg--box\" style=\"background-image:url('/sites/default/files/images/home-banners/banner1-1813616.png');\">",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag244",
+                "wcag412",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.2.4.4",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:06:47.716Z",
+            "isExperimental": false,
+            "testUrl": "https://inpost.pl/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "InPost dla Ciebie - Paczkomat®, Kurier, Przesylki Kurierskie i Paczki"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-name",
+            "description": "Ensures links have discernible text",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".mt-md-0"
+            ],
+            "summary": "Fix all of the following:\\n  Element is in tab order and does not have accessible text\\n\\nFix any of the following:\\n  Element does not have text that is visible to screen readers\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<a href=\"https://www.krotka-pilka.pl?utm_source=inpostpl&amp;utm_medium=banner&amp;utm_campaign=konkurs-polest24&amp;utm_content=sg\" target=\"_blank\" style=\"background-image:url('/sites/default/files/images/home-banners/banner2-1815023.png');\" class=\"dark--box -mainpage my-4 mt-md-0\">",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag244",
+                "wcag412",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.2.4.4",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:06:47.716Z",
+            "isExperimental": false,
+            "testUrl": "https://inpost.pl/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "InPost dla Ciebie - Paczkomat®, Kurier, Przesylki Kurierskie i Paczki"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-name",
+            "description": "Ensures links have discernible text",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".dark--box.-mainpage:nth-child(2)"
+            ],
+            "summary": "Fix all of the following:\\n  Element is in tab order and does not have accessible text\\n\\nFix any of the following:\\n  Element does not have text that is visible to screen readers\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<a href=\"https://inpost.pl/nadawaj-bez-etykiety?utm_source=inpostpl&amp;utm_medium=banner&amp;utm_campaign=nadania&amp;utm_content=sg\" class=\"dark--box -mainpage\" style=\"background-image:url('/sites/default/files/images/home-banners/banner3-1818990.png');\">",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag244",
+                "wcag412",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.2.4.4",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:06:47.716Z",
+            "isExperimental": false,
+            "testUrl": "https://inpost.pl/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "InPost dla Ciebie - Paczkomat®, Kurier, Przesylki Kurierskie i Paczki"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-name",
+            "description": "Ensures links have discernible text",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".btn--downloadapp.js-link[data-target=\"_blank\"]:nth-child(1)"
+            ],
+            "summary": "Fix all of the following:\\n  Element is in tab order and does not have accessible text\\n\\nFix any of the following:\\n  Element does not have text that is visible to screen readers\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<a href=\"javascript:void(0)\" data-url=\"https://play.google.com/store/apps/details?id=pl.inpost.inmobile\" data-target=\"_blank\" class=\"js-link btn--downloadapp\">",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag244",
+                "wcag412",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.2.4.4",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:06:47.716Z",
+            "isExperimental": false,
+            "testUrl": "https://inpost.pl/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "InPost dla Ciebie - Paczkomat®, Kurier, Przesylki Kurierskie i Paczki"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-name",
+            "description": "Ensures links have discernible text",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".btn--downloadapp.js-link[data-target=\"_blank\"]:nth-child(2)"
+            ],
+            "summary": "Fix all of the following:\\n  Element is in tab order and does not have accessible text\\n\\nFix any of the following:\\n  Element does not have text that is visible to screen readers\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<a href=\"javascript:void(0)\" data-url=\"https://apps.apple.com/pl/app/inpost-mobile/id1437787639\" data-target=\"_blank\" class=\"js-link btn--downloadapp\">\\n                        <img src=\"/sites/default/files/2020-01/appstore_btn_content_0.png\" class=\"img-fluid\" alt=\"\">\\n                      </a>",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag244",
+                "wcag412",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.2.4.4",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:06:47.716Z",
+            "isExperimental": false,
+            "testUrl": "https://inpost.pl/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "InPost dla Ciebie - Paczkomat®, Kurier, Przesylki Kurierskie i Paczki"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-name",
+            "description": "Ensures links have discernible text",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".btn--downloadapp.js-link[data-target=\"_blank\"]:nth-child(3)"
+            ],
+            "summary": "Fix all of the following:\\n  Element is in tab order and does not have accessible text\\n\\nFix any of the following:\\n  Element does not have text that is visible to screen readers\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<a href=\"javascript:void(0)\" data-url=\"https://appgallery.huawei.com/#/app/C100623539\" data-target=\"_blank\" class=\"js-link btn--downloadapp\">\\n                        <img src=\"/sites/default/files/2020-12/huawei_btn_content.png\" class=\"img-fluid\" alt=\"\">\\n                      </a>",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag244",
+                "wcag412",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.2.4.4",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:06:47.716Z",
+            "isExperimental": false,
+            "testUrl": "https://inpost.pl/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "InPost dla Ciebie - Paczkomat®, Kurier, Przesylki Kurierskie i Paczki"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-name",
+            "description": "Ensures links have discernible text",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "li:nth-child(1) > .js-link[data-target=\"_blank\"][href=\"javascript:void(0)\"]"
+            ],
+            "summary": "Fix all of the following:\\n  Element is in tab order and does not have accessible text\\n\\nFix any of the following:\\n  Element does not have text that is visible to screen readers\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<a href=\"javascript:void(0)\" data-url=\"https://www.facebook.com/paczkomatkurier/\" data-target=\"_blank\" class=\"js-link\">\\n                    <i class=\"icon-facebook\"></i>\\n                  </a>",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag244",
+                "wcag412",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.2.4.4",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:06:47.716Z",
+            "isExperimental": false,
+            "testUrl": "https://inpost.pl/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "InPost dla Ciebie - Paczkomat®, Kurier, Przesylki Kurierskie i Paczki"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-name",
+            "description": "Ensures links have discernible text",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "a[data-url=\"https://twitter.com/InPostPL\"]"
+            ],
+            "summary": "Fix all of the following:\\n  Element is in tab order and does not have accessible text\\n\\nFix any of the following:\\n  Element does not have text that is visible to screen readers\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<a href=\"javascript:void(0)\" data-url=\"https://twitter.com/InPostPL\" data-target=\"_blank\" class=\"js-link\">\\n                    <i class=\"icon-Twitter-X\"></i>\\n                  </a>",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag244",
+                "wcag412",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.2.4.4",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:06:47.716Z",
+            "isExperimental": false,
+            "testUrl": "https://inpost.pl/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "InPost dla Ciebie - Paczkomat®, Kurier, Przesylki Kurierskie i Paczki"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-name",
+            "description": "Ensures links have discernible text",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "li:nth-child(3) > .js-link[data-target=\"_blank\"][href=\"javascript:void(0)\"]"
+            ],
+            "summary": "Fix all of the following:\\n  Element is in tab order and does not have accessible text\\n\\nFix any of the following:\\n  Element does not have text that is visible to screen readers\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<a href=\"javascript:void(0)\" data-url=\"https://www.linkedin.com/company/inpost\" data-target=\"_blank\" class=\"js-link\">\\n                    <i class=\"icon-linkedin\"></i>\\n                  </a>",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag244",
+                "wcag412",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.2.4.4",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:06:47.716Z",
+            "isExperimental": false,
+            "testUrl": "https://inpost.pl/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "InPost dla Ciebie - Paczkomat®, Kurier, Przesylki Kurierskie i Paczki"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-name",
+            "description": "Ensures links have discernible text",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "li:nth-child(4) > .js-link[data-target=\"_blank\"][href=\"javascript:void(0)\"]"
+            ],
+            "summary": "Fix all of the following:\\n  Element is in tab order and does not have accessible text\\n\\nFix any of the following:\\n  Element does not have text that is visible to screen readers\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<a href=\"javascript:void(0)\" data-url=\"https://www.youtube.com/channel/UCAzk7yw8Tzd76EmCRlMB-gA/videos\" data-target=\"_blank\" class=\"js-link\">\\n                    <i class=\"icon-youtube\"></i>\\n                  </a>",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag244",
+                "wcag412",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.2.4.4",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:06:47.716Z",
+            "isExperimental": false,
+            "testUrl": "https://inpost.pl/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "InPost dla Ciebie - Paczkomat®, Kurier, Przesylki Kurierskie i Paczki"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-name",
+            "description": "Ensures links have discernible text",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "li:nth-child(5) > .js-link[data-target=\"_blank\"][href=\"javascript:void(0)\"]"
+            ],
+            "summary": "Fix all of the following:\\n  Element is in tab order and does not have accessible text\\n\\nFix any of the following:\\n  Element does not have text that is visible to screen readers\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<a href=\"javascript:void(0)\" data-url=\"https://www.instagram.com/inpostpl/\" data-target=\"_blank\" class=\"js-link\">\\n                    <i class=\"icon-instagram\"></i>\\n                  </a>",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag244",
+                "wcag412",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.2.4.4",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:06:47.716Z",
+            "isExperimental": false,
+            "testUrl": "https://inpost.pl/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "InPost dla Ciebie - Paczkomat®, Kurier, Przesylki Kurierskie i Paczki"
+        },
+        {
+            "issueId": null,
+            "ruleId": "listitem",
+            "description": "Ensures <li> elements are used semantically",
+            "help": "<li> elements must be contained in a <ul> or <ol>",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".menuDecorator"
+            ],
+            "summary": "Fix any of the following:\\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\"",
+            "source": "<li class=\"decorator menuDecorator\" style=\"width: 66.7656px; left: 354.062px;\"></li>",
+            "tags": [
+                "cat.structure",
+                "wcag2a",
+                "wcag131",
+                "EN-301-549",
+                "EN-9.1.3.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:06:47.716Z",
+            "isExperimental": false,
+            "testUrl": "https://inpost.pl/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "InPost dla Ciebie - Paczkomat®, Kurier, Przesylki Kurierskie i Paczki"
+        },
+        {
+            "issueId": null,
+            "ruleId": "listitem",
+            "description": "Ensures <li> elements are used semantically",
+            "help": "<li> elements must be contained in a <ul> or <ol>",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".menu--item.mainMenuItem:nth-child(2)"
+            ],
+            "summary": "Fix any of the following:\\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\"",
+            "source": "<li class=\"menu--item mainMenuItem\">",
+            "tags": [
+                "cat.structure",
+                "wcag2a",
+                "wcag131",
+                "EN-301-549",
+                "EN-9.1.3.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:06:47.716Z",
+            "isExperimental": false,
+            "testUrl": "https://inpost.pl/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "InPost dla Ciebie - Paczkomat®, Kurier, Przesylki Kurierskie i Paczki"
+        },
+        {
+            "issueId": null,
+            "ruleId": "listitem",
+            "description": "Ensures <li> elements are used semantically",
+            "help": "<li> elements must be contained in a <ul> or <ol>",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".menu--item.mainMenuItem:nth-child(3)"
+            ],
+            "summary": "Fix any of the following:\\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\"",
+            "source": "<li class=\"menu--item mainMenuItem\">",
+            "tags": [
+                "cat.structure",
+                "wcag2a",
+                "wcag131",
+                "EN-301-549",
+                "EN-9.1.3.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:06:47.716Z",
+            "isExperimental": false,
+            "testUrl": "https://inpost.pl/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "InPost dla Ciebie - Paczkomat®, Kurier, Przesylki Kurierskie i Paczki"
+        },
+        {
+            "issueId": null,
+            "ruleId": "listitem",
+            "description": "Ensures <li> elements are used semantically",
+            "help": "<li> elements must be contained in a <ul> or <ol>",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".menu--item.mainMenuItem:nth-child(4)"
+            ],
+            "summary": "Fix any of the following:\\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\"",
+            "source": "<li class=\"menu--item mainMenuItem\">",
+            "tags": [
+                "cat.structure",
+                "wcag2a",
+                "wcag131",
+                "EN-301-549",
+                "EN-9.1.3.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:06:47.716Z",
+            "isExperimental": false,
+            "testUrl": "https://inpost.pl/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "InPost dla Ciebie - Paczkomat®, Kurier, Przesylki Kurierskie i Paczki"
+        },
+        {
+            "issueId": null,
+            "ruleId": "listitem",
+            "description": "Ensures <li> elements are used semantically",
+            "help": "<li> elements must be contained in a <ul> or <ol>",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".menu--item.mainMenuItem:nth-child(5)"
+            ],
+            "summary": "Fix any of the following:\\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\"",
+            "source": "<li class=\"menu--item mainMenuItem\">",
+            "tags": [
+                "cat.structure",
+                "wcag2a",
+                "wcag131",
+                "EN-301-549",
+                "EN-9.1.3.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:06:47.716Z",
+            "isExperimental": false,
+            "testUrl": "https://inpost.pl/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "InPost dla Ciebie - Paczkomat®, Kurier, Przesylki Kurierskie i Paczki"
+        },
+        {
+            "issueId": null,
+            "ruleId": "listitem",
+            "description": "Ensures <li> elements are used semantically",
+            "help": "<li> elements must be contained in a <ul> or <ol>",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".menu--item.mainMenuItem:nth-child(6)"
+            ],
+            "summary": "Fix any of the following:\\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\"",
+            "source": "<li class=\"menu--item mainMenuItem\">\\n                                                          <a href=\"/kontakt\" title=\"Kontakt\" data-drupal-link-system-path=\"node/12\">Kontakt</a>\\n              </li>",
+            "tags": [
+                "cat.structure",
+                "wcag2a",
+                "wcag131",
+                "EN-301-549",
+                "EN-9.1.3.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:06:47.716Z",
+            "isExperimental": false,
+            "testUrl": "https://inpost.pl/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "InPost dla Ciebie - Paczkomat®, Kurier, Przesylki Kurierskie i Paczki"
+        },
+        {
+            "issueId": null,
+            "ruleId": "listitem",
+            "description": "Ensures <li> elements are used semantically",
+            "help": "<li> elements must be contained in a <ul> or <ol>",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".menu--item.mainMenuItem:nth-child(7)"
+            ],
+            "summary": "Fix any of the following:\\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\"",
+            "source": "<li class=\"menu--item mainMenuItem\">\\n                                                          <a href=\"/dla-kibica\" data-drupal-link-system-path=\"node/12715\">Dla Kibica</a>\\n              </li>",
+            "tags": [
+                "cat.structure",
+                "wcag2a",
+                "wcag131",
+                "EN-301-549",
+                "EN-9.1.3.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:06:47.716Z",
+            "isExperimental": false,
+            "testUrl": "https://inpost.pl/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "InPost dla Ciebie - Paczkomat®, Kurier, Przesylki Kurierskie i Paczki"
+        },
+        {
+            "issueId": null,
+            "ruleId": "listitem",
+            "description": "Ensures <li> elements are used semantically",
+            "help": "<li> elements must be contained in a <ul> or <ol>",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".menu--item.mainMenuItem:nth-child(8)"
+            ],
+            "summary": "Fix any of the following:\\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\"",
+            "source": "<li class=\"menu--item mainMenuItem\">",
+            "tags": [
+                "cat.structure",
+                "wcag2a",
+                "wcag131",
+                "EN-301-549",
+                "EN-9.1.3.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:06:47.716Z",
+            "isExperimental": false,
+            "testUrl": "https://inpost.pl/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "InPost dla Ciebie - Paczkomat®, Kurier, Przesylki Kurierskie i Paczki"
+        },
+        {
+            "issueId": null,
+            "ruleId": "listitem",
+            "description": "Ensures <li> elements are used semantically",
+            "help": "<li> elements must be contained in a <ul> or <ol>",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".item--new--label.item--withicon.menu--item"
+            ],
+            "summary": "Fix any of the following:\\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\"",
+            "source": "<li class=\"menu--item mainMenuItem item--withicon item--new--label\">\\n                                                                                <a href=\"https://inpostpay.pl/\" class=\"item--new--label\">InPost Pay</a>\\n              </li>",
+            "tags": [
+                "cat.structure",
+                "wcag2a",
+                "wcag131",
+                "EN-301-549",
+                "EN-9.1.3.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:06:47.716Z",
+            "isExperimental": false,
+            "testUrl": "https://inpost.pl/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "InPost dla Ciebie - Paczkomat®, Kurier, Przesylki Kurierskie i Paczki"
+        },
+        {
+            "issueId": null,
+            "ruleId": "listitem",
+            "description": "Ensures <li> elements are used semantically",
+            "help": "<li> elements must be contained in a <ul> or <ol>",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".menu--fotter > li:nth-child(1)"
+            ],
+            "summary": "Fix any of the following:\\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\"",
+            "source": "<li>\\n        <a href=\"https://inpost.pl/fundacja-inpost\">Fundacja InPost</a>\\n      </li>",
+            "tags": [
+                "cat.structure",
+                "wcag2a",
+                "wcag131",
+                "EN-301-549",
+                "EN-9.1.3.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:06:47.716Z",
+            "isExperimental": false,
+            "testUrl": "https://inpost.pl/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "InPost dla Ciebie - Paczkomat®, Kurier, Przesylki Kurierskie i Paczki"
+        },
+        {
+            "issueId": null,
+            "ruleId": "listitem",
+            "description": "Ensures <li> elements are used semantically",
+            "help": "<li> elements must be contained in a <ul> or <ol>",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".menu--fotter > li:nth-child(2)"
+            ],
+            "summary": "Fix any of the following:\\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\"",
+            "source": "<li>\\n        <a href=\"/wolontariat-pracowniczy\" data-drupal-link-system-path=\"node/13282\">Wolontariat pracowniczy</a>\\n      </li>",
+            "tags": [
+                "cat.structure",
+                "wcag2a",
+                "wcag131",
+                "EN-301-549",
+                "EN-9.1.3.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:06:47.716Z",
+            "isExperimental": false,
+            "testUrl": "https://inpost.pl/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "InPost dla Ciebie - Paczkomat®, Kurier, Przesylki Kurierskie i Paczki"
+        },
+        {
+            "issueId": null,
+            "ruleId": "listitem",
+            "description": "Ensures <li> elements are used semantically",
+            "help": "<li> elements must be contained in a <ul> or <ol>",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".menu--fotter > li:nth-child(3)"
+            ],
+            "summary": "Fix any of the following:\\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\"",
+            "source": "<li>\\n        <a href=\"https://inpost.pl/SzybkieNadania/\" target=\"_blank\">Szybkie Nadania</a>\\n      </li>",
+            "tags": [
+                "cat.structure",
+                "wcag2a",
+                "wcag131",
+                "EN-301-549",
+                "EN-9.1.3.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:06:47.716Z",
+            "isExperimental": false,
+            "testUrl": "https://inpost.pl/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "InPost dla Ciebie - Paczkomat®, Kurier, Przesylki Kurierskie i Paczki"
+        },
+        {
+            "issueId": null,
+            "ruleId": "listitem",
+            "description": "Ensures <li> elements are used semantically",
+            "help": "<li> elements must be contained in a <ul> or <ol>",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".menu--fotter > li:nth-child(4)"
+            ],
+            "summary": "Fix any of the following:\\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\"",
+            "source": "<li>\\n        <a href=\"https://inpost.pl/kariera\">Kariera</a>\\n      </li>",
+            "tags": [
+                "cat.structure",
+                "wcag2a",
+                "wcag131",
+                "EN-301-549",
+                "EN-9.1.3.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:06:47.716Z",
+            "isExperimental": false,
+            "testUrl": "https://inpost.pl/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "InPost dla Ciebie - Paczkomat®, Kurier, Przesylki Kurierskie i Paczki"
+        },
+        {
+            "issueId": null,
+            "ruleId": "listitem",
+            "description": "Ensures <li> elements are used semantically",
+            "help": "<li> elements must be contained in a <ul> or <ol>",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".menu--fotter > li:nth-child(5)"
+            ],
+            "summary": "Fix any of the following:\\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\"",
+            "source": "<li>\\n        <a href=\"https://inpost.pl/reklama\">Reklama z InPost</a>\\n      </li>",
+            "tags": [
+                "cat.structure",
+                "wcag2a",
+                "wcag131",
+                "EN-301-549",
+                "EN-9.1.3.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:06:47.716Z",
+            "isExperimental": false,
+            "testUrl": "https://inpost.pl/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "InPost dla Ciebie - Paczkomat®, Kurier, Przesylki Kurierskie i Paczki"
+        },
+        {
+            "issueId": null,
+            "ruleId": "listitem",
+            "description": "Ensures <li> elements are used semantically",
+            "help": "<li> elements must be contained in a <ul> or <ol>",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".menu--fotter > li:nth-child(6)"
+            ],
+            "summary": "Fix any of the following:\\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\"",
+            "source": "<li>\\n        <a href=\"https://inpost.pl/regulaminy\">Regulaminy</a>\\n      </li>",
+            "tags": [
+                "cat.structure",
+                "wcag2a",
+                "wcag131",
+                "EN-301-549",
+                "EN-9.1.3.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:06:47.716Z",
+            "isExperimental": false,
+            "testUrl": "https://inpost.pl/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "InPost dla Ciebie - Paczkomat®, Kurier, Przesylki Kurierskie i Paczki"
+        }
+    ]
+}

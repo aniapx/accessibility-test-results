@@ -1,0 +1,175 @@
+bigsize\usa_microsoft_main_page.json
+Critical Issues:
+
+Serious Issues:
+courier\usa_ups_main_page.json
+Critical Issues:
+aria-allowed-attr: 2: Ensures an element's role supports its ARIA attributes;
+aria-required-children: 1: Ensures elements with an ARIA role that require child roles contain them;
+
+Serious Issues:
+list: 2: Ensures that lists are structured correctly;
+color-contrast: 1: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+
+courier\usa_ups_ship.json
+Critical Issues:
+label: 1: Ensures every form element has a label;
+
+Serious Issues:
+autocomplete-valid: 1: Ensure the autocomplete attribute is correct and suitable for the form field;
+color-contrast: 1: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+
+ecommerce\usa_amazon_main_page.json
+Serious Issues:
+aria-prohibited-attr: 5: Ensures ARIA attributes are not prohibited for an element's role;
+
+ecommerce\usa_amazon_product_detail.json
+Critical Issues:
+aria-allowed-attr: 6: Ensures an element's role supports its ARIA attributes;
+aria-valid-attr-value: 5: Ensures all ARIA attributes have valid values;
+label: 3: Ensures every form element has a label;
+aria-required-attr: 1: Ensures elements with ARIA roles have all required ARIA attributes;
+select-name: 1: Ensures select element has an accessible name;
+
+Serious Issues:
+link-name: 17: Ensures links have discernible text;
+aria-progressbar-name: 5: Ensures every ARIA progressbar node has an accessible name;
+link-in-text-block: 2: Ensure links are distinguished from surrounding text in a way that does not rely on color;
+aria-hidden-focus: 1: Ensures aria-hidden elements are not focusable nor contain focusable elements;
+aria-prohibited-attr: 1: Ensures ARIA attributes are not prohibited for an element's role;
+color-contrast: 1: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+nested-interactive: 1: Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies;
+
+ecommerce\usa_amazon_product_list.json
+Critical Issues:
+label: 180: Ensures every form element has a label;
+
+Serious Issues:
+listitem: 201: Ensures <li> elements are used semantically;
+list: 39: Ensures that lists are structured correctly;
+frame-title: 3: Ensures <iframe> and <frame> elements have an accessible name;
+color-contrast: 1: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+
+education\usa_harvard_main_page.json
+Critical Issues:
+
+Serious Issues:
+education\usa_harvard_majors_list.json
+Critical Issues:
+
+Serious Issues:
+education\usa_harvard_major_details.json
+Critical Issues:
+
+Serious Issues:
+entertainment\usa_youtube_items_list.json
+Critical Issues:
+aria-required-parent: 4: Ensures elements with an ARIA role that require parent roles are contained by them;
+aria-required-attr: 1: Ensures elements with ARIA roles have all required ARIA attributes;
+
+Serious Issues:
+aria-tooltip-name: 95: Ensures every ARIA tooltip node has an accessible name;
+nested-interactive: 53: Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies;
+
+entertainment\usa_youtube_item_detials.json
+Critical Issues:
+aria-allowed-attr: 1: Ensures an element's role supports its ARIA attributes;
+aria-required-attr: 1: Ensures elements with ARIA roles have all required ARIA attributes;
+
+Serious Issues:
+aria-tooltip-name: 44: Ensures every ARIA tooltip node has an accessible name;
+nested-interactive: 23: Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies;
+link-name: 1: Ensures links have discernible text;
+
+entertainment\usa_youtube_main_page.json
+Critical Issues:
+aria-required-attr: 5: Ensures elements with ARIA roles have all required ARIA attributes;
+aria-required-parent: 4: Ensures elements with an ARIA role that require parent roles are contained by them;
+
+Serious Issues:
+aria-tooltip-name: 27: Ensures every ARIA tooltip node has an accessible name;
+nested-interactive: 6: Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies;
+
+gov\usa_main_page.json
+Serious Issues:
+list: 1: Ensures that lists are structured correctly;
+
+gov\usa_service_details.json
+Critical Issues:
+
+Serious Issues:
+healthcare\usa_mayoclinic_disease_details.json
+Critical Issues:
+
+Serious Issues:
+healthcare\usa_mayoclinic_disease_list.json
+Critical Issues:
+
+Serious Issues:
+healthcare\usa_mayoclinic_main_page.json
+Serious Issues:
+link-name: 23: Ensures links have discernible text;
+
+news\usa_cnn_article.json
+Critical Issues:
+image-alt: 2: Ensures <img> elements have alternate text or a role of none or presentation;
+button-name: 1: Ensures buttons have discernible text;
+select-name: 1: Ensures select element has an accessible name;
+
+Serious Issues:
+link-in-text-block: 29: Ensure links are distinguished from surrounding text in a way that does not rely on color;
+color-contrast: 15: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+aria-input-field-name: 1: Ensures every ARIA input field has an accessible name;
+aria-prohibited-attr: 1: Ensures ARIA attributes are not prohibited for an element's role;
+role-img-alt: 1: Ensures [role="img"] elements have alternate text;
+
+news\usa_cnn_main_page.json
+Serious Issues:
+aria-input-field-name: 1: Ensures every ARIA input field has an accessible name;
+aria-prohibited-attr: 1: Ensures ARIA attributes are not prohibited for an element's role;
+link-name: 1: Ensures links have discernible text;
+
+nonprofit\usa_redcross_donate.json
+Serious Issues:
+link-in-text-block: 3: Ensure links are distinguished from surrounding text in a way that does not rely on color;
+color-contrast: 2: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+
+nonprofit\usa_redcross_main_page.json
+Critical Issues:
+image-alt: 15: Ensures <img> elements have alternate text or a role of none or presentation;
+select-name: 1: Ensures select element has an accessible name;
+
+Serious Issues:
+nested-interactive: 8: Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies;
+color-contrast: 7: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+link-name: 3: Ensures links have discernible text;
+aria-input-field-name: 2: Ensures every ARIA input field has an accessible name;
+aria-prohibited-attr: 1: Ensures ARIA attributes are not prohibited for an element's role;
+
+nonprofit\usa_redcross_volunteer.json
+Critical Issues:
+image-alt: 3: Ensures <img> elements have alternate text or a role of none or presentation;
+
+Serious Issues:
+color-contrast: 11: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+aria-input-field-name: 1: Ensures every ARIA input field has an accessible name;
+aria-prohibited-attr: 1: Ensures ARIA attributes are not prohibited for an element's role;
+
+mediumsize\usa_ubereats_main_page.json
+Critical Issues:
+button-name: 1: Ensures buttons have discernible text;
+
+Serious Issues:
+listitem: 81: Ensures <li> elements are used semantically;
+link-name: 2: Ensures links have discernible text;
+list: 1: Ensures that lists are structured correctly;
+
+smallsize\usa_nomadplayhouse_main_page.json
+Critical Issues:
+image-alt: 3: Ensures <img> elements have alternate text or a role of none or presentation;
+
+Serious Issues:
+link-name: 6: Ensures links have discernible text;
+frame-title: 1: Ensures <iframe> and <frame> elements have an accessible name;
+html-has-lang: 1: Ensures every HTML document has a lang attribute;
+

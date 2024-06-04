@@ -1,0 +1,31 @@
+.\education\eu_uva_items_list.html
+
+.\education\eu_uva_item_details.html
+
+.\education\eu_uva_main_page.html
+
+.\education\pl_pw_items_list.html
+aria-required-children: 85: Ensures elements with an ARIA role that require child roles contain them;
+nested-interactive: 85: Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies;
+
+.\education\pl_pw_item_details.html
+
+.\education\pl_pw_main_page.html
+
+.\education\pl_zut_items_list.html
+list: 1: Ensures that lists are structured correctly;
+
+.\education\pl_zut_item_details.html
+list: 1: Ensures that lists are structured correctly;
+
+.\education\pl_zut_main_page.html
+image-alt: 12: Ensures <img> elements have alternate text or a role of none or presentation;
+list: 12: Ensures that lists are structured correctly;
+listitem: 12: Ensures <li> elements are used semantically;
+
+.\education\usa_harvard_items_list.html
+
+.\education\usa_harvard_item_details.html
+
+.\education\usa_harvard_main_page.html
+

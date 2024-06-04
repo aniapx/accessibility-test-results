@@ -1,0 +1,46 @@
+news\cnn_article.json
+Critical Issues:
+image-alt: 2: Ensures <img> elements have alternate text or a role of none or presentation;
+button-name: 1: Ensures buttons have discernible text;
+select-name: 1: Ensures select element has an accessible name;
+
+Serious Issues:
+link-in-text-block: 29: Ensure links are distinguished from surrounding text in a way that does not rely on color;
+color-contrast: 15: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+aria-input-field-name: 1: Ensures every ARIA input field has an accessible name;
+aria-prohibited-attr: 1: Ensures ARIA attributes are not prohibited for an element's role;
+role-img-alt: 1: Ensures [role="img"] elements have alternate text;
+
+news\cnn_main_page.json
+Serious Issues:
+aria-input-field-name: 1: Ensures every ARIA input field has an accessible name;
+aria-prohibited-attr: 1: Ensures ARIA attributes are not prohibited for an element's role;
+link-name: 1: Ensures links have discernible text;
+
+news\elpais_article.json
+Serious Issues:
+color-contrast: 1: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+
+news\elpais_main_page.json
+Serious Issues:
+color-contrast: 5: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+link-name: 1: Ensures links have discernible text;
+
+news\wp_article.json
+Critical Issues:
+image-alt: 1: Ensures <img> elements have alternate text or a role of none or presentation;
+
+Serious Issues:
+color-contrast: 6: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+link-name: 5: Ensures links have discernible text;
+
+news\wp_main_page.json
+Critical Issues:
+button-name: 1: Ensures buttons have discernible text;
+image-alt: 1: Ensures <img> elements have alternate text or a role of none or presentation;
+label: 1: Ensures every form element has a label;
+
+Serious Issues:
+color-contrast: 13: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+link-name: 1: Ensures links have discernible text;
+

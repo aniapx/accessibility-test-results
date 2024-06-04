@@ -1,0 +1,239 @@
+{
+    "url": "https://www.ups.com/us/en/Home.page",
+    "extensionVersion": "4.76.0",
+    "axeVersion": "4.8.2",
+    "standard": "WCAG 2.1 AA",
+    "testingStartDate": "2024-03-04T19:05:14.067Z",
+    "testingEndDate": "2024-03-04T19:05:14.067Z",
+    "bestPracticesEnabled": false,
+    "experimentalEnabled": false,
+    "issueSummary": {
+        "critical": 3,
+        "serious": 3,
+        "moderate": 0,
+        "minor": 0,
+        "bestPractices": 0,
+        "needsReview": 0
+    },
+    "remainingTestingSummary": {
+        "run": false
+    },
+    "igtSummary": [],
+    "failedRules": [
+        {
+            "name": "aria-allowed-attr",
+            "count": 2,
+            "mode": "automated"
+        },
+        {
+            "name": "aria-required-children",
+            "count": 1,
+            "mode": "automated"
+        },
+        {
+            "name": "color-contrast",
+            "count": 1,
+            "mode": "automated"
+        },
+        {
+            "name": "list",
+            "count": 2,
+            "mode": "automated"
+        }
+    ],
+    "needsReview": [],
+    "source": {
+        "productName": "extension-chrome",
+        "productVersion": "4.76.0",
+        "productComponentName": "axe-extension"
+    },
+    "testDetails": {
+        "testId": "",
+        "axeVersion": "4.8.2",
+        "engine": "axe-core",
+        "standard": "WCAG 2.1 AA",
+        "startDate": "2024-03-04T19:05:14.067Z",
+        "endDate": "2024-03-04T19:05:14.067Z",
+        "bestPracticesEnabled": false,
+        "experimentalEnabled": false
+    },
+    "allIssues": [
+        {
+            "issueId": null,
+            "ruleId": "aria-allowed-attr",
+            "description": "Ensures an element's role supports its ARIA attributes",
+            "help": "Elements must only use supported ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-attr?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#tabs_0_tab_2"
+            ],
+            "summary": "Fix all of the following:\\n  ARIA attribute is not allowed: aria-selected=\"false\"",
+            "source": "<a class=\"nav-link ups-analytics \" id=\"tabs_0_tab_2\" href=\"https://www.ups.com/ship?loc=en_US\" data-hero-image=\"false\" data-utg-link-type=\"tab\" data-utg-link-name=\"Ship\" data-utg-journey=\"Ship\" aria-selected=\"false\" tabindex=\"-1\"><span class=\"app-title\">Ship</span><span class=\"sr-only\"></span></a>",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:05:14.067Z",
+            "isExperimental": false,
+            "testUrl": "https://www.ups.com/us/en/Home.page",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "UPS Shipping & Logistics Solutions | Your Ultimate Home for Global Delivery Services | UPS - United States"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-allowed-attr",
+            "description": "Ensures an element's role supports its ARIA attributes",
+            "help": "Elements must only use supported ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-attr?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#tabs_0_tab_3"
+            ],
+            "summary": "Fix all of the following:\\n  ARIA attribute is not allowed: aria-selected=\"false\"",
+            "source": "<a class=\"nav-link ups-analytics \" id=\"tabs_0_tab_3\" href=\"/us/en/business-solutions/ups-billing.page\" data-hero-image=\"false\" data-utg-link-type=\"tab\" data-utg-link-name=\"Billing\" data-utg-journey=\"Billing\" aria-selected=\"false\" tabindex=\"-1\">",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:05:14.067Z",
+            "isExperimental": false,
+            "testUrl": "https://www.ups.com/us/en/Home.page",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "UPS Shipping & Logistics Solutions | Your Ultimate Home for Global Delivery Services | UPS - United States"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-required-children",
+            "description": "Ensures elements with an ARIA role that require child roles contain them",
+            "help": "Certain ARIA roles must contain particular children",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-required-children?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".nav"
+            ],
+            "summary": "Fix any of the following:\\n  Element has children which are not allowed: a[tabindex]\\n  Element uses aria-busy=\"true\" while showing a loader",
+            "source": "<ul class=\"nav jobs-list\" role=\"tablist\">",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag131",
+                "EN-301-549",
+                "EN-9.1.3.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:05:14.067Z",
+            "isExperimental": false,
+            "testUrl": "https://www.ups.com/us/en/Home.page",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "UPS Shipping & Logistics Solutions | Your Ultimate Home for Global Delivery Services | UPS - United States"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#QSIFeedbackButton-btn > div > div:nth-child(2)"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 3.47 (foreground color: #ffffff, background color: #7f8c8d, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<div>Feedback</div>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:05:14.067Z",
+            "isExperimental": false,
+            "testUrl": "https://www.ups.com/us/en/Home.page",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "UPS Shipping & Logistics Solutions | Your Ultimate Home for Global Delivery Services | UPS - United States"
+        },
+        {
+            "issueId": null,
+            "ruleId": "list",
+            "description": "Ensures that lists are structured correctly",
+            "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/list?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".main-nav > .navbar-nav"
+            ],
+            "summary": "Fix all of the following:\\n  List element has direct children that are not allowed: [role=none]",
+            "source": "<ul class=\"navbar-nav\">",
+            "tags": [
+                "cat.structure",
+                "wcag2a",
+                "wcag131",
+                "EN-301-549",
+                "EN-9.1.3.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:05:14.067Z",
+            "isExperimental": false,
+            "testUrl": "https://www.ups.com/us/en/Home.page",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "UPS Shipping & Logistics Solutions | Your Ultimate Home for Global Delivery Services | UPS - United States"
+        },
+        {
+            "issueId": null,
+            "ruleId": "list",
+            "description": "Ensures that lists are structured correctly",
+            "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/list?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#upsStoreResults > ul"
+            ],
+            "summary": "Fix all of the following:\\n  List element has direct children that are not allowed: #text",
+            "source": "<ul>\\n        No Results Found\\n    </ul>",
+            "tags": [
+                "cat.structure",
+                "wcag2a",
+                "wcag131",
+                "EN-301-549",
+                "EN-9.1.3.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:05:14.067Z",
+            "isExperimental": false,
+            "testUrl": "https://www.ups.com/us/en/Home.page",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "UPS Shipping & Logistics Solutions | Your Ultimate Home for Global Delivery Services | UPS - United States"
+        }
+    ]
+}

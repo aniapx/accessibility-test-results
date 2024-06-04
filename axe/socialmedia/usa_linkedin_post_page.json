@@ -1,0 +1,114 @@
+{
+    "url": "https://www.linkedin.com/posts/github_github-copilot-learning-pathway-accelerate-activity-7170486411169648640-F5ec/?utm_source=share&utm_medium=member_desktop",
+    "extensionVersion": "4.76.0",
+    "axeVersion": "4.8.2",
+    "standard": "WCAG 2.1 AA",
+    "testingStartDate": "2024-03-04T18:38:17.275Z",
+    "testingEndDate": "2024-03-04T18:38:17.275Z",
+    "bestPracticesEnabled": false,
+    "experimentalEnabled": false,
+    "issueSummary": {
+        "critical": 0,
+        "serious": 2,
+        "moderate": 0,
+        "minor": 0,
+        "bestPractices": 0,
+        "needsReview": 0
+    },
+    "remainingTestingSummary": {
+        "run": false
+    },
+    "igtSummary": [],
+    "failedRules": [
+        {
+            "name": "frame-title",
+            "count": 1,
+            "mode": "automated"
+        },
+        {
+            "name": "list",
+            "count": 1,
+            "mode": "automated"
+        }
+    ],
+    "needsReview": [],
+    "source": {
+        "productName": "extension-chrome",
+        "productVersion": "4.76.0",
+        "productComponentName": "axe-extension"
+    },
+    "testDetails": {
+        "testId": "",
+        "axeVersion": "4.8.2",
+        "engine": "axe-core",
+        "standard": "WCAG 2.1 AA",
+        "startDate": "2024-03-04T18:38:17.275Z",
+        "endDate": "2024-03-04T18:38:17.275Z",
+        "bestPracticesEnabled": false,
+        "experimentalEnabled": false
+    },
+    "allIssues": [
+        {
+            "issueId": null,
+            "ruleId": "frame-title",
+            "description": "Ensures <iframe> and <frame> elements have an accessible name",
+            "help": "Frames must have an accessible name",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/frame-title?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#humanThirdPartyIframe"
+            ],
+            "summary": "Fix any of the following:\\n  Element has no title attribute\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+            "source": "<iframe id=\"humanThirdPartyIframe\" src=\"https://li.protechts.net/index.html?ts=1709577484690&amp;r_id=AAYS2gaQxvDaz8dqmyfmfA%3D%3D&amp;app_id=PXdOjV695v&amp;uc=scraping&amp;d_id=06d4b51a50e8425d72849cf7931d9250850e4e329422d95338d570095a563295\" sandbox=\"allow-same-origin allow-scripts\" style=\"height: 0px; width: 0px; border: none; position: absolute; left: -9999px;\">",
+            "tags": [
+                "cat.text-alternatives",
+                "wcag2a",
+                "wcag412",
+                "section508",
+                "section508.22.i",
+                "TTv5",
+                "TT12.d",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:38:17.275Z",
+            "isExperimental": false,
+            "testUrl": "https://www.linkedin.com/posts/github_github-copilot-learning-pathway-accelerate-activity-7170486411169648640-F5ec/?utm_source=share&utm_medium=member_desktop",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "(8) Post | LinkedIn"
+        },
+        {
+            "issueId": null,
+            "ruleId": "list",
+            "description": "Ensures that lists are structured correctly",
+            "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/list?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".artdeco-list"
+            ],
+            "summary": "Fix all of the following:\\n  List element has direct children that are not allowed: h3",
+            "source": "<ul class=\"artdeco-list ph4\">",
+            "tags": [
+                "cat.structure",
+                "wcag2a",
+                "wcag131",
+                "EN-301-549",
+                "EN-9.1.3.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:38:17.275Z",
+            "isExperimental": false,
+            "testUrl": "https://www.linkedin.com/posts/github_github-copilot-learning-pathway-accelerate-activity-7170486411169648640-F5ec/?utm_source=share&utm_medium=member_desktop",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "(8) Post | LinkedIn"
+        }
+    ]
+}

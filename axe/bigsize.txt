@@ -1,0 +1,21 @@
+bigsize\microsoft_main_page.json
+Critical Issues:
+
+Serious Issues:
+bigsize\orlen_main_page.json
+Critical Issues:
+aria-valid-attr-value: 1: Ensures all ARIA attributes have valid values;
+
+Serious Issues:
+nested-interactive: 6: Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies;
+link-name: 1: Ensures links have discernible text;
+
+bigsize\volkswagen_main_page.json
+Critical Issues:
+button-name: 1: Ensures buttons have discernible text;
+
+Serious Issues:
+svg-img-alt: 2: Ensures <svg> elements with an img, graphics-document or graphics-symbol role have an accessible text;
+aria-hidden-focus: 1: Ensures aria-hidden elements are not focusable nor contain focusable elements;
+aria-prohibited-attr: 1: Ensures ARIA attributes are not prohibited for an element's role;
+

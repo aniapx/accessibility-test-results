@@ -1,0 +1,192 @@
+{
+    "url": "https://www.amazon.pl/ref=nav_logo",
+    "extensionVersion": "4.76.0",
+    "axeVersion": "4.8.2",
+    "standard": "WCAG 2.1 AA",
+    "testingStartDate": "2024-03-04T17:48:50.881Z",
+    "testingEndDate": "2024-03-04T17:48:50.881Z",
+    "bestPracticesEnabled": false,
+    "experimentalEnabled": false,
+    "issueSummary": {
+        "critical": 0,
+        "serious": 5,
+        "moderate": 0,
+        "minor": 0,
+        "bestPractices": 0,
+        "needsReview": 0
+    },
+    "remainingTestingSummary": {
+        "run": false
+    },
+    "igtSummary": [],
+    "failedRules": [
+        {
+            "name": "aria-prohibited-attr",
+            "count": 5,
+            "mode": "automated"
+        }
+    ],
+    "needsReview": [],
+    "source": {
+        "productName": "extension-chrome",
+        "productVersion": "4.76.0",
+        "productComponentName": "axe-extension"
+    },
+    "testDetails": {
+        "testId": "",
+        "axeVersion": "4.8.2",
+        "engine": "axe-core",
+        "standard": "WCAG 2.1 AA",
+        "startDate": "2024-03-04T17:48:50.881Z",
+        "endDate": "2024-03-04T17:48:50.881Z",
+        "bestPracticesEnabled": false,
+        "experimentalEnabled": false
+    },
+    "allIssues": [
+        {
+            "issueId": null,
+            "ruleId": "aria-prohibited-attr",
+            "description": "Ensures ARIA attributes are not prohibited for an element's role",
+            "help": "Elements must only use permitted ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-prohibited-attr?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".a-link-normal:nth-child(1) > .a-icon-star-large.a-icon[role=\"presentation\"]"
+            ],
+            "summary": "Fix all of the following:\\n  aria-label attribute cannot be used with role \"null\".",
+            "source": "<i aria-label=\"wybierz te opcje, aby przyznać produktowi jedna gwiazdke.\" class=\"a-icon a-icon-star-large\" role=\"presentation\"></i>",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T17:48:50.881Z",
+            "isExperimental": false,
+            "testUrl": "https://www.amazon.pl/ref=nav_logo",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Amazon.pl: zakupy internetowe elektroniki, odziezy, komputerów, ksiazek, plyt DVD i innych"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-prohibited-attr",
+            "description": "Ensures ARIA attributes are not prohibited for an element's role",
+            "help": "Elements must only use permitted ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-prohibited-attr?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".a-link-normal:nth-child(2) > .a-icon-star-large.a-icon[role=\"presentation\"]"
+            ],
+            "summary": "Fix all of the following:\\n  aria-label attribute cannot be used with role \"null\".",
+            "source": "<i aria-label=\"wybierz te opcje, aby przyznać produktowi dwie gwiazdki.\" class=\"a-icon a-icon-star-large\" role=\"presentation\"></i>",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T17:48:50.881Z",
+            "isExperimental": false,
+            "testUrl": "https://www.amazon.pl/ref=nav_logo",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Amazon.pl: zakupy internetowe elektroniki, odziezy, komputerów, ksiazek, plyt DVD i innych"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-prohibited-attr",
+            "description": "Ensures ARIA attributes are not prohibited for an element's role",
+            "help": "Elements must only use permitted ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-prohibited-attr?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".a-link-normal:nth-child(3) > .a-icon-star-large.a-icon[role=\"presentation\"]"
+            ],
+            "summary": "Fix all of the following:\\n  aria-label attribute cannot be used with role \"null\".",
+            "source": "<i aria-label=\"wybierz te opcje, aby przyznać produktowi trzy gwiazdki.\" class=\"a-icon a-icon-star-large\" role=\"presentation\"></i>",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T17:48:50.881Z",
+            "isExperimental": false,
+            "testUrl": "https://www.amazon.pl/ref=nav_logo",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Amazon.pl: zakupy internetowe elektroniki, odziezy, komputerów, ksiazek, plyt DVD i innych"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-prohibited-attr",
+            "description": "Ensures ARIA attributes are not prohibited for an element's role",
+            "help": "Elements must only use permitted ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-prohibited-attr?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".a-link-normal:nth-child(4) > .a-icon-star-large.a-icon[role=\"presentation\"]"
+            ],
+            "summary": "Fix all of the following:\\n  aria-label attribute cannot be used with role \"null\".",
+            "source": "<i aria-label=\"wybierz te opcje, aby przyznać produktowi cztery gwiazdki.\" class=\"a-icon a-icon-star-large\" role=\"presentation\"></i>",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T17:48:50.881Z",
+            "isExperimental": false,
+            "testUrl": "https://www.amazon.pl/ref=nav_logo",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Amazon.pl: zakupy internetowe elektroniki, odziezy, komputerów, ksiazek, plyt DVD i innych"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-prohibited-attr",
+            "description": "Ensures ARIA attributes are not prohibited for an element's role",
+            "help": "Elements must only use permitted ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-prohibited-attr?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".a-link-normal:nth-child(5) > .a-icon-star-large.a-icon[role=\"presentation\"]"
+            ],
+            "summary": "Fix all of the following:\\n  aria-label attribute cannot be used with role \"null\".",
+            "source": "<i aria-label=\"wybierz te opcje, aby przyznać produktowi pieć gwiazdek.\" class=\"a-icon a-icon-star-large\" role=\"presentation\"></i>",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T17:48:50.881Z",
+            "isExperimental": false,
+            "testUrl": "https://www.amazon.pl/ref=nav_logo",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Amazon.pl: zakupy internetowe elektroniki, odziezy, komputerów, ksiazek, plyt DVD i innych"
+        }
+    ]
+}

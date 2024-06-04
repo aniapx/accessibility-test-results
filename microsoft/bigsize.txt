@@ -1,0 +1,14 @@
+.\bigsize\eu_volkswagen.html
+aria-allowed-attr: 6: Ensures ARIA attributes are allowed for an element's role;
+aria-allowed-role: 6: Ensures role attribute has an appropriate value for the element;
+aria-hidden-focus: 6: Ensures aria-hidden elements are not focusable nor contain focusable elements;
+button-name: 6: Ensures buttons have discernible text;
+svg-img-alt: 6: Ensures <svg> elements with an img, graphics-document or graphics-symbol role have an accessible text;
+
+.\bigsize\pl_orlen.html
+aria-valid-attr-value: 8: Ensures all ARIA attributes have valid values;
+link-name: 8: Ensures links have discernible text;
+nested-interactive: 8: Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies;
+
+.\bigsize\usa_microsoft.html
+

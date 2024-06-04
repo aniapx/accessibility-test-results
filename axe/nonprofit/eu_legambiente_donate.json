@@ -1,0 +1,517 @@
+{
+    "url": "https://sostieni.legambiente.it/page/101610/donate/1",
+    "extensionVersion": "4.76.0",
+    "axeVersion": "4.8.2",
+    "standard": "WCAG 2.1 AA",
+    "testingStartDate": "2024-03-04T19:01:51.858Z",
+    "testingEndDate": "2024-03-04T19:01:51.858Z",
+    "bestPracticesEnabled": false,
+    "experimentalEnabled": false,
+    "issueSummary": {
+        "critical": 2,
+        "serious": 12,
+        "moderate": 0,
+        "minor": 0,
+        "bestPractices": 0,
+        "needsReview": 0
+    },
+    "remainingTestingSummary": {
+        "run": false
+    },
+    "igtSummary": [],
+    "failedRules": [
+        {
+            "name": "color-contrast",
+            "count": 10,
+            "mode": "automated"
+        },
+        {
+            "name": "frame-title",
+            "count": 1,
+            "mode": "automated"
+        },
+        {
+            "name": "html-has-lang",
+            "count": 1,
+            "mode": "automated"
+        },
+        {
+            "name": "image-alt",
+            "count": 1,
+            "mode": "automated"
+        },
+        {
+            "name": "meta-viewport",
+            "count": 1,
+            "mode": "automated"
+        }
+    ],
+    "needsReview": [],
+    "source": {
+        "productName": "extension-chrome",
+        "productVersion": "4.76.0",
+        "productComponentName": "axe-extension"
+    },
+    "testDetails": {
+        "testId": "",
+        "axeVersion": "4.8.2",
+        "engine": "axe-core",
+        "standard": "WCAG 2.1 AA",
+        "startDate": "2024-03-04T19:01:51.858Z",
+        "endDate": "2024-03-04T19:01:51.858Z",
+        "bestPracticesEnabled": false,
+        "experimentalEnabled": false
+    },
+    "allIssues": [
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "a[href=\"\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 1.59 (foreground color: #ffffff, background color: #ffc400, font size: 16.5pt (22px), font weight: bold). Expected contrast ratio of 3:1",
+            "source": "<a class=\"btn\" href=\"\">Dona ora</a>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:01:51.858Z",
+            "isExperimental": false,
+            "testUrl": "https://sostieni.legambiente.it/page/101610/donate/1",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Hai a cuore l ambiente? Proteggilo! | Legambiente"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "p:nth-child(4) > .btn[data-num=\"9\"][href=\"#\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 1.59 (foreground color: #ffffff, background color: #ffc400, font size: 16.5pt (22px), font weight: bold). Expected contrast ratio of 3:1",
+            "source": "<a class=\"btn\" data-num=\"9\" href=\"#\">Dona 9 euro AL MESE</a>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:01:51.858Z",
+            "isExperimental": false,
+            "testUrl": "https://sostieni.legambiente.it/page/101610/donate/1",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Hai a cuore l ambiente? Proteggilo! | Legambiente"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "p:nth-child(4) > .btn[data-num=\"12\"][href=\"#\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 1.59 (foreground color: #ffffff, background color: #ffc400, font size: 16.5pt (22px), font weight: bold). Expected contrast ratio of 3:1",
+            "source": "<a class=\"btn\" data-num=\"12\" href=\"#\">Dona 12 euro AL MESE</a>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:01:51.858Z",
+            "isExperimental": false,
+            "testUrl": "https://sostieni.legambiente.it/page/101610/donate/1",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Hai a cuore l ambiente? Proteggilo! | Legambiente"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "p:nth-child(4) > .btn[data-num=\"25\"][href=\"#\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 1.59 (foreground color: #ffffff, background color: #ffc400, font size: 16.5pt (22px), font weight: bold). Expected contrast ratio of 3:1",
+            "source": "<a class=\"btn\" data-num=\"25\" href=\"#\">Dona 25 euro AL MESE</a>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:01:51.858Z",
+            "isExperimental": false,
+            "testUrl": "https://sostieni.legambiente.it/page/101610/donate/1",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Hai a cuore l ambiente? Proteggilo! | Legambiente"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".card:nth-child(1) > .btn[data-num=\"9\"][href=\"#\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 1.59 (foreground color: #ffffff, background color: #ffc400, font size: 16.5pt (22px), font weight: bold). Expected contrast ratio of 3:1",
+            "source": "<a class=\"btn\" data-num=\"9\" href=\"#\">Dona ora</a>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:01:51.858Z",
+            "isExperimental": false,
+            "testUrl": "https://sostieni.legambiente.it/page/101610/donate/1",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Hai a cuore l ambiente? Proteggilo! | Legambiente"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".card:nth-child(2) > .copy > .amount > span"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 4.14 (foreground color: #008e68, background color: #ffffff, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1",
+            "source": "<span>al mese</span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:01:51.858Z",
+            "isExperimental": false,
+            "testUrl": "https://sostieni.legambiente.it/page/101610/donate/1",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Hai a cuore l ambiente? Proteggilo! | Legambiente"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".dona > .card:nth-child(2) > .copy > p"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 4.14 (foreground color: #008e68, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<p>Grazie a te lavoriamo per ottenere più controlli contro chi inquina e norme più severe contro chi commette reati contro animali e biodiversità.</p>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:01:51.858Z",
+            "isExperimental": false,
+            "testUrl": "https://sostieni.legambiente.it/page/101610/donate/1",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Hai a cuore l ambiente? Proteggilo! | Legambiente"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".card:nth-child(2) > .btn[data-num=\"12\"][href=\"#\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 1.59 (foreground color: #ffffff, background color: #ffc400, font size: 16.5pt (22px), font weight: bold). Expected contrast ratio of 3:1",
+            "source": "<a class=\"btn\" data-num=\"12\" href=\"#\">Dona ora</a>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:01:51.858Z",
+            "isExperimental": false,
+            "testUrl": "https://sostieni.legambiente.it/page/101610/donate/1",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Hai a cuore l ambiente? Proteggilo! | Legambiente"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".card:nth-child(3) > .btn[data-num=\"25\"][href=\"#\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 1.59 (foreground color: #ffffff, background color: #ffc400, font size: 16.5pt (22px), font weight: bold). Expected contrast ratio of 3:1",
+            "source": "<a class=\"btn\" data-num=\"25\" href=\"#\">Dona ora</a>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:01:51.858Z",
+            "isExperimental": false,
+            "testUrl": "https://sostieni.legambiente.it/page/101610/donate/1",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Hai a cuore l ambiente? Proteggilo! | Legambiente"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".moreinfo-heading"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 1.59 (foreground color: #ffffff, background color: #ffc400, font size: 16.5pt (22px), font weight: bold). Expected contrast ratio of 3:1",
+            "source": "<div class=\"btn moreinfo-heading\">Scopri di più.</div>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:01:51.858Z",
+            "isExperimental": false,
+            "testUrl": "https://sostieni.legambiente.it/page/101610/donate/1",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Hai a cuore l ambiente? Proteggilo! | Legambiente"
+        },
+        {
+            "issueId": null,
+            "ruleId": "frame-title",
+            "description": "Ensures <iframe> and <frame> elements have an accessible name",
+            "help": "Frames must have an accessible name",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/frame-title?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#randomId4039987766124659396"
+            ],
+            "summary": "Fix any of the following:\\n  Element has no title attribute\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+            "source": "<iframe src=\"https://js.verygoodvault.com/vgs-collect/2.20.2/lib/index.html#telemetry=1&amp;tnt=dG50Y2Z4ZHd5emg%3D\" id=\"randomId4039987766124659396\" style=\"height: 0px; width: 0px; border: 0px; position: absolute; bottom: -100px; left: -100px;\"></iframe>",
+            "tags": [
+                "cat.text-alternatives",
+                "wcag2a",
+                "wcag412",
+                "section508",
+                "section508.22.i",
+                "TTv5",
+                "TT12.d",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:01:51.858Z",
+            "isExperimental": false,
+            "testUrl": "https://sostieni.legambiente.it/page/101610/donate/1",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Hai a cuore l ambiente? Proteggilo! | Legambiente"
+        },
+        {
+            "issueId": null,
+            "ruleId": "html-has-lang",
+            "description": "Ensures every HTML document has a lang attribute",
+            "help": "<html> element must have a lang attribute",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-has-lang?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "html"
+            ],
+            "summary": "Fix any of the following:\\n  The <html> element does not have a lang attribute",
+            "source": "<html style=\"--en-vgs-height: 47px; --en-vgs-width: 355px; --en-vgs-borderWidth: 1px; --en-vgs-borderStyle: solid; --en-vgs-borderColor: rgb(204, 204, 204); --en-vgs-borderRadius: 0px; --en-vgs-backgroundColor: rgb(247, 247, 247);\">",
+            "tags": [
+                "cat.language",
+                "wcag2a",
+                "wcag311",
+                "TTv5",
+                "TT11.a",
+                "EN-301-549",
+                "EN-9.3.1.1",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:01:51.858Z",
+            "isExperimental": false,
+            "testUrl": "https://sostieni.legambiente.it/page/101610/donate/1",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Hai a cuore l ambiente? Proteggilo! | Legambiente"
+        },
+        {
+            "issueId": null,
+            "ruleId": "image-alt",
+            "description": "Ensures <img> elements have alternate text or a role of none or presentation",
+            "help": "Images must have alternate text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/image-alt?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".credits > div:nth-child(1) > img"
+            ],
+            "summary": "Fix any of the following:\\n  Element does not have an alt attribute\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute\\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+            "source": "<img src=\"https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2241/unik-legambiente-logo.png?v=1644863909000\">",
+            "tags": [
+                "cat.text-alternatives",
+                "wcag2a",
+                "wcag111",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT7.a",
+                "TT7.b",
+                "EN-301-549",
+                "EN-9.1.1.1",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:01:51.858Z",
+            "isExperimental": false,
+            "testUrl": "https://sostieni.legambiente.it/page/101610/donate/1",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Hai a cuore l ambiente? Proteggilo! | Legambiente"
+        },
+        {
+            "issueId": null,
+            "ruleId": "meta-viewport",
+            "description": "Ensures <meta name=\"viewport\"> does not disable text scaling and zooming",
+            "help": "Zooming and scaling must not be disabled",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/meta-viewport?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "meta[name=\"viewport\"]"
+            ],
+            "summary": "Fix any of the following:\\n  user-scalable=no on <meta> tag disables zooming on mobile devices",
+            "source": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\">",
+            "tags": [
+                "cat.sensory-and-visual-cues",
+                "wcag2aa",
+                "wcag144",
+                "EN-301-549",
+                "EN-9.1.4.4",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:01:51.858Z",
+            "isExperimental": false,
+            "testUrl": "https://sostieni.legambiente.it/page/101610/donate/1",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Hai a cuore l ambiente? Proteggilo! | Legambiente"
+        }
+    ]
+}

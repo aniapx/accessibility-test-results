@@ -1,0 +1,398 @@
+{
+    "url": "https://www.facebook.com/",
+    "extensionVersion": "4.76.0",
+    "axeVersion": "4.8.2",
+    "standard": "WCAG 2.1 AA",
+    "testingStartDate": "2024-03-04T18:35:11.931Z",
+    "testingEndDate": "2024-03-04T18:35:11.931Z",
+    "bestPracticesEnabled": false,
+    "experimentalEnabled": false,
+    "issueSummary": {
+        "critical": 3,
+        "serious": 8,
+        "moderate": 0,
+        "minor": 0,
+        "bestPractices": 0,
+        "needsReview": 0
+    },
+    "remainingTestingSummary": {
+        "run": false
+    },
+    "igtSummary": [],
+    "failedRules": [
+        {
+            "name": "aria-allowed-attr",
+            "count": 3,
+            "mode": "automated"
+        },
+        {
+            "name": "aria-hidden-focus",
+            "count": 5,
+            "mode": "automated"
+        },
+        {
+            "name": "aria-prohibited-attr",
+            "count": 2,
+            "mode": "automated"
+        },
+        {
+            "name": "link-name",
+            "count": 1,
+            "mode": "automated"
+        }
+    ],
+    "needsReview": [],
+    "source": {
+        "productName": "extension-chrome",
+        "productVersion": "4.76.0",
+        "productComponentName": "axe-extension"
+    },
+    "testDetails": {
+        "testId": "",
+        "axeVersion": "4.8.2",
+        "engine": "axe-core",
+        "standard": "WCAG 2.1 AA",
+        "startDate": "2024-03-04T18:35:11.931Z",
+        "endDate": "2024-03-04T18:35:11.931Z",
+        "bestPracticesEnabled": false,
+        "experimentalEnabled": false
+    },
+    "allIssues": [
+        {
+            "issueId": null,
+            "ruleId": "aria-allowed-attr",
+            "description": "Ensures an element's role supports its ARIA attributes",
+            "help": "Elements must only use supported ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-attr?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "div[aria-posinset=\"1\"]"
+            ],
+            "summary": "Fix all of the following:\\n  ARIA attribute is not allowed: aria-posinset=\"1\"",
+            "source": "<div aria-posinset=\"1\" aria-describedby=\":Rlahlqlaikpl9aqqd9emhpapd5aqH1: :Rlahlqlaikpl9aqqd9emhpapd5aqH2: :Rlahlqlaikpl9aqqd9emhpapd5aqH3: :Rlahlqlaikpl9aqqd9emhpapd5aqH5: :Rlahlqlaikpl9aqqd9emhpapd5aqH4:\" aria-labelledby=\":R1alalqlaikpl9aqqd9emhpapd5aq:\" class=\"x1a2a7pz\">",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:35:11.931Z",
+            "isExperimental": false,
+            "testUrl": "https://www.facebook.com/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "(1) Facebook"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-allowed-attr",
+            "description": "Ensures an element's role supports its ARIA attributes",
+            "help": "Elements must only use supported ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-attr?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "div[aria-posinset=\"2\"]"
+            ],
+            "summary": "Fix all of the following:\\n  ARIA attribute is not allowed: aria-posinset=\"2\"",
+            "source": "<div aria-posinset=\"2\" aria-describedby=\":r1c: :r1d: :r1e: :r1g: :r1f:\" aria-labelledby=\":r1b:\" class=\"x1a2a7pz\" d3r88k166=\"\" kp27dmz6p=\"\">",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:35:11.931Z",
+            "isExperimental": false,
+            "testUrl": "https://www.facebook.com/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "(1) Facebook"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-allowed-attr",
+            "description": "Ensures an element's role supports its ARIA attributes",
+            "help": "Elements must only use supported ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-attr?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "div[aria-posinset=\"3\"]"
+            ],
+            "summary": "Fix all of the following:\\n  ARIA attribute is not allowed: aria-posinset=\"3\"",
+            "source": "<div aria-posinset=\"3\" aria-describedby=\":r26: :r27: :r28: :r2a: :r29:\" aria-labelledby=\":r25:\" class=\"x1a2a7pz\">",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:35:11.931Z",
+            "isExperimental": false,
+            "testUrl": "https://www.facebook.com/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "(1) Facebook"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-hidden-focus",
+            "description": "Ensures aria-hidden elements are not focusable nor contain focusable elements",
+            "help": "ARIA hidden element must not be focusable or contain focusable elements",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-hidden-focus?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".x1w1tb2m"
+            ],
+            "summary": "Fix all of the following:\\n  Focusable content should have tabindex=\"-1\" or be removed from the DOM",
+            "source": "<div aria-hidden=\"true\" class=\"x7wzq59 x1w1tb2m x13dflua x6o7n8i x9lcvmn x1vjfegm xsz5k2l xg01cxk x47corl x1cna9jh\" data-visualcompletion=\"ignore\">",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:35:11.931Z",
+            "isExperimental": false,
+            "testUrl": "https://www.facebook.com/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "(1) Facebook"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-hidden-focus",
+            "description": "Ensures aria-hidden elements are not focusable nor contain focusable elements",
+            "help": "ARIA hidden element must not be focusable or contain focusable elements",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-hidden-focus?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".x1fns5xo.x1vqgdyp[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix all of the following:\\n  Focusable content should have tabindex=\"-1\" or be removed from the DOM",
+            "source": "<div aria-hidden=\"true\" class=\"x1n2onr6 x1vqgdyp x1fns5xo\">",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:35:11.931Z",
+            "isExperimental": false,
+            "testUrl": "https://www.facebook.com/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "(1) Facebook"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-hidden-focus",
+            "description": "Ensures aria-hidden elements are not focusable nor contain focusable elements",
+            "help": "ARIA hidden element must not be focusable or contain focusable elements",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-hidden-focus?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".xr9ek0c.x1w0mnb.xqcrz7y > .x3nfvp2.xjqpnuy[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix all of the following:\\n  Focusable content should have tabindex=\"-1\" or be removed from the DOM",
+            "source": "<div aria-hidden=\"true\" class=\"x1i10hfl x1qjc9v5 xjbqb8w xjqpnuy xa49m3k xqeqjp1 x2hbi6w x13fuv20 xu3j5b3 x1q0q8m5 x26u7qi x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xdl72j9 x2lah0s xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r x2lwn1j xeuugli xexx8yu x4uap5 x18d9i69 xkhd6sd x1n2onr6 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x1o1ewxj x3x9cwd x1e5q0jg x13rtm0m x3nfvp2 x1q0g3np x87ps6o x1lku1pv x1a2a7pz\" role=\"button\" tabindex=\"-1\">",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:35:11.931Z",
+            "isExperimental": false,
+            "testUrl": "https://www.facebook.com/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "(1) Facebook"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-hidden-focus",
+            "description": "Ensures aria-hidden elements are not focusable nor contain focusable elements",
+            "help": "ARIA hidden element must not be focusable or contain focusable elements",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-hidden-focus?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "div[aria-posinset=\"2\"] > .xdt5ytf.x78zum5 > .x1ja2u2z.x9f619.x1n2onr6 > .xh8yej3.x78zum5.x1n2onr6 > .x1qpq9i9.xdney7k.xu5ydu1 > div > div:nth-child(8) > div > div > div:nth-child(2) > .xod5an3.x1cy8zhl.xz9dl7a > .xqtp20y.x1emribx.x78zum5 > .xt0psk2 > a[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix all of the following:\\n  Focusable content should have tabindex=\"-1\" or be removed from the DOM",
+            "source": "<a aria-hidden=\"true\" class=\"x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz xt0b8zv xzsf02u\" href=\"https://www.facebook.com/kfcpolska?__cft__[0]=AZWNN-qbiXvL0u1xLYW9AB1ym6BVIU3QsDU7nPVq8BLatCmtSKZf_AGPqf5_jMGyrQgSLlxeI6VidM8Tk0YSt_iZfmo5rySeKg6A1TpqbYa29iQP7d9yhsBFcS3AWcSre5-ic_GDu4B7WXz-7VJqSqehbnb3cGQWTniiVI0hcAUSulVvfcruFMlIEvKDIIY_Rm_SEEUc5nN-7cMXoXk5P74PE4vLb4xye1mg9Acao9KBJ3zHhIi9Ng8taHlUBXQZRp5a1G9d4V_HrfoA5OY2gUOrS8WUaRFMFxMSY025a1knbercyIqkSKCi3lQy00Q7YTg&amp;__tn__=%3C%2CP-R\" role=\"link\" tabindex=\"-1\">",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:35:11.931Z",
+            "isExperimental": false,
+            "testUrl": "https://www.facebook.com/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "(1) Facebook"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-hidden-focus",
+            "description": "Ensures aria-hidden elements are not focusable nor contain focusable elements",
+            "help": "ARIA hidden element must not be focusable or contain focusable elements",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-hidden-focus?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "div[aria-posinset=\"3\"] > .xdt5ytf.x78zum5 > .x1ja2u2z.x9f619.x1n2onr6 > .xh8yej3.x78zum5.x1n2onr6 > .x1qpq9i9.xdney7k.xu5ydu1 > div > div:nth-child(8) > div > div > div:nth-child(2) > .xod5an3.x1cy8zhl.xz9dl7a > .xqtp20y.x1emribx.x78zum5 > .xt0psk2 > a[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix all of the following:\\n  Focusable content should have tabindex=\"-1\" or be removed from the DOM",
+            "source": "<a aria-hidden=\"true\" class=\"x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz xt0b8zv xzsf02u\" href=\"https://www.facebook.com/kotvpies?__cft__[0]=AZXlijzVIITT53NhUw0bjU-6qsDIYfCpaKIPPf7GUrgDPBlHCvfYi5DhwtWjfW3mtwfqbboDz_QAOySEnkEK0q0ecMzem9PbA90KiW5mdE6MWCfyI-NihTjuJ-5SqdxwuCp3RWMZYUHnwuG7fl3bGKOJ8wNioBbtIF1L7uo15RqdH74RJB54hrN_9IfyDlLqtqw5XYQoOk4WcN9LPywyu9ob&amp;__tn__=%3C%2CP-R\" role=\"link\" tabindex=\"-1\">",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:35:11.931Z",
+            "isExperimental": false,
+            "testUrl": "https://www.facebook.com/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "(1) Facebook"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-prohibited-attr",
+            "description": "Ensures ARIA attributes are not prohibited for an element's role",
+            "help": "Elements must only use permitted ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-prohibited-attr?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "span[aria-labelledby=\":r1k:\"]"
+            ],
+            "summary": "Fix all of the following:\\n  aria-labelledby attribute cannot be used on a span with no valid role attribute.",
+            "source": "<span aria-labelledby=\":r1k:\" class=\"x1rg5ohu x6ikm8r x10wlt62 x16dsc37 xt0b8zv\">",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:35:11.931Z",
+            "isExperimental": false,
+            "testUrl": "https://www.facebook.com/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "(1) Facebook"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-prohibited-attr",
+            "description": "Ensures ARIA attributes are not prohibited for an element's role",
+            "help": "Elements must only use permitted ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-prohibited-attr?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "span[aria-labelledby=\":r2d:\"]"
+            ],
+            "summary": "Fix all of the following:\\n  aria-labelledby attribute cannot be used on a span with no valid role attribute.",
+            "source": "<span aria-labelledby=\":r2d:\" class=\"x1rg5ohu x6ikm8r x10wlt62 x16dsc37 xt0b8zv\">",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:35:11.931Z",
+            "isExperimental": false,
+            "testUrl": "https://www.facebook.com/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "(1) Facebook"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-name",
+            "description": "Ensures links have discernible text",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#\\:r26\\: > span:nth-child(2) > .x1h9r5lt.xv2umb2.xaigb6o > a[href=\"#\"]"
+            ],
+            "summary": "Fix all of the following:\\n  Element is in tab order and does not have accessible text\\n\\nFix any of the following:\\n  Element does not have text that is visible to screen readers\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<a class=\"x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x1heor9g xt0b8zv xo1l8bm\" href=\"#\" role=\"link\" tabindex=\"0\">",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag244",
+                "wcag412",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.2.4.4",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:35:11.931Z",
+            "isExperimental": false,
+            "testUrl": "https://www.facebook.com/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "(1) Facebook"
+        }
+    ]
+}

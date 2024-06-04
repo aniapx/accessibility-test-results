@@ -1,0 +1,721 @@
+{
+    "url": "https://www.dhl.de/de/privatkunden.html",
+    "extensionVersion": "4.76.0",
+    "axeVersion": "4.8.2",
+    "standard": "WCAG 2.1 AA",
+    "testingStartDate": "2024-03-04T19:07:47.073Z",
+    "testingEndDate": "2024-03-04T19:07:47.073Z",
+    "bestPracticesEnabled": false,
+    "experimentalEnabled": false,
+    "issueSummary": {
+        "critical": 13,
+        "serious": 8,
+        "moderate": 0,
+        "minor": 0,
+        "bestPractices": 0,
+        "needsReview": 0
+    },
+    "remainingTestingSummary": {
+        "run": false
+    },
+    "igtSummary": [],
+    "failedRules": [
+        {
+            "name": "aria-allowed-attr",
+            "count": 6,
+            "mode": "automated"
+        },
+        {
+            "name": "aria-required-children",
+            "count": 2,
+            "mode": "automated"
+        },
+        {
+            "name": "aria-valid-attr-value",
+            "count": 3,
+            "mode": "automated"
+        },
+        {
+            "name": "image-alt",
+            "count": 1,
+            "mode": "automated"
+        },
+        {
+            "name": "listitem",
+            "count": 2,
+            "mode": "automated"
+        },
+        {
+            "name": "meta-viewport",
+            "count": 1,
+            "mode": "automated"
+        },
+        {
+            "name": "nested-interactive",
+            "count": 1,
+            "mode": "automated"
+        },
+        {
+            "name": "object-alt",
+            "count": 3,
+            "mode": "automated"
+        },
+        {
+            "name": "svg-img-alt",
+            "count": 2,
+            "mode": "automated"
+        }
+    ],
+    "needsReview": [],
+    "source": {
+        "productName": "extension-chrome",
+        "productVersion": "4.76.0",
+        "productComponentName": "axe-extension"
+    },
+    "testDetails": {
+        "testId": "",
+        "axeVersion": "4.8.2",
+        "engine": "axe-core",
+        "standard": "WCAG 2.1 AA",
+        "startDate": "2024-03-04T19:07:47.073Z",
+        "endDate": "2024-03-04T19:07:47.073Z",
+        "bestPracticesEnabled": false,
+        "experimentalEnabled": false
+    },
+    "allIssues": [
+        {
+            "issueId": null,
+            "ruleId": "aria-allowed-attr",
+            "description": "Ensures an element's role supports its ARIA attributes",
+            "help": "Elements must only use supported ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-attr?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".primary-navigation__tab.has-dropdown:nth-child(1) > .primary-navigation__link > .primary-navigation__link-caption"
+            ],
+            "summary": "Fix all of the following:\\n  ARIA attribute is not allowed: aria-selected=\"false\"",
+            "source": "<div class=\"primary-navigation__link-caption\" aria-selected=\"false\">\\n                                                    Pakete versenden\\n\t\t\t\t\t\t\t\t\t\t\t\t</div>",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:07:47.073Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden.html",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Privatkunden - Paketversand und Paketempfang mit DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-allowed-attr",
+            "description": "Ensures an element's role supports its ARIA attributes",
+            "help": "Elements must only use supported ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-attr?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".primary-navigation__tab.has-dropdown:nth-child(2) > .primary-navigation__link > .primary-navigation__link-caption"
+            ],
+            "summary": "Fix all of the following:\\n  ARIA attribute is not allowed: aria-selected=\"false\"",
+            "source": "<div class=\"primary-navigation__link-caption\" aria-selected=\"false\">\\n                                                    Pakete empfangen\\n\t\t\t\t\t\t\t\t\t\t\t\t</div>",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:07:47.073Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden.html",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Privatkunden - Paketversand und Paketempfang mit DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-allowed-attr",
+            "description": "Ensures an element's role supports its ARIA attributes",
+            "help": "Elements must only use supported ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-attr?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".primary-navigation__tab.has-dropdown:nth-child(3) > .primary-navigation__link > .primary-navigation__link-caption"
+            ],
+            "summary": "Fix all of the following:\\n  ARIA attribute is not allowed: aria-selected=\"false\"",
+            "source": "<div class=\"primary-navigation__link-caption\" aria-selected=\"false\">\\n                                                    Hilfe und Kontakt\\n\t\t\t\t\t\t\t\t\t\t\t\t</div>",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:07:47.073Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden.html",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Privatkunden - Paketversand und Paketempfang mit DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-allowed-attr",
+            "description": "Ensures an element's role supports its ARIA attributes",
+            "help": "Elements must only use supported ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-attr?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#PORTOBERATER-CATEGORY-select-wrapper"
+            ],
+            "summary": "Fix all of the following:\\n  ARIA attribute is not allowed: aria-selected=\"true\"",
+            "source": "<button tabindex=\"0\" class=\"Select__CurrentSelection-sc-10hjwv3-1 dNrFKQ\" id=\"PORTOBERATER-CATEGORY-select-wrapper\" aria-expanded=\"false\" aria-haspopup=\"listbox\" aria-labelledby=\"CATEGORY-label CATEGORY-currently-selected\" aria-details=\"PORTOBERATER-CATEGORY-select-info-selected\" aria-selected=\"true\">",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:07:47.073Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden.html",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Privatkunden - Paketversand und Paketempfang mit DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-allowed-attr",
+            "description": "Ensures an element's role supports its ARIA attributes",
+            "help": "Elements must only use supported ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-attr?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#PORTOBERATER-WEIGHT-select-wrapper"
+            ],
+            "summary": "Fix all of the following:\\n  ARIA attribute is not allowed: aria-selected=\"true\"",
+            "source": "<button tabindex=\"0\" class=\"Select__CurrentSelection-sc-10hjwv3-1 dNrFKQ\" id=\"PORTOBERATER-WEIGHT-select-wrapper\" aria-expanded=\"false\" aria-haspopup=\"listbox\" aria-labelledby=\"WEIGHT-label WEIGHT-currently-selected\" aria-details=\"PORTOBERATER-WEIGHT-select-info-selected\" aria-selected=\"true\">",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:07:47.073Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden.html",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Privatkunden - Paketversand und Paketempfang mit DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-allowed-attr",
+            "description": "Ensures an element's role supports its ARIA attributes",
+            "help": "Elements must only use supported ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-attr?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#PORTOBERATER-DIMENSION-select-wrapper"
+            ],
+            "summary": "Fix all of the following:\\n  ARIA attribute is not allowed: aria-selected=\"true\"",
+            "source": "<button tabindex=\"0\" class=\"Select__CurrentSelection-sc-10hjwv3-1 dNrFKQ\" id=\"PORTOBERATER-DIMENSION-select-wrapper\" aria-expanded=\"false\" aria-haspopup=\"listbox\" aria-labelledby=\"DIMENSION-label DIMENSION-currently-selected\" aria-details=\"PORTOBERATER-DIMENSION-select-info-selected\" aria-selected=\"true\">",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:07:47.073Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden.html",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Privatkunden - Paketversand und Paketempfang mit DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-required-children",
+            "description": "Ensures elements with an ARIA role that require child roles contain them",
+            "help": "Certain ARIA roles must contain particular children",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-required-children?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".secondary-navigation__tab[role=\"tablist\"]:nth-child(1)"
+            ],
+            "summary": "Fix any of the following:\\n  Element has children which are not allowed: li[tabindex]\\n  Element uses aria-busy=\"true\" while showing a loader",
+            "source": "<ul role=\"tablist\" class=\"secondary-navigation__tab\">",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag131",
+                "EN-301-549",
+                "EN-9.1.3.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:07:47.073Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden.html",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Privatkunden - Paketversand und Paketempfang mit DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-required-children",
+            "description": "Ensures elements with an ARIA role that require child roles contain them",
+            "help": "Certain ARIA roles must contain particular children",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-required-children?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".secondary-navigation__tab[role=\"tablist\"]:nth-child(2)"
+            ],
+            "summary": "Fix any of the following:\\n  Element has children which are not allowed: li[tabindex]\\n  Element uses aria-busy=\"true\" while showing a loader",
+            "source": "<ul role=\"tablist\" class=\"secondary-navigation__tab\">\\n\t\t\t\t\t\t\t<li class=\"secondary-navigation__link\" tabindex=\"0\">\\n\t\t\t\t\t\t\t\t<a tabindex=\"-1\" href=\"/de/geschaeftskunden.html\" class=\"secondary-navigation__link\">\\n                                    Geschäftskunden\\n\t\t\t\t\t\t\t\t</a>\\n\t\t\t\t\t\t\t</li>\\n\t\t\t\t\t\t</ul>",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag131",
+                "EN-301-549",
+                "EN-9.1.3.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:07:47.073Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden.html",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Privatkunden - Paketversand und Paketempfang mit DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-valid-attr-value",
+            "description": "Ensures all ARIA attributes have valid values",
+            "help": "ARIA attributes must conform to valid values",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-valid-attr-value?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#PORTOBERATER-CATEGORY-select-wrapper"
+            ],
+            "summary": "Fix all of the following:\\n  Invalid ARIA attribute value: aria-details=\"PORTOBERATER-CATEGORY-select-info-selected\"",
+            "source": "<button tabindex=\"0\" class=\"Select__CurrentSelection-sc-10hjwv3-1 dNrFKQ\" id=\"PORTOBERATER-CATEGORY-select-wrapper\" aria-expanded=\"false\" aria-haspopup=\"listbox\" aria-labelledby=\"CATEGORY-label CATEGORY-currently-selected\" aria-details=\"PORTOBERATER-CATEGORY-select-info-selected\" aria-selected=\"true\">",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:07:47.073Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden.html",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Privatkunden - Paketversand und Paketempfang mit DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-valid-attr-value",
+            "description": "Ensures all ARIA attributes have valid values",
+            "help": "ARIA attributes must conform to valid values",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-valid-attr-value?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#PORTOBERATER-WEIGHT-select-wrapper"
+            ],
+            "summary": "Fix all of the following:\\n  Invalid ARIA attribute value: aria-details=\"PORTOBERATER-WEIGHT-select-info-selected\"",
+            "source": "<button tabindex=\"0\" class=\"Select__CurrentSelection-sc-10hjwv3-1 dNrFKQ\" id=\"PORTOBERATER-WEIGHT-select-wrapper\" aria-expanded=\"false\" aria-haspopup=\"listbox\" aria-labelledby=\"WEIGHT-label WEIGHT-currently-selected\" aria-details=\"PORTOBERATER-WEIGHT-select-info-selected\" aria-selected=\"true\">",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:07:47.073Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden.html",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Privatkunden - Paketversand und Paketempfang mit DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-valid-attr-value",
+            "description": "Ensures all ARIA attributes have valid values",
+            "help": "ARIA attributes must conform to valid values",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-valid-attr-value?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#PORTOBERATER-DIMENSION-select-wrapper"
+            ],
+            "summary": "Fix all of the following:\\n  Invalid ARIA attribute value: aria-details=\"PORTOBERATER-DIMENSION-select-info-selected\"",
+            "source": "<button tabindex=\"0\" class=\"Select__CurrentSelection-sc-10hjwv3-1 dNrFKQ\" id=\"PORTOBERATER-DIMENSION-select-wrapper\" aria-expanded=\"false\" aria-haspopup=\"listbox\" aria-labelledby=\"DIMENSION-label DIMENSION-currently-selected\" aria-details=\"PORTOBERATER-DIMENSION-select-info-selected\" aria-selected=\"true\">",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:07:47.073Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden.html",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Privatkunden - Paketversand und Paketempfang mit DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "image-alt",
+            "description": "Ensures <img> elements have alternate text or a role of none or presentation",
+            "help": "Images must have alternate text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/image-alt?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".MiniCalculator__Image-sc-19o2o2e-8"
+            ],
+            "summary": "Fix any of the following:\\n  Element does not have an alt attribute\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute\\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+            "source": "<img src=\"/int-portoberater/a0793acdd67ba514e4bdcc9514591bb1.svg\" class=\"MiniCalculator__Image-sc-19o2o2e-8 hIvRyf\">",
+            "tags": [
+                "cat.text-alternatives",
+                "wcag2a",
+                "wcag111",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT7.a",
+                "TT7.b",
+                "EN-301-549",
+                "EN-9.1.1.1",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:07:47.073Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden.html",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Privatkunden - Paketversand und Paketempfang mit DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "listitem",
+            "description": "Ensures <li> elements are used semantically",
+            "help": "<li> elements must be contained in a <ul> or <ol>",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".secondary-navigation__tab[role=\"tablist\"]:nth-child(1) > .secondary-navigation__link"
+            ],
+            "summary": "Fix any of the following:\\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\"",
+            "source": "<li class=\"secondary-navigation__link\" tabindex=\"0\">\\n\t\t\t\t\t\t\t\t<a tabindex=\"-1\" href=\"/de/privatkunden.html\" class=\"secondary-navigation__link secondary-navigation__link--active\">\\n                                    Privatkunden\\n\t\t\t\t\t\t\t\t</a>\\n\t\t\t\t\t\t\t</li>",
+            "tags": [
+                "cat.structure",
+                "wcag2a",
+                "wcag131",
+                "EN-301-549",
+                "EN-9.1.3.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:07:47.073Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden.html",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Privatkunden - Paketversand und Paketempfang mit DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "listitem",
+            "description": "Ensures <li> elements are used semantically",
+            "help": "<li> elements must be contained in a <ul> or <ol>",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".secondary-navigation__tab[role=\"tablist\"]:nth-child(2) > .secondary-navigation__link"
+            ],
+            "summary": "Fix any of the following:\\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\"",
+            "source": "<li class=\"secondary-navigation__link\" tabindex=\"0\">\\n\t\t\t\t\t\t\t\t<a tabindex=\"-1\" href=\"/de/geschaeftskunden.html\" class=\"secondary-navigation__link\">\\n                                    Geschäftskunden\\n\t\t\t\t\t\t\t\t</a>\\n\t\t\t\t\t\t\t</li>",
+            "tags": [
+                "cat.structure",
+                "wcag2a",
+                "wcag131",
+                "EN-301-549",
+                "EN-9.1.3.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:07:47.073Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden.html",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Privatkunden - Paketversand und Paketempfang mit DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "meta-viewport",
+            "description": "Ensures <meta name=\"viewport\"> does not disable text scaling and zooming",
+            "help": "Zooming and scaling must not be disabled",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/meta-viewport?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "meta[name=\"viewport\"]"
+            ],
+            "summary": "Fix any of the following:\\n  maximum-scale on <meta> tag disables zooming on mobile devices",
+            "source": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1\">",
+            "tags": [
+                "cat.sensory-and-visual-cues",
+                "wcag2aa",
+                "wcag144",
+                "EN-301-549",
+                "EN-9.1.4.4",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:07:47.073Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden.html",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Privatkunden - Paketversand und Paketempfang mit DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#PORTOBERATER-country-select-wrapper"
+            ],
+            "summary": "Fix any of the following:\\n  Using a negative tabindex on an element inside an interactive control does not prevent assistive technologies from focusing the element (even with aria-hidden=\"true\")",
+            "source": "<button id=\"PORTOBERATER-country-select-wrapper\" class=\"CountrySearch__SearchBarWrapper-sc-1tg994k-0 iGFEsv\">",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:07:47.073Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden.html",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Privatkunden - Paketversand und Paketempfang mit DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "object-alt",
+            "description": "Ensures <object> elements have alternate text",
+            "help": "<object> elements must have alternate text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/object-alt?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "a[target=\"_self\"] > .quickaccess-item__head > object"
+            ],
+            "summary": "Fix any of the following:\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute\\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+            "source": "<object type=\"image/svg+xml\" data=\"/.resources/dhl/webresources/assets/icons/icon_onlineversenden.svg\" tabindex=\"-1\"></object>",
+            "tags": [
+                "cat.text-alternatives",
+                "wcag2a",
+                "wcag111",
+                "section508",
+                "section508.22.a",
+                "EN-301-549",
+                "EN-9.1.1.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:07:47.073Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden.html",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Privatkunden - Paketversand und Paketempfang mit DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "object-alt",
+            "description": "Ensures <object> elements have alternate text",
+            "help": "<object> elements must have alternate text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/object-alt?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".quickaccess-item--initial > .quickaccess-item__content > .quickaccess-item__head > object"
+            ],
+            "summary": "Fix any of the following:\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute\\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+            "source": "<object type=\"image/svg+xml\" data=\"/.resources/dhl/webresources/assets/icons/icon_paketsuche.svg\" tabindex=\"-1\"></object>",
+            "tags": [
+                "cat.text-alternatives",
+                "wcag2a",
+                "wcag111",
+                "section508",
+                "section508.22.a",
+                "EN-301-549",
+                "EN-9.1.1.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:07:47.073Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden.html",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Privatkunden - Paketversand und Paketempfang mit DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "object-alt",
+            "description": "Ensures <object> elements have alternate text",
+            "help": "<object> elements must have alternate text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/object-alt?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "li[data-icon=\"icon_standort.svg\"] > .quickaccess-item__content > .quickaccess-item__head > object"
+            ],
+            "summary": "Fix any of the following:\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute\\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+            "source": "<object type=\"image/svg+xml\" data=\"/.resources/dhl/webresources/assets/icons/icon_standort.svg\" tabindex=\"-1\"></object>",
+            "tags": [
+                "cat.text-alternatives",
+                "wcag2a",
+                "wcag111",
+                "section508",
+                "section508.22.a",
+                "EN-301-549",
+                "EN-9.1.1.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:07:47.073Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden.html",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Privatkunden - Paketversand und Paketempfang mit DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "svg-img-alt",
+            "description": "Ensures <svg> elements with an img, graphics-document or graphics-symbol role have an accessible text",
+            "help": "<svg> elements with an img role must have an alternative text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/svg-img-alt?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".lang__option--current > .hidden--in.sub-menu__dropdown.link-icon > .icon[role=\"img\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has no child that is a title\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<svg role=\"img\" class=\"icon\">\\n\t\t\t<use xlink:href=\"/.resources/dhl/webresources/assets/icons/sprite-dhl-v1-7.svg#chevronDown\"></use>\\n\t\t</svg>",
+            "tags": [
+                "cat.text-alternatives",
+                "wcag2a",
+                "wcag111",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT7.a",
+                "EN-301-549",
+                "EN-9.1.1.1",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:07:47.073Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden.html",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Privatkunden - Paketversand und Paketempfang mit DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "svg-img-alt",
+            "description": "Ensures <svg> elements with an img, graphics-document or graphics-symbol role have an accessible text",
+            "help": "<svg> elements with an img role must have an alternative text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/svg-img-alt?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".d-sm-block > .icon[role=\"img\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has no child that is a title\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<svg role=\"img\" class=\"icon\">\\n\t\t\t<use xlink:href=\"/.resources/dhl/webresources/assets/icons/sprite-dhl-v1-7.svg#chevronForward\"></use>\\n\t\t</svg>",
+            "tags": [
+                "cat.text-alternatives",
+                "wcag2a",
+                "wcag111",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT7.a",
+                "EN-301-549",
+                "EN-9.1.1.1",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:07:47.073Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden.html",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Privatkunden - Paketversand und Paketempfang mit DHL"
+        }
+    ]
+}

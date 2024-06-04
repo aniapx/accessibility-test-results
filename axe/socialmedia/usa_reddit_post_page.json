@@ -1,0 +1,3642 @@
+{
+    "url": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+    "extensionVersion": "4.76.0",
+    "axeVersion": "4.8.2",
+    "standard": "WCAG 2.1 AA",
+    "testingStartDate": "2024-03-04T18:42:17.454Z",
+    "testingEndDate": "2024-03-04T18:42:17.454Z",
+    "bestPracticesEnabled": false,
+    "experimentalEnabled": false,
+    "issueSummary": {
+        "critical": 2,
+        "serious": 103,
+        "moderate": 0,
+        "minor": 0,
+        "bestPractices": 0,
+        "needsReview": 0
+    },
+    "remainingTestingSummary": {
+        "run": false
+    },
+    "igtSummary": [],
+    "failedRules": [
+        {
+            "name": "button-name",
+            "count": 2,
+            "mode": "automated"
+        },
+        {
+            "name": "color-contrast",
+            "count": 3,
+            "mode": "automated"
+        },
+        {
+            "name": "link-in-text-block",
+            "count": 2,
+            "mode": "automated"
+        },
+        {
+            "name": "link-name",
+            "count": 1,
+            "mode": "automated"
+        },
+        {
+            "name": "nested-interactive",
+            "count": 97,
+            "mode": "automated"
+        }
+    ],
+    "needsReview": [],
+    "source": {
+        "productName": "extension-chrome",
+        "productVersion": "4.76.0",
+        "productComponentName": "axe-extension"
+    },
+    "testDetails": {
+        "testId": "",
+        "axeVersion": "4.8.2",
+        "engine": "axe-core",
+        "standard": "WCAG 2.1 AA",
+        "startDate": "2024-03-04T18:42:17.454Z",
+        "endDate": "2024-03-04T18:42:17.454Z",
+        "bestPracticesEnabled": false,
+        "experimentalEnabled": false
+    },
+    "allIssues": [
+        {
+            "issueId": null,
+            "ruleId": "button-name",
+            "description": "Ensures buttons have discernible text",
+            "help": "Buttons must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/button-name?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[thingid=\"t1_ktadetu\"]",
+                    ".xs\\:h-\\[40px\\].px-\\[var\\(--rem6\\)\\].icon"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element does not have inner text that is visible to screen readers\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute\\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+            "source": "<button rpl=\"\" class=\"text-neutral-content-strong bg-neutral-background overflow-visible w-lg xs:w-xl h-xl xs:h-[40px]\\nbutton-small px-[var(--rem6)]\\nbutton-plain\\n\\n\\nicon\\nitems-center justify-center\\nbutton inline-flex \">",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag412",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "button-name",
+            "description": "Ensures buttons have discernible text",
+            "help": "Buttons must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/button-name?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[thingid=\"t1_ktaq93j\"]",
+                    ".xs\\:h-\\[40px\\].px-\\[var\\(--rem6\\)\\].icon"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element does not have inner text that is visible to screen readers\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute\\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+            "source": "<button rpl=\"\" class=\"text-neutral-content-strong bg-neutral-background overflow-visible w-lg xs:w-xl h-xl xs:h-[40px]\\nbutton-small px-[var(--rem6)]\\nbutton-plain\\n\\n\\nicon\\nitems-center justify-center\\nbutton inline-flex \">",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag412",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment-author-modifier-icon[thing-id=\"t1_kta4jh0\"]",
+                    ".op.comment-op-icon-js.text-alienblue-600"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 2.17 (foreground color: #0045ac, background color: #0b1416, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span aria-label=\"Comment distinguished as an original poster\" class=\"font-semibold text-12 tracking-wide uppercase  op comment-op-icon-js text-alienblue-600\">\\n OP\\n </span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment-author-modifier-icon[thing-id=\"t1_kta58b0\"]",
+                    ".op.comment-op-icon-js.text-alienblue-600"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 2.17 (foreground color: #0045ac, background color: #0b1416, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span aria-label=\"Comment distinguished as an original poster\" class=\"font-semibold text-12 tracking-wide uppercase  op comment-op-icon-js text-alienblue-600\">\\n OP\\n </span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment-author-modifier-icon[thing-id=\"t1_ktarr4x\"]",
+                    ".op.comment-op-icon-js.text-alienblue-600"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 2.17 (foreground color: #0045ac, background color: #0b1416, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span aria-label=\"Comment distinguished as an original poster\" class=\"font-semibold text-12 tracking-wide uppercase  op comment-op-icon-js text-alienblue-600\">\\n OP\\n </span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-in-text-block",
+            "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+            "help": "Links must be distinguishable without relying on color",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#t1_kta4jh0-comment-rtjson-content > .py-0.xs\\:mx-xs.mx-2xs > p > .pointer-events-auto[rel=\"noopener nofollow ugc\"][target=\"_blank\"]"
+            ],
+            "summary": "Fix any of the following:\\n  The link has insufficient color contrast of 2.36:1 with the surrounding text. (Minimum contrast is 3:1, link text: #629fff, surrounding text: #f2f2f2)\\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+            "source": "<a class=\"relative pointer-events-auto\" href=\"https://i.imgur.com/nKyAck5.png\" rel=\"noopener nofollow ugc\" target=\"_blank\">https://i.imgur.com/nKyAck5.png</a>",
+            "tags": [
+                "cat.color",
+                "wcag2a",
+                "wcag141",
+                "TTv5",
+                "TT13.a",
+                "EN-301-549",
+                "EN-9.1.4.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-in-text-block",
+            "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+            "help": "Links must be distinguishable without relying on color",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "a[href$=\"regexlicensing.org/\"]"
+            ],
+            "summary": "Fix any of the following:\\n  The link has insufficient color contrast of 2.36:1 with the surrounding text. (Minimum contrast is 3:1, link text: #629fff, surrounding text: #f2f2f2)\\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+            "source": "<a class=\"relative pointer-events-auto\" href=\"https://regexlicensing.org/\" rel=\"noopener nofollow ugc\" target=\"_blank\">regex license</a>",
+            "tags": [
+                "cat.color",
+                "wcag2a",
+                "wcag141",
+                "TTv5",
+                "TT13.a",
+                "EN-301-549",
+                "EN-9.1.4.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-name",
+            "description": "Ensures links have discernible text",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "a[href$=\"rph\"][target=\"_blank\"][rel=\"nofollow noopener noreferrer\"]"
+            ],
+            "summary": "Fix all of the following:\\n  Element is in tab order and does not have accessible text\\n\\nFix any of the following:\\n  Element does not have text that is visible to screen readers\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<a href=\"https://discord.gg/rph\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://styles.redditmedia.com/t5_2tex6/styles/image_widget_qk7j2k1slf4b1.png\" alt=\"\" loading=\"lazy\" class=\"h-auto w-full max-w-full\"></a>",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag244",
+                "wcag412",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.2.4.4",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"Ok_Entertainment328\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for Ok_Entertainment328's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"Deltaspace0\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for Deltaspace0's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[thingid=\"t1_kta99d7\"]",
+                    "summary[aria-label=\"Metadata for gmegme's comment\"]"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for gmegme's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"SteveO131313\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for SteveO131313's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"RecycleAt10k\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for RecycleAt10k's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"mugitan\"]",
+                    "summary[aria-label=\"Metadata for mugitan's comment\"]"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for mugitan's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"evanldixon\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for evanldixon's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"iceman012\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for iceman012's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"undermark5\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for undermark5's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"triculious\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for triculious's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"Gold-Supermarket-342\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for Gold-Supermarket-342's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[thingid=\"t1_ktamd3t\"]",
+                    "summary[aria-label=\"Metadata for gmegme's comment\"]"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for gmegme's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"erythro\"]",
+                    "summary[aria-label=\"Metadata for erythro's comment\"]"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for erythro's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"IamHellgod07\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for IamHellgod07's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"jammy162\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for jammy162's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"oh-shit-oh-fuck\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for oh-shit-oh-fuck's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"ChocolateUnlucky1214\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for ChocolateUnlucky1214's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[thingid=\"t1_ktadetu\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for cs-brydev's comment\">",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[thingid=\"t1_kta4jh0\"]",
+                    "summary[aria-label=\"Metadata for MrEfil's comment\"]"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for MrEfil's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[thingid=\"t1_kta8s3z\"]",
+                    "summary[aria-label=\"Metadata for gmegme's comment\"]"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for gmegme's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"kenalvares\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for kenalvares's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[thingid=\"t1_ktadjs5\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for Cfrolich's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[thingid=\"t1_ktalawg\"]",
+                    "summary[aria-label=\"Metadata for gmegme's comment\"]"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for gmegme's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[thingid=\"t1_ktaq93j\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for Cfrolich's comment\">",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"Ok-Boysenberry9305\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for Ok-Boysenberry9305's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[thingid=\"t1_kta4qm0\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for HazirBot's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[thingid=\"t1_kta58b0\"]",
+                    "summary[aria-label=\"Metadata for MrEfil's comment\"]"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for MrEfil's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[thingid=\"t1_kta5buy\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for HazirBot's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[thingid=\"t1_kta8j9t\"]",
+                    "summary[aria-label=\"Metadata for gmegme's comment\"]"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for gmegme's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"Medical-Sentence7518\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for Medical-Sentence7518's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"irregular_caffeine\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for irregular_caffeine's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[thingid=\"t1_ktan06d\"]",
+                    "summary[aria-label=\"Metadata for gmegme's comment\"]"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for gmegme's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[thingid=\"t1_ktandmm\"]",
+                    "summary[aria-label=\"Metadata for gmegme's comment\"]"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for gmegme's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"Kwahn\"]",
+                    "summary[aria-label=\"Metadata for Kwahn's comment\"]"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for Kwahn's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"Bwob\"]",
+                    "summary[aria-label=\"Metadata for Bwob's comment\"]"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for Bwob's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[thingid=\"t1_ktaafp7\"]",
+                    "summary[aria-label=\"Metadata for gmegme's comment\"]"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for gmegme's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[thingid=\"t1_kta8n3s\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for HazirBot's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"Jonno_FTW\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for Jonno_FTW's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[thingid=\"t1_ktal7c0\"]",
+                    "summary[aria-label=\"Metadata for gmegme's comment\"]"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for gmegme's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"MaDpYrO\"]",
+                    "summary[aria-label=\"Metadata for MaDpYrO's comment\"]"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for MaDpYrO's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"tomgh14\"]",
+                    "summary[aria-label=\"Metadata for tomgh14's comment\"]"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for tomgh14's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"A31Nesta\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for A31Nesta's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[thingid=\"t1_ktau9et\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for ionhowto's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"Quajeraz\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for Quajeraz's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[thingid=\"t1_ktaaj4q\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for FairFolk's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[thingid=\"t1_ktadxtj\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for cs-brydev's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"Skratymir\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for Skratymir's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"Lagger625\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for Lagger625's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"Automatic_Fix6722\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for Automatic_Fix6722's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[thingid=\"t1_ktauyd8\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for AccomplishedCoffee's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[thingid=\"t1_ktaxsfs\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for FairFolk's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[thingid=\"t1_ktaysfr\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for AccomplishedCoffee's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[thingid=\"t1_ktb3jie\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for FairFolk's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[thingid=\"t1_ktb8ov1\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for AccomplishedCoffee's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"XoXFaby\"]",
+                    "summary[aria-label=\"Metadata for XoXFaby's comment\"]"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for XoXFaby's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"JamesBrandtS\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for JamesBrandtS's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"Previous_Vast2569\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for Previous_Vast2569's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"attention_pleas\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for attention_pleas's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"PixelBoom\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for PixelBoom's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[thingid=\"t1_ktaomr0\"]",
+                    "summary[aria-label=\"Metadata for gmegme's comment\"]"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for gmegme's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"Hesi-Timbo\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for Hesi-Timbo's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"Frosty-Ordinary-7007\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for Frosty-Ordinary-7007's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"Most_Double_3559\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for Most_Double_3559's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[thingid=\"t1_ktarbuw\"]",
+                    "summary[aria-label=\"Metadata for gmegme's comment\"]"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for gmegme's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"sheeponmeth_\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for sheeponmeth_'s comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"Mickenfox\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for Mickenfox's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"Successful-Peach-764\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for Successful-Peach-764's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"8Bit_Cat\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for 8Bit_Cat's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"EsotericLion369\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for EsotericLion369's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"an_agreeing_dothraki\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for an_agreeing_dothraki's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"mina86ng\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for mina86ng's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[thingid=\"t1_ktaw32q\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for AccomplishedCoffee's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[thingid=\"t1_ktarr4x\"]",
+                    "summary[aria-label=\"Metadata for MrEfil's comment\"]"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for MrEfil's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[thingid=\"t1_ktau8ow\"]",
+                    "summary[aria-label=\"Metadata for gmegme's comment\"]"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for gmegme's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"bigmacjames\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for bigmacjames's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"Rocket_League-Champ\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for Rocket_League-Champ's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[thingid=\"t1_ktat6wi\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for Mohitpal2621's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[thingid=\"t1_ktau5j3\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for Mohitpal2621's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"ChompyChoomba\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for ChompyChoomba's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"qsdf321\"]",
+                    "summary[aria-label=\"Metadata for qsdf321's comment\"]"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for qsdf321's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"uneffinlucky\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for uneffinlucky's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"who_you_are\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for who_you_are's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"Potatoes_Fall\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for Potatoes_Fall's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"window-sil\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for window-sil's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"jeremyhoward\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for jeremyhoward's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"Abahu\"]",
+                    "summary[aria-label=\"Metadata for Abahu's comment\"]"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for Abahu's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"ruuster13\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for ruuster13's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"ante_9224\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for ante_9224's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"ChiefStrongbones\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for ChiefStrongbones's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"venuswasaflytrap\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for venuswasaflytrap's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"Pony_Roleplayer\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for Pony_Roleplayer's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"Slobozaur\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for Slobozaur's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"clermouth\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for clermouth's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"repkins\"]",
+                    "summary[aria-label=\"Metadata for repkins's comment\"]"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for repkins's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"CodingHistory\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for CodingHistory's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[thingid=\"t1_ktau0la\"]",
+                    "summary"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for ionhowto's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment[author=\"mqee\"]",
+                    "summary[aria-label=\"Metadata for mqee's comment\"]"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<summary class=\"grid grid-cols-[24px_1fr] xs:grid-cols-[32px_1fr]\" aria-label=\"Metadata for mqee's comment\">\\n <!--?lit$8310546093$--><slot name=\"commentAvatar\"></slot>\\n <slot name=\"commentMeta\"></slot>\\n </summary>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:17.454Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/r/ProgrammerHumor/comments/1b681ov/regexstalking/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "regexStalking : r/ProgrammerHumor"
+        }
+    ]
+}

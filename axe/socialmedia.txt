@@ -1,0 +1,62 @@
+socialmedia\facebook_main_page.json
+Critical Issues:
+aria-allowed-attr: 3: Ensures an element's role supports its ARIA attributes;
+
+Serious Issues:
+aria-hidden-focus: 5: Ensures aria-hidden elements are not focusable nor contain focusable elements;
+aria-prohibited-attr: 2: Ensures ARIA attributes are not prohibited for an element's role;
+link-name: 1: Ensures links have discernible text;
+
+socialmedia\facebook_post_page.json
+Critical Issues:
+aria-allowed-attr: 1: Ensures an element's role supports its ARIA attributes;
+
+Serious Issues:
+aria-hidden-focus: 2: Ensures aria-hidden elements are not focusable nor contain focusable elements;
+
+socialmedia\facebook_user_page.json
+Critical Issues:
+aria-allowed-attr: 1: Ensures an element's role supports its ARIA attributes;
+
+Serious Issues:
+aria-hidden-focus: 2: Ensures aria-hidden elements are not focusable nor contain focusable elements;
+color-contrast: 1: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+list: 1: Ensures that lists are structured correctly;
+nested-interactive: 1: Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies;
+
+socialmedia\linkedin_main_page.json
+Serious Issues:
+frame-title: 1: Ensures <iframe> and <frame> elements have an accessible name;
+
+socialmedia\linkedin_post_page.json
+Serious Issues:
+frame-title: 1: Ensures <iframe> and <frame> elements have an accessible name;
+list: 1: Ensures that lists are structured correctly;
+
+socialmedia\linkedin_user_page.json
+Serious Issues:
+aria-hidden-focus: 1: Ensures aria-hidden elements are not focusable nor contain focusable elements;
+frame-title: 1: Ensures <iframe> and <frame> elements have an accessible name;
+
+socialmedia\reddit_main_page.json
+Serious Issues:
+nested-interactive: 2: Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies;
+
+socialmedia\reddit_post_page.json
+Critical Issues:
+button-name: 2: Ensures buttons have discernible text;
+
+Serious Issues:
+nested-interactive: 97: Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies;
+color-contrast: 3: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+link-in-text-block: 2: Ensure links are distinguished from surrounding text in a way that does not rely on color;
+link-name: 1: Ensures links have discernible text;
+
+socialmedia\reddit_user_page.json
+Serious Issues:
+color-contrast: 7: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+nested-interactive: 3: Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies;
+aria-prohibited-attr: 2: Ensures ARIA attributes are not prohibited for an element's role;
+link-in-text-block: 2: Ensure links are distinguished from surrounding text in a way that does not rely on color;
+link-name: 2: Ensures links have discernible text;
+

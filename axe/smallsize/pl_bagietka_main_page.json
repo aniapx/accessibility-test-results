@@ -1,0 +1,239 @@
+{
+    "url": "https://www.bagietka.pl/",
+    "extensionVersion": "4.76.0",
+    "axeVersion": "4.8.2",
+    "standard": "WCAG 2.1 AA",
+    "testingStartDate": "2024-03-04T19:19:10.431Z",
+    "testingEndDate": "2024-03-04T19:19:10.431Z",
+    "bestPracticesEnabled": false,
+    "experimentalEnabled": false,
+    "issueSummary": {
+        "critical": 0,
+        "serious": 6,
+        "moderate": 0,
+        "minor": 0,
+        "bestPractices": 0,
+        "needsReview": 0
+    },
+    "remainingTestingSummary": {
+        "run": false
+    },
+    "igtSummary": [],
+    "failedRules": [
+        {
+            "name": "aria-command-name",
+            "count": 6,
+            "mode": "automated"
+        }
+    ],
+    "needsReview": [],
+    "source": {
+        "productName": "extension-chrome",
+        "productVersion": "4.76.0",
+        "productComponentName": "axe-extension"
+    },
+    "testDetails": {
+        "testId": "",
+        "axeVersion": "4.8.2",
+        "engine": "axe-core",
+        "standard": "WCAG 2.1 AA",
+        "startDate": "2024-03-04T19:19:10.431Z",
+        "endDate": "2024-03-04T19:19:10.431Z",
+        "bestPracticesEnabled": false,
+        "experimentalEnabled": false
+    },
+    "allIssues": [
+        {
+            "issueId": null,
+            "ruleId": "aria-command-name",
+            "description": "Ensures every ARIA button, link and menuitem has an accessible name",
+            "help": "ARIA commands must have an accessible name",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-command-name?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#pgie667e014ba9442cbb6e53b421f26ff58_0"
+            ],
+            "summary": "Fix any of the following:\\n  Element does not have text that is visible to screen readers\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<div class=\"gallery-item-container item-container-regular has-custom-focus visible clickable hover-animation-fade-in zoom-in-on-hover\" id=\"pgie667e014ba9442cbb6e53b421f26ff58_0\" tabindex=\"0\" aria-label=\"\" data-hash=\"e667e014-ba94-42cb-b6e5-3b421f26ff58\" data-id=\"e667e014-ba94-42cb-b6e5-3b421f26ff58\" data-idx=\"0\" role=\"link\" data-hook=\"item-container\" style=\"overflow-y:hidden;position:absolute;bottom:auto;margin:0;top:0;left:0;right:auto;width:321px;height:321px;overflow:hidden;transition:opacity .2s ease;opacity:1;display:block\">",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:19:10.431Z",
+            "isExperimental": false,
+            "testUrl": "https://www.bagietka.pl/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Home | Bagietka - Piekarnia, Cukiernia"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-command-name",
+            "description": "Ensures every ARIA button, link and menuitem has an accessible name",
+            "help": "ARIA commands must have an accessible name",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-command-name?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#pgibd793aa2402a48418dceb77bfac393e8_1"
+            ],
+            "summary": "Fix any of the following:\\n  Element does not have text that is visible to screen readers\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<div class=\"gallery-item-container item-container-regular has-custom-focus visible clickable hover-animation-fade-in zoom-in-on-hover\" id=\"pgibd793aa2402a48418dceb77bfac393e8_1\" tabindex=\"-1\" aria-label=\"\" data-hash=\"bd793aa2-402a-4841-8dce-b77bfac393e8\" data-id=\"bd793aa2-402a-4841-8dce-b77bfac393e8\" data-idx=\"1\" role=\"link\" data-hook=\"item-container\" style=\"overflow-y:hidden;position:absolute;bottom:auto;margin:0;top:0;left:331px;right:auto;width:321px;height:321px;overflow:hidden;transition:opacity .2s ease;opacity:1;display:block\">",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:19:10.431Z",
+            "isExperimental": false,
+            "testUrl": "https://www.bagietka.pl/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Home | Bagietka - Piekarnia, Cukiernia"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-command-name",
+            "description": "Ensures every ARIA button, link and menuitem has an accessible name",
+            "help": "ARIA commands must have an accessible name",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-command-name?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#pgi986b4b221c154b68a3389454429c25f9_2"
+            ],
+            "summary": "Fix any of the following:\\n  Element does not have text that is visible to screen readers\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<div class=\"gallery-item-container item-container-regular has-custom-focus visible clickable hover-animation-fade-in zoom-in-on-hover\" id=\"pgi986b4b221c154b68a3389454429c25f9_2\" tabindex=\"-1\" aria-label=\"\" data-hash=\"986b4b22-1c15-4b68-a338-9454429c25f9\" data-id=\"986b4b22-1c15-4b68-a338-9454429c25f9\" data-idx=\"2\" role=\"link\" data-hook=\"item-container\" style=\"overflow-y:hidden;position:absolute;bottom:auto;margin:0;top:0;left:662px;right:auto;width:321px;height:321px;overflow:hidden;transition:opacity .2s ease;opacity:1;display:block\">",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:19:10.431Z",
+            "isExperimental": false,
+            "testUrl": "https://www.bagietka.pl/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Home | Bagietka - Piekarnia, Cukiernia"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-command-name",
+            "description": "Ensures every ARIA button, link and menuitem has an accessible name",
+            "help": "ARIA commands must have an accessible name",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-command-name?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#pgic3fd68f71fea446a900fea3cdbf4ca3c_3"
+            ],
+            "summary": "Fix any of the following:\\n  Element does not have text that is visible to screen readers\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<div class=\"gallery-item-container item-container-regular has-custom-focus visible clickable hover-animation-fade-in zoom-in-on-hover\" id=\"pgic3fd68f71fea446a900fea3cdbf4ca3c_3\" tabindex=\"-1\" aria-label=\"\" data-hash=\"c3fd68f7-1fea-446a-900f-ea3cdbf4ca3c\" data-id=\"c3fd68f7-1fea-446a-900f-ea3cdbf4ca3c\" data-idx=\"3\" role=\"link\" data-hook=\"item-container\" style=\"overflow: hidden; position: absolute; inset: 331px auto auto 0px; margin: 0px; width: 321px; height: 321px; transition: opacity 0.2s ease 0s; opacity: 1; display: block;\">",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:19:10.431Z",
+            "isExperimental": false,
+            "testUrl": "https://www.bagietka.pl/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Home | Bagietka - Piekarnia, Cukiernia"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-command-name",
+            "description": "Ensures every ARIA button, link and menuitem has an accessible name",
+            "help": "ARIA commands must have an accessible name",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-command-name?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#pgidefb1f4ec4b34df5b43f16246b9a0b6b_4"
+            ],
+            "summary": "Fix any of the following:\\n  Element does not have text that is visible to screen readers\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<div class=\"gallery-item-container item-container-regular has-custom-focus visible clickable hover-animation-fade-in zoom-in-on-hover\" id=\"pgidefb1f4ec4b34df5b43f16246b9a0b6b_4\" tabindex=\"-1\" aria-label=\"\" data-hash=\"defb1f4e-c4b3-4df5-b43f-16246b9a0b6b\" data-id=\"defb1f4e-c4b3-4df5-b43f-16246b9a0b6b\" data-idx=\"4\" role=\"link\" data-hook=\"item-container\" style=\"overflow: hidden; position: absolute; inset: 331px auto auto 331px; margin: 0px; width: 321px; height: 321px; transition: opacity 0.2s ease 0s; opacity: 1; display: block;\">",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:19:10.431Z",
+            "isExperimental": false,
+            "testUrl": "https://www.bagietka.pl/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Home | Bagietka - Piekarnia, Cukiernia"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-command-name",
+            "description": "Ensures every ARIA button, link and menuitem has an accessible name",
+            "help": "ARIA commands must have an accessible name",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-command-name?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#pgif4b0ce86a3c04f82b08971863859b320_5"
+            ],
+            "summary": "Fix any of the following:\\n  Element does not have text that is visible to screen readers\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<div class=\"gallery-item-container item-container-regular has-custom-focus visible clickable hover-animation-fade-in zoom-in-on-hover\" id=\"pgif4b0ce86a3c04f82b08971863859b320_5\" tabindex=\"-1\" aria-label=\"\" data-hash=\"f4b0ce86-a3c0-4f82-b089-71863859b320\" data-id=\"f4b0ce86-a3c0-4f82-b089-71863859b320\" data-idx=\"5\" role=\"link\" data-hook=\"item-container\" style=\"overflow: hidden; position: absolute; inset: 331px auto auto 662px; margin: 0px; width: 321px; height: 321px; transition: opacity 0.2s ease 0s; opacity: 1; display: block;\">",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:19:10.431Z",
+            "isExperimental": false,
+            "testUrl": "https://www.bagietka.pl/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Home | Bagietka - Piekarnia, Cukiernia"
+        }
+    ]
+}

@@ -1,0 +1,117 @@
+{
+    "url": "https://www.reddit.com/",
+    "extensionVersion": "4.76.0",
+    "axeVersion": "4.8.2",
+    "standard": "WCAG 2.1 AA",
+    "testingStartDate": "2024-03-04T18:41:26.643Z",
+    "testingEndDate": "2024-03-04T18:41:26.643Z",
+    "bestPracticesEnabled": false,
+    "experimentalEnabled": false,
+    "issueSummary": {
+        "critical": 0,
+        "serious": 2,
+        "moderate": 0,
+        "minor": 0,
+        "bestPractices": 0,
+        "needsReview": 0
+    },
+    "remainingTestingSummary": {
+        "run": false
+    },
+    "igtSummary": [],
+    "failedRules": [
+        {
+            "name": "nested-interactive",
+            "count": 2,
+            "mode": "automated"
+        }
+    ],
+    "needsReview": [],
+    "source": {
+        "productName": "extension-chrome",
+        "productVersion": "4.76.0",
+        "productComponentName": "axe-extension"
+    },
+    "testDetails": {
+        "testId": "",
+        "axeVersion": "4.8.2",
+        "engine": "axe-core",
+        "standard": "WCAG 2.1 AA",
+        "startDate": "2024-03-04T18:41:26.643Z",
+        "endDate": "2024-03-04T18:41:26.643Z",
+        "bestPracticesEnabled": false,
+        "experimentalEnabled": false
+    },
+    "allIssues": [
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "#t3_1b68q40",
+                    "give-gold-hovercard[thing-id=\"t3_1b68q40\"]",
+                    "div[role=\"button\"][aria-haspopup=\"dialog\"]"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<div role=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\"><!--?lit$932352949$--><slot></slot></div>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:41:26.643Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Reddit - Dive into anything"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "#t3_1b5zt3u",
+                    "give-gold-hovercard[thing-id=\"t3_1b5zt3u\"]",
+                    "div[role=\"button\"][aria-haspopup=\"dialog\"]"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<div role=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\"><!--?lit$932352949$--><slot></slot></div>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:41:26.643Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Reddit - Dive into anything"
+        }
+    ]
+}

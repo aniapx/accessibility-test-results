@@ -1,0 +1,580 @@
+{
+    "url": "https://www.redcross.org/volunteer/become-a-volunteer.html",
+    "extensionVersion": "4.76.0",
+    "axeVersion": "4.8.2",
+    "standard": "WCAG 2.1 AA",
+    "testingStartDate": "2024-03-04T18:59:15.757Z",
+    "testingEndDate": "2024-03-04T18:59:15.757Z",
+    "bestPracticesEnabled": false,
+    "experimentalEnabled": false,
+    "issueSummary": {
+        "critical": 3,
+        "serious": 13,
+        "moderate": 0,
+        "minor": 0,
+        "bestPractices": 0,
+        "needsReview": 0
+    },
+    "remainingTestingSummary": {
+        "run": false
+    },
+    "igtSummary": [],
+    "failedRules": [
+        {
+            "name": "aria-input-field-name",
+            "count": 1,
+            "mode": "automated"
+        },
+        {
+            "name": "aria-prohibited-attr",
+            "count": 1,
+            "mode": "automated"
+        },
+        {
+            "name": "color-contrast",
+            "count": 11,
+            "mode": "automated"
+        },
+        {
+            "name": "image-alt",
+            "count": 3,
+            "mode": "automated"
+        }
+    ],
+    "needsReview": [],
+    "source": {
+        "productName": "extension-chrome",
+        "productVersion": "4.76.0",
+        "productComponentName": "axe-extension"
+    },
+    "testDetails": {
+        "testId": "",
+        "axeVersion": "4.8.2",
+        "engine": "axe-core",
+        "standard": "WCAG 2.1 AA",
+        "startDate": "2024-03-04T18:59:15.757Z",
+        "endDate": "2024-03-04T18:59:15.757Z",
+        "bestPracticesEnabled": false,
+        "experimentalEnabled": false
+    },
+    "allIssues": [
+        {
+            "issueId": null,
+            "ruleId": "aria-input-field-name",
+            "description": "Ensures every ARIA input field has an accessible name",
+            "help": "ARIA input fields must have an accessible name",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-input-field-name?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".slick-track"
+            ],
+            "summary": "Fix any of the following:\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<div class=\"slick-track\" style=\"opacity: 1; width: 852px; transform: translate3d(0px, 0px, 0px);\" role=\"listbox\">",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT5.c",
+                "EN-301-549",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:59:15.757Z",
+            "isExperimental": false,
+            "testUrl": "https://www.redcross.org/volunteer/become-a-volunteer.html",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "How To Volunteer | American Red Cross"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-prohibited-attr",
+            "description": "Ensures ARIA attributes are not prohibited for an element's role",
+            "help": "Elements must only use permitted ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-prohibited-attr?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".search-icon"
+            ],
+            "summary": "Fix all of the following:\\n  aria-label attribute cannot be used on a span with no valid role attribute.",
+            "source": "<span class=\"search-icon\" aria-label=\"Enter or exit the Red Cross site search\"></span>",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:59:15.757Z",
+            "isExperimental": false,
+            "testUrl": "https://www.redcross.org/volunteer/become-a-volunteer.html",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "How To Volunteer | American Red Cross"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "a[data-aa-header-utility-store=\"Utility Nav Store Link\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 3.91 (foreground color: #e11b22, background color: #e8e8e8, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
+            "source": "<a data-aa-header-utility-store=\"Utility Nav Store Link\" style=\"color:rgba(225,27,34,1);\" class=\"bold\" href=\"https://www.redcrossstore.org/?utm_source=RCO&amp;utm_medium=utilnav&amp;utm_campaign=shopbutton&amp;utm_content=resputil\">",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:59:15.757Z",
+            "isExperimental": false,
+            "testUrl": "https://www.redcross.org/volunteer/become-a-volunteer.html",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "How To Volunteer | American Red Cross"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".primary-a[href$=\"donation.html\"][data-aa-header-drawer=\"Header Drawer Not Set\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 4.47 (foreground color: #6d6e70, background color: #f0f0f0, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<a data-aa-header-drawer=\"Header Drawer Not Set\" href=\"/donate/donation.html\" class=\"primary-a\" style=\"color:rgba(109,110,112,1);\">Donate </a>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:59:15.757Z",
+            "isExperimental": false,
+            "testUrl": "https://www.redcross.org/volunteer/become-a-volunteer.html",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "How To Volunteer | American Red Cross"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".primary-a[href$=\"give-blood.html\"][data-aa-header-drawer=\"Header Drawer Not Set\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 4.47 (foreground color: #6d6e70, background color: #f0f0f0, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<a data-aa-header-drawer=\"Header Drawer Not Set\" href=\"/give-blood.html\" class=\"primary-a\" style=\"color:rgba(109,110,112,1);\">Give Blood</a>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:59:15.757Z",
+            "isExperimental": false,
+            "testUrl": "https://www.redcross.org/volunteer/become-a-volunteer.html",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "How To Volunteer | American Red Cross"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".mainnavsection.parbase:nth-child(3) > .main-nav-section.wide[data-context=\"main-nav-section\"] > .main-nav-link[data-context=\"main-nav-link\"] > .primary-a[data-aa-header-drawer=\"Header Drawer Not Set\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 4.47 (foreground color: #6d6e70, background color: #f0f0f0, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<a data-aa-header-drawer=\"Header Drawer Not Set\" href=\"https://www.redcross.org/take-a-class?utm_source=RCO&amp;utm_medium=RCO_Navigation_Training_Certification\" class=\"primary-a\" style=\"color:rgba(109,110,112,1);\">Training &amp; Certification </a>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:59:15.757Z",
+            "isExperimental": false,
+            "testUrl": "https://www.redcross.org/volunteer/become-a-volunteer.html",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "How To Volunteer | American Red Cross"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".mainnavsection.parbase:nth-child(4) > .main-nav-section.wide[data-context=\"main-nav-section\"] > .main-nav-link[data-context=\"main-nav-link\"] > .primary-a[data-aa-header-drawer=\"Header Drawer Not Set\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 4.47 (foreground color: #6d6e70, background color: #f0f0f0, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<a data-aa-header-drawer=\"Header Drawer Not Set\" href=\"/volunteer/become-a-volunteer.html\" class=\"primary-a\" style=\"color:rgba(109,110,112,1);\">Volunteer</a>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:59:15.757Z",
+            "isExperimental": false,
+            "testUrl": "https://www.redcross.org/volunteer/become-a-volunteer.html",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "How To Volunteer | American Red Cross"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "a[href$=\"about-us.html\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 4.47 (foreground color: #6d6e70, background color: #f0f0f0, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<a data-aa-header-drawer=\"Header Drawer Not Set\" href=\"/about-us.html\" class=\"primary-a\" style=\"color:rgba(109,110,112,1);\">About Us</a>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:59:15.757Z",
+            "isExperimental": false,
+            "testUrl": "https://www.redcross.org/volunteer/become-a-volunteer.html",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "How To Volunteer | American Red Cross"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "a[href$=\"get-help.html\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 4.24 (foreground color: #e01a22, background color: #f0f0f0, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<a data-aa-header-drawer=\"Header Drawer Not Set\" href=\"/get-help.html\" class=\"primary-a\" style=\"color:rgba(224,26,34,1);\">Get Help</a>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:59:15.757Z",
+            "isExperimental": false,
+            "testUrl": "https://www.redcross.org/volunteer/become-a-volunteer.html",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "How To Volunteer | American Red Cross"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".red-text > b"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 4.2 (foreground color: #e11b22, background color: #f0f0f0, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1",
+            "source": "<b>65,000</b>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:59:15.757Z",
+            "isExperimental": false,
+            "testUrl": "https://www.redcross.org/volunteer/become-a-volunteer.html",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "How To Volunteer | American Red Cross"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "div[data-slick-index=\"1\"] > .icon-card-main.padding-container > .container-flex > .card-description.text > p > b > .red-text"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 4.2 (foreground color: #e11b22, background color: #f0f0f0, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1",
+            "source": "<span class=\"red-text\">25,000</span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:59:15.757Z",
+            "isExperimental": false,
+            "testUrl": "https://www.redcross.org/volunteer/become-a-volunteer.html",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "How To Volunteer | American Red Cross"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "div[data-slick-index=\"2\"] > .icon-card-main.padding-container > .container-flex > .card-description.text > p > b > .red-text"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 4.2 (foreground color: #e11b22, background color: #f0f0f0, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1",
+            "source": "<span class=\"red-text\">15,000</span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:59:15.757Z",
+            "isExperimental": false,
+            "testUrl": "https://www.redcross.org/volunteer/become-a-volunteer.html",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "How To Volunteer | American Red Cross"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "div[data-slick-index=\"3\"] > .icon-card-main.padding-container > .container-flex > .card-description.text > p > b > .red-text"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 4.2 (foreground color: #e11b22, background color: #f0f0f0, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1",
+            "source": "<span class=\"red-text\">25%</span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:59:15.757Z",
+            "isExperimental": false,
+            "testUrl": "https://www.redcross.org/volunteer/become-a-volunteer.html",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "How To Volunteer | American Red Cross"
+        },
+        {
+            "issueId": null,
+            "ruleId": "image-alt",
+            "description": "Ensures <img> elements have alternate text or a role of none or presentation",
+            "help": "Images must have alternate text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/image-alt?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "div[data-slick-index=\"1\"] > .icon-card-main.padding-container > .container-flex > .icon.container-flex > .icon-image"
+            ],
+            "summary": "Fix any of the following:\\n  Element does not have an alt attribute\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute\\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+            "source": "<img loading=\"lazy\" class=\"icon-image\" src=\"/content/dam/redcross/icons/biomed/Blood-Drop-1000x1000-R-Pl.png.transform/282/q70/feature/image.png\">",
+            "tags": [
+                "cat.text-alternatives",
+                "wcag2a",
+                "wcag111",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT7.a",
+                "TT7.b",
+                "EN-301-549",
+                "EN-9.1.1.1",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:59:15.757Z",
+            "isExperimental": false,
+            "testUrl": "https://www.redcross.org/volunteer/become-a-volunteer.html",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "How To Volunteer | American Red Cross"
+        },
+        {
+            "issueId": null,
+            "ruleId": "image-alt",
+            "description": "Ensures <img> elements have alternate text or a role of none or presentation",
+            "help": "Images must have alternate text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/image-alt?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "div[data-slick-index=\"2\"] > .icon-card-main.padding-container > .container-flex > .icon.container-flex > .icon-image"
+            ],
+            "summary": "Fix any of the following:\\n  Element does not have an alt attribute\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute\\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+            "source": "<img loading=\"lazy\" class=\"icon-image\" src=\"/content/dam/redcross/icons/digital-icons/medical-stethoscope/Medical-Stethoscope-1000x1000-G-Pl.png.transform/282/q70/feature/image.png\">",
+            "tags": [
+                "cat.text-alternatives",
+                "wcag2a",
+                "wcag111",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT7.a",
+                "TT7.b",
+                "EN-301-549",
+                "EN-9.1.1.1",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:59:15.757Z",
+            "isExperimental": false,
+            "testUrl": "https://www.redcross.org/volunteer/become-a-volunteer.html",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "How To Volunteer | American Red Cross"
+        },
+        {
+            "issueId": null,
+            "ruleId": "image-alt",
+            "description": "Ensures <img> elements have alternate text or a role of none or presentation",
+            "help": "Images must have alternate text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/image-alt?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "div[data-slick-index=\"3\"] > .icon-card-main.padding-container > .container-flex > .icon.container-flex > .icon-image"
+            ],
+            "summary": "Fix any of the following:\\n  Element does not have an alt attribute\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute\\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+            "source": "<img loading=\"lazy\" class=\"icon-image\" src=\"/content/dam/redcross/icons/disaster-services/volunteers/Volunteers-1000x1000-G-Pl.png.transform/282/q70/feature/image.png\">",
+            "tags": [
+                "cat.text-alternatives",
+                "wcag2a",
+                "wcag111",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT7.a",
+                "TT7.b",
+                "EN-301-549",
+                "EN-9.1.1.1",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:59:15.757Z",
+            "isExperimental": false,
+            "testUrl": "https://www.redcross.org/volunteer/become-a-volunteer.html",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "How To Volunteer | American Red Cross"
+        }
+    ]
+}

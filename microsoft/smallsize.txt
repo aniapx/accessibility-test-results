@@ -1,0 +1,13 @@
+.\smallsize\eu_osnabrueckhalle.html
+color-contrast: 21: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+link-name: 21: Ensures links have discernible text;
+
+.\smallsize\pl_bagietka.html
+aria-command-name: 3: Ensures every ARIA button, link and menuitem has an accessible name;
+
+.\smallsize\usa_nomadplayhouse.html
+frame-title: 11: Ensures <iframe> and <frame> elements have an accessible name;
+html-has-lang: 11: Ensures every HTML document has a lang attribute;
+image-alt: 11: Ensures <img> elements have alternate text or a role of none or presentation;
+link-name: 11: Ensures links have discernible text;
+

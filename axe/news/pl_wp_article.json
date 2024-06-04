@@ -1,0 +1,464 @@
+{
+    "url": "https://wiadomosci.wp.pl/sa-wyniki-badan-zatrutej-galarety-wstrzasajace-7003048216320736a",
+    "extensionVersion": "4.76.0",
+    "axeVersion": "4.8.2",
+    "standard": "WCAG 2.1 AA",
+    "testingStartDate": "2024-03-06T16:02:46.424Z",
+    "testingEndDate": "2024-03-06T16:02:46.424Z",
+    "bestPracticesEnabled": false,
+    "experimentalEnabled": false,
+    "issueSummary": {
+        "critical": 1,
+        "serious": 11,
+        "moderate": 0,
+        "minor": 0,
+        "bestPractices": 0,
+        "needsReview": 0
+    },
+    "remainingTestingSummary": {
+        "run": false
+    },
+    "igtSummary": [],
+    "failedRules": [
+        {
+            "name": "color-contrast",
+            "count": 6,
+            "mode": "automated"
+        },
+        {
+            "name": "image-alt",
+            "count": 1,
+            "mode": "automated"
+        },
+        {
+            "name": "link-name",
+            "count": 5,
+            "mode": "automated"
+        }
+    ],
+    "needsReview": [],
+    "source": {
+        "productName": "extension-chrome",
+        "productVersion": "4.76.0",
+        "productComponentName": "axe-extension"
+    },
+    "testDetails": {
+        "testId": "",
+        "axeVersion": "4.8.2",
+        "engine": "axe-core",
+        "standard": "WCAG 2.1 AA",
+        "startDate": "2024-03-06T16:02:46.424Z",
+        "endDate": "2024-03-06T16:02:46.424Z",
+        "bestPracticesEnabled": false,
+        "experimentalEnabled": false
+    },
+    "allIssues": [
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".i367eKXi"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 4.22 (foreground color: #757575, background color: #eef6ff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<div class=\"i367eKXi\" data-reactid=\"428\">Twoja opinia pozwala nam tworzyć lepsze tresci.</div>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-06T16:02:46.424Z",
+            "isExperimental": false,
+            "testUrl": "https://wiadomosci.wp.pl/sa-wyniki-badan-zatrutej-galarety-wstrzasajace-7003048216320736a",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Sa wyniki badań zatrutej galarety. Wstrzasajace - WP Wiadomosci"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".i1K4IV2V"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 1.6 (foreground color: #ffffff, background color: #cccccc, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span class=\"i1K4IV2V\" data-reactid=\"463\">Lubie to!</span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-06T16:02:46.424Z",
+            "isExperimental": false,
+            "testUrl": "https://wiadomosci.wp.pl/sa-wyniki-badan-zatrutej-galarety-wstrzasajace-7003048216320736a",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Sa wyniki badań zatrutej galarety. Wstrzasajace - WP Wiadomosci"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".i1Jkmv-o"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 2.32 (foreground color: #aaaaaa, background color: #ffffff, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<div class=\"i1Jkmv-o\">Dzieci widza i slysza. #StopMowieNienawisci.</div>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-06T16:02:46.424Z",
+            "isExperimental": false,
+            "testUrl": "https://wiadomosci.wp.pl/sa-wyniki-badan-zatrutej-galarety-wstrzasajace-7003048216320736a",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Sa wyniki badań zatrutej galarety. Wstrzasajace - WP Wiadomosci"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".i1ky6qQ9.i2r_hzOF.i32ZDYeD:nth-child(2) > .i7sH_iJl > .i19xvPBx > span"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 1.87 (foreground color: #b7b7b7, background color: #f7f7f7, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span>2 godziny temu</span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-06T16:02:46.424Z",
+            "isExperimental": false,
+            "testUrl": "https://wiadomosci.wp.pl/sa-wyniki-badan-zatrutej-galarety-wstrzasajace-7003048216320736a",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Sa wyniki badań zatrutej galarety. Wstrzasajace - WP Wiadomosci"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".i1ky6qQ9.i2r_hzOF.i32ZDYeD:nth-child(3) > .i7sH_iJl > .i19xvPBx > span"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 1.87 (foreground color: #b7b7b7, background color: #f7f7f7, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span>2 godziny temu</span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-06T16:02:46.424Z",
+            "isExperimental": false,
+            "testUrl": "https://wiadomosci.wp.pl/sa-wyniki-badan-zatrutej-galarety-wstrzasajace-7003048216320736a",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Sa wyniki badań zatrutej galarety. Wstrzasajace - WP Wiadomosci"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".i1ky6qQ9.i2r_hzOF.i32ZDYeD:nth-child(4) > .i7sH_iJl > .i19xvPBx > span"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 1.87 (foreground color: #b7b7b7, background color: #f7f7f7, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span>2 godziny temu</span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-06T16:02:46.424Z",
+            "isExperimental": false,
+            "testUrl": "https://wiadomosci.wp.pl/sa-wyniki-badan-zatrutej-galarety-wstrzasajace-7003048216320736a",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Sa wyniki badań zatrutej galarety. Wstrzasajace - WP Wiadomosci"
+        },
+        {
+            "issueId": null,
+            "ruleId": "image-alt",
+            "description": "Ensures <img> elements have alternate text or a role of none or presentation",
+            "help": "Images must have alternate text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/image-alt?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".mlbz8j5"
+            ],
+            "summary": "Fix any of the following:\\n  Element does not have an alt attribute\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute\\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+            "source": "<img class=\"mlbz8j5\" src=\"https://v.wpimg.pl/MHgzMDAuYikGGDt3bg5vPEVAbycxHRIlBhcuZm1XOGpdWGJ1c0Z6eV5VfHNxTHt7UUJ6d3FGeWcXGz8hLwEkJgBXIys2DGB_Uko1d3FFYzgJHW85\">",
+            "tags": [
+                "cat.text-alternatives",
+                "wcag2a",
+                "wcag111",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT7.a",
+                "TT7.b",
+                "EN-301-549",
+                "EN-9.1.1.1",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-06T16:02:46.424Z",
+            "isExperimental": false,
+            "testUrl": "https://wiadomosci.wp.pl/sa-wyniki-badan-zatrutej-galarety-wstrzasajace-7003048216320736a",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Sa wyniki badań zatrutej galarety. Wstrzasajace - WP Wiadomosci"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-name",
+            "description": "Ensures links have discernible text",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "a[data-st-area=\"Header-back\"]"
+            ],
+            "summary": "Fix all of the following:\\n  Element is in tab order and does not have accessible text\\n\\nFix any of the following:\\n  Element does not have text that is visible to screen readers\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<a href=\"https://www.wp.pl\" data-href=\"https://www.wp.pl?src01=20804\" style=\"color:#e1261c;\" class=\"i3dQ2klJ\" data-st-area=\"Header-back\" data-reactid=\"16\">",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag244",
+                "wcag412",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.2.4.4",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-06T16:02:46.424Z",
+            "isExperimental": false,
+            "testUrl": "https://wiadomosci.wp.pl/sa-wyniki-badan-zatrutej-galarety-wstrzasajace-7003048216320736a",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Sa wyniki badań zatrutej galarety. Wstrzasajace - WP Wiadomosci"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-name",
+            "description": "Ensures links have discernible text",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "a[data-reactid=\"18\"]"
+            ],
+            "summary": "Fix all of the following:\\n  Element is in tab order and does not have accessible text\\n\\nFix any of the following:\\n  Element does not have text that is visible to screen readers\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<a href=\"https://www.wp.pl\" data-href=\"https://www.wp.pl?src01=20804\" class=\"i3dQ2klJ\" data-st-area=\"Header-logo\" data-reactid=\"18\">",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag244",
+                "wcag412",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.2.4.4",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-06T16:02:46.424Z",
+            "isExperimental": false,
+            "testUrl": "https://wiadomosci.wp.pl/sa-wyniki-badan-zatrutej-galarety-wstrzasajace-7003048216320736a",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Sa wyniki badań zatrutej galarety. Wstrzasajace - WP Wiadomosci"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-name",
+            "description": "Ensures links have discernible text",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".f67b0fa"
+            ],
+            "summary": "Fix all of the following:\\n  Element is in tab order and does not have accessible text\\n\\nFix any of the following:\\n  Element does not have text that is visible to screen readers\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<a href=\"https://wiadomosci.wp.pl/dnZtd24wSw87FhIBGwxGGnhORlNVFQkPeFhGRxZNRkEoEQBbRhoFUQk6WUVdFgABNxsXUV1RFBgzEFkBUkdXDDgVXFQDR1IKaUMBAQYTV0gqFRYPUBISBzkRQQFwJyE8CTsqc3goJyEXJDFmcSVBXGwBF1dGPiBLaTA7bWE5LyAVIyptYDIoIgUhN21rUlZYNQYDbV0TQV0eRlEXBkEHHD8VEFtbGS0qf0cgCwBFVVdrUVYEWwUACyhRV3YGRlFdakdBAAIECktpMBNbVRMLAzUHB1sRRVIGGB0AYkYeBwt_RyB0fTsrPA8sQQACHyYbPhMBRmYWEAt_RyB0fTsrPA8sQQACAhAHNh0QSxFEIA8LHwd1bBNSLw9GKmZOI1cYDEwsXE4OET5vPTt7AAIFOGhCAG1iBVMiEE1WRXAVCgIiRyVbBkcUCwsuAltlFTxLaEIXXlsDLSp_RyACBERBXGwXCFtRGRAxMxBBAXBEXFZvRUEAAhABAX9HIAQFQUFdGEVSFwc1UF1tRlcXBkEUDygACldGPiBLaTBBAAIVDQoIERV7cFJXKmoRBQtVFFANdxIGCwNaUA88EEkKBBMCQzhEVVMERgdXPExSBBFFUho7BgNXQDMLAzsdChcHM0FcbB0FUHcWEAs9GxZbUQRBXR5RVgRAAwhLaTBVBQROXFxtR1YGEUVSBykwAUQRRCAIOxgXVxFFUgM_EA1HWVJXKj4dF0JYFh1LaEINQhFEICYJPxcEDBZTHx4YHANwQxdZAEMHQEIoCRY9Q1d5Yi8XWRxGKlB9PiwJNzFBAAITCwM7HQoXBzMTBzsQC19bBAcHdAMUHEQbQVxsHRdtVRMGAjUXDxcHM1RLaEIGW1ATARwTMEEBcEZVS2hCF15bAzcHIBEzSnxSVyptQVRKB0dUS2hCB0dGUlcqCjgqFwZBAQMzBxdbWxlBXR5GXAsCRVBef0ZSQVEWECg_EUEBcBU7Dy48FnlGFjAJKgMqBAMeVhY0MQsBBSYOVww_NHFuPTQlYhJJdUwxVj9_RlJQXRsIBzQTQQFwFBQYf0ZSQVsCFg0_UVd2YDBBXGwEFltXHgoJFxsAV1hSVyobDA5CAwAyHjI-PHxVMDFfHB8RUHwzLQMRDD4BVwABCAUGBnRSJwMUPC5UFwZBDR0FBgtQWwNBXR5EQQACBBcef0cgRURZFAJ_RlJAURwNCn9HIAAHQ1NdalFWBEMYFgU8PSAXBzNVXGlDVQsRRVIMMxAwW1kSFxo7GRQXBzNVWWpNUwYETlZaf0ZSQVEWECceUVd2B0BVCDtAV1AERwZWYhVUUQNHVgw_RVUCDRZQXmJCUAYRRVIeLB0AFwczVwhqRwZQVU8CWWpCAAEDEldcPkdBAAIUCwAsERZBXRgKODsYEVcRRCBef0ZSRlEEEEtpMFQXBkEQHhMwQQFwTlJcYkxcFEEFCFMyABBCR1JXL39GIhcGMRQPKBEKRl0ZA0AqGEEAclUZ\" class=\"f67b0fa\">",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag244",
+                "wcag412",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.2.4.4",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-06T16:02:46.424Z",
+            "isExperimental": false,
+            "testUrl": "https://wiadomosci.wp.pl/sa-wyniki-badan-zatrutej-galarety-wstrzasajace-7003048216320736a",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Sa wyniki badań zatrutej galarety. Wstrzasajace - WP Wiadomosci"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-name",
+            "description": "Ensures links have discernible text",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".ip0ohM7D"
+            ],
+            "summary": "Fix all of the following:\\n  Element is in tab order and does not have accessible text\\n\\nFix any of the following:\\n  Element does not have text that is visible to screen readers\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<a href=\"https://www.wp.pl\" data-href=\"https://www.wp.pl?src01=20804\" class=\"ip0ohM7D\" data-reactid=\"502\">",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag244",
+                "wcag412",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.2.4.4",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-06T16:02:46.424Z",
+            "isExperimental": false,
+            "testUrl": "https://wiadomosci.wp.pl/sa-wyniki-badan-zatrutej-galarety-wstrzasajace-7003048216320736a",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Sa wyniki badań zatrutej galarety. Wstrzasajace - WP Wiadomosci"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-name",
+            "description": "Ensures links have discernible text",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".i19Bo85f"
+            ],
+            "summary": "Fix all of the following:\\n  Element is in tab order and does not have accessible text\\n\\nFix any of the following:\\n  Element does not have text that is visible to screen readers\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has an empty title attribute",
+            "source": "<a href=\"/\" class=\"i19Bo85f\" title=\"\" data-reactid=\"504\">",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag244",
+                "wcag412",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.2.4.4",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-06T16:02:46.424Z",
+            "isExperimental": false,
+            "testUrl": "https://wiadomosci.wp.pl/sa-wyniki-badan-zatrutej-galarety-wstrzasajace-7003048216320736a",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Sa wyniki badań zatrutej galarety. Wstrzasajace - WP Wiadomosci"
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+nonprofit\legambiente_donate.json
+Critical Issues:
+image-alt: 1: Ensures <img> elements have alternate text or a role of none or presentation;
+meta-viewport: 1: Ensures <meta name="viewport"> does not disable text scaling and zooming;
+
+Serious Issues:
+color-contrast: 10: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+frame-title: 1: Ensures <iframe> and <frame> elements have an accessible name;
+html-has-lang: 1: Ensures every HTML document has a lang attribute;
+
+nonprofit\legambiente_main_page.json
+Critical Issues:
+image-alt: 6: Ensures <img> elements have alternate text or a role of none or presentation;
+button-name: 1: Ensures buttons have discernible text;
+
+Serious Issues:
+color-contrast: 20: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+link-name: 7: Ensures links have discernible text;
+aria-hidden-focus: 2: Ensures aria-hidden elements are not focusable nor contain focusable elements;
+
+nonprofit\legambiente_volunteer.json
+Critical Issues:
+image-alt: 8: Ensures <img> elements have alternate text or a role of none or presentation;
+
+Serious Issues:
+color-contrast: 27: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+link-name: 6: Ensures links have discernible text;
+svg-img-alt: 1: Ensures <svg> elements with an img, graphics-document or graphics-symbol role have an accessible text;
+
+nonprofit\redcross_donate.json
+Serious Issues:
+link-in-text-block: 3: Ensure links are distinguished from surrounding text in a way that does not rely on color;
+color-contrast: 2: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+
+nonprofit\redcross_main_page.json
+Critical Issues:
+image-alt: 15: Ensures <img> elements have alternate text or a role of none or presentation;
+select-name: 1: Ensures select element has an accessible name;
+
+Serious Issues:
+nested-interactive: 8: Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies;
+color-contrast: 7: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+link-name: 3: Ensures links have discernible text;
+aria-input-field-name: 2: Ensures every ARIA input field has an accessible name;
+aria-prohibited-attr: 1: Ensures ARIA attributes are not prohibited for an element's role;
+
+nonprofit\redcross_volunteer.json
+Critical Issues:
+image-alt: 3: Ensures <img> elements have alternate text or a role of none or presentation;
+
+Serious Issues:
+color-contrast: 11: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+aria-input-field-name: 1: Ensures every ARIA input field has an accessible name;
+aria-prohibited-attr: 1: Ensures ARIA attributes are not prohibited for an element's role;
+
+nonprofit\wosp_donate.json
+Critical Issues:
+image-alt: 6: Ensures <img> elements have alternate text or a role of none or presentation;
+aria-required-children: 1: Ensures elements with an ARIA role that require child roles contain them;
+label: 1: Ensures every form element has a label;
+
+Serious Issues:
+link-name: 16: Ensures links have discernible text;
+color-contrast: 5: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+aria-input-field-name: 1: Ensures every ARIA input field has an accessible name;
+list: 1: Ensures that lists are structured correctly;
+
+nonprofit\wosp_main_page.json
+Critical Issues:
+image-alt: 14: Ensures <img> elements have alternate text or a role of none or presentation;
+aria-required-children: 4: Ensures elements with an ARIA role that require child roles contain them;
+
+Serious Issues:
+link-name: 28: Ensures links have discernible text;
+color-contrast: 10: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+aria-input-field-name: 4: Ensures every ARIA input field has an accessible name;
+list: 1: Ensures that lists are structured correctly;
+
+nonprofit\wosp_volunteer.json
+Critical Issues:
+image-alt: 6: Ensures <img> elements have alternate text or a role of none or presentation;
+aria-required-children: 1: Ensures elements with an ARIA role that require child roles contain them;
+
+Serious Issues:
+color-contrast: 22: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+link-name: 17: Ensures links have discernible text;
+link-in-text-block: 9: Ensure links are distinguished from surrounding text in a way that does not rely on color;
+aria-input-field-name: 1: Ensures every ARIA input field has an accessible name;
+list: 1: Ensures that lists are structured correctly;
+

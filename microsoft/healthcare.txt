@@ -1,0 +1,43 @@
+.\healthcare\eu_nhs_items_list.html
+
+.\healthcare\eu_nhs_item_details.html
+
+.\healthcare\eu_nhs_main_page.html
+
+.\healthcare\pl_znanylekarz_details.html
+aria-allowed-attr: 86: Ensures ARIA attributes are allowed for an element's role;
+aria-hidden-focus: 86: Ensures aria-hidden elements are not focusable nor contain focusable elements;
+aria-valid-attr-value: 86: Ensures all ARIA attributes have valid values;
+button-name: 86: Ensures buttons have discernible text;
+color-contrast: 86: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+image-alt: 86: Ensures <img> elements have alternate text or a role of none or presentation;
+link-name: 86: Ensures links have discernible text;
+list: 86: Ensures that lists are structured correctly;
+meta-viewport: 86: Ensures <meta name="viewport"> does not disable text scaling and zooming;
+
+.\healthcare\pl_znanylekarz_list.html
+aria-allowed-attr: 88: Ensures ARIA attributes are allowed for an element's role;
+aria-command-name: 88: Ensures every ARIA button, link and menuitem has an accessible name;
+button-name: 88: Ensures buttons have discernible text;
+color-contrast: 88: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+image-alt: 88: Ensures <img> elements have alternate text or a role of none or presentation;
+link-name: 88: Ensures links have discernible text;
+list: 88: Ensures that lists are structured correctly;
+meta-viewport: 88: Ensures <meta name="viewport"> does not disable text scaling and zooming;
+
+.\healthcare\pl_znanylekarz_main_page.html
+aria-allowed-attr: 63: Ensures ARIA attributes are allowed for an element's role;
+aria-hidden-focus: 63: Ensures aria-hidden elements are not focusable nor contain focusable elements;
+button-name: 63: Ensures buttons have discernible text;
+color-contrast: 63: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+image-alt: 63: Ensures <img> elements have alternate text or a role of none or presentation;
+link-in-text-block: 63: Ensure links are distinguished from surrounding text in a way that does not rely on color;
+link-name: 63: Ensures links have discernible text;
+meta-viewport: 63: Ensures <meta name="viewport"> does not disable text scaling and zooming;
+
+.\healthcare\usa_mayoclinic_items_list.html
+
+.\healthcare\usa_mayoclinic_item_details.html
+
+.\healthcare\usa_mayoclinic_main_page.html
+

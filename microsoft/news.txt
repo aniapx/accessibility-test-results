@@ -1,0 +1,26 @@
+.\news\eu_elpais_article.html
+color-contrast: 1: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+
+.\news\eu_elpais_main_page.html
+color-contrast: 6: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+
+.\news\pl_wp_article.html
+color-contrast: 10: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+link-name: 10: Ensures links have discernible text;
+
+.\news\pl_wp_main_page.html
+button-name: 22: Ensures buttons have discernible text;
+color-contrast: 22: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+image-alt: 22: Ensures <img> elements have alternate text or a role of none or presentation;
+label: 22: Ensures every form element has a label;
+link-name: 22: Ensures links have discernible text;
+
+.\news\usa_cnn_article.html
+link-name: 11: Ensures links have discernible text;
+
+.\news\usa_cnn_main_page.html
+aria-allowed-attr: 5: Ensures ARIA attributes are allowed for an element's role;
+aria-input-field-name: 5: Ensures every ARIA input field has an accessible name;
+aria-valid-attr-value: 5: Ensures all ARIA attributes have valid values;
+link-name: 5: Ensures links have discernible text;
+

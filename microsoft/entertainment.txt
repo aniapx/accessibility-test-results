@@ -1,0 +1,54 @@
+.\entertainment\eu_spotify_items_list.html
+aria-allowed-attr: 75: Ensures ARIA attributes are allowed for an element's role;
+aria-required-attr: 75: Ensures elements with ARIA roles have all required ARIA attributes;
+aria-required-children: 75: Ensures elements with an ARIA role that require child roles contain them;
+aria-valid-attr-value: 75: Ensures all ARIA attributes have valid values;
+meta-viewport: 75: Ensures <meta name="viewport"> does not disable text scaling and zooming;
+presentation-role-conflict: 75: Elements marked as presentational should not have global ARIA or tabindex to ensure all screen readers ignore them;
+
+.\entertainment\eu_spotify_item_details.html
+aria-allowed-attr: 61: Ensures ARIA attributes are allowed for an element's role;
+aria-required-attr: 61: Ensures elements with ARIA roles have all required ARIA attributes;
+aria-required-children: 61: Ensures elements with an ARIA role that require child roles contain them;
+aria-valid-attr-value: 61: Ensures all ARIA attributes have valid values;
+meta-viewport: 61: Ensures <meta name="viewport"> does not disable text scaling and zooming;
+nested-interactive: 61: Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies;
+presentation-role-conflict: 61: Elements marked as presentational should not have global ARIA or tabindex to ensure all screen readers ignore them;
+
+.\entertainment\eu_spotify_main_page.html
+aria-allowed-attr: 171: Ensures ARIA attributes are allowed for an element's role;
+aria-required-attr: 171: Ensures elements with ARIA roles have all required ARIA attributes;
+aria-required-children: 171: Ensures elements with an ARIA role that require child roles contain them;
+aria-valid-attr-value: 171: Ensures all ARIA attributes have valid values;
+duplicate-id-aria: 171: Ensures every id attribute value used in ARIA and in labels is unique;
+meta-viewport: 171: Ensures <meta name="viewport"> does not disable text scaling and zooming;
+presentation-role-conflict: 171: Elements marked as presentational should not have global ARIA or tabindex to ensure all screen readers ignore them;
+
+.\entertainment\pl_player_items_list.html
+link-name: 106: Ensures links have discernible text;
+
+.\entertainment\pl_player_item_details.html
+link-name: 23: Ensures links have discernible text;
+
+.\entertainment\pl_player_main_page.html
+link-name: 81: Ensures links have discernible text;
+
+.\entertainment\usa_youtube_items_list.html
+aria-required-attr: 139: Ensures elements with ARIA roles have all required ARIA attributes;
+aria-tooltip-name: 139: Ensures every ARIA tooltip node has an accessible name;
+duplicate-id-active: 139: Ensures every id attribute value of active elements is unique;
+nested-interactive: 139: Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies;
+
+.\entertainment\usa_youtube_item_details.html
+aria-allowed-attr: 64: Ensures ARIA attributes are allowed for an element's role;
+aria-required-attr: 64: Ensures elements with ARIA roles have all required ARIA attributes;
+aria-tooltip-name: 64: Ensures every ARIA tooltip node has an accessible name;
+duplicate-id-active: 64: Ensures every id attribute value of active elements is unique;
+link-name: 64: Ensures links have discernible text;
+nested-interactive: 64: Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies;
+
+.\entertainment\usa_youtube_main_page.html
+aria-tooltip-name: 67: Ensures every ARIA tooltip node has an accessible name;
+duplicate-id-active: 67: Ensures every id attribute value of active elements is unique;
+nested-interactive: 67: Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies;
+

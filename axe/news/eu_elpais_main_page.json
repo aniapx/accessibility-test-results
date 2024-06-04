@@ -1,0 +1,248 @@
+{
+    "url": "https://elpais.com/",
+    "extensionVersion": "4.76.0",
+    "axeVersion": "4.8.2",
+    "standard": "WCAG 2.1 AA",
+    "testingStartDate": "2024-03-04T17:55:16.094Z",
+    "testingEndDate": "2024-03-04T17:55:16.094Z",
+    "bestPracticesEnabled": false,
+    "experimentalEnabled": false,
+    "issueSummary": {
+        "critical": 0,
+        "serious": 6,
+        "moderate": 0,
+        "minor": 0,
+        "bestPractices": 0,
+        "needsReview": 0
+    },
+    "remainingTestingSummary": {
+        "run": false
+    },
+    "igtSummary": [],
+    "failedRules": [
+        {
+            "name": "color-contrast",
+            "count": 5,
+            "mode": "automated"
+        },
+        {
+            "name": "link-name",
+            "count": 1,
+            "mode": "automated"
+        }
+    ],
+    "needsReview": [],
+    "source": {
+        "productName": "extension-chrome",
+        "productVersion": "4.76.0",
+        "productComponentName": "axe-extension"
+    },
+    "testDetails": {
+        "testId": "",
+        "axeVersion": "4.8.2",
+        "engine": "axe-core",
+        "standard": "WCAG 2.1 AA",
+        "startDate": "2024-03-04T17:55:16.094Z",
+        "endDate": "2024-03-04T17:55:16.094Z",
+        "bestPracticesEnabled": false,
+        "experimentalEnabled": false
+    },
+    "allIssues": [
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".b-f > .header.b_h._df > .btn-6.btn"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 2.4 (foreground color: #ffffff, background color: #00b1ff, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1",
+            "source": "<a href=\"https://plus.elpais.com/newsletters/lnp/1/2/#?prm=nwl_CTA_home_diaria\" class=\"btn btn-6\">NEWSLETTER DIARIA</a>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T17:55:16.094Z",
+            "isExperimental": false,
+            "testUrl": "https://elpais.com/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "EL PAIS: el periódico global"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".c--m-n.c-d:nth-child(5) > .c_r._ls > .c_r_i > .c_r_l > .c_r_k.c_r_k-l"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 3.95 (foreground color: #ff0625, background color: #ffffff, font size: 8.3pt (11px), font weight: bold). Expected contrast ratio of 4.5:1",
+            "source": "<span class=\"c_r_k  c_r_k-l\">EN DIRECTO</span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T17:55:16.094Z",
+            "isExperimental": false,
+            "testUrl": "https://elpais.com/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "EL PAIS: el periódico global"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "a[data-link-mx=\"\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 2.4 (foreground color: #ffffff, background color: #00b1ff, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1",
+            "source": "<a href=\"https://plus.elpais.com/newsletters/lnp/1/486#?prm=nwl_CTA_home_agenda\" data-link-mx=\"\" data-link-am=\"\" class=\"btn btn-6\">VER LA NEWSLETTER</a>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T17:55:16.094Z",
+            "isExperimental": false,
+            "testUrl": "https://elpais.com/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "EL PAIS: el periódico global"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".b-t-en_video > .header.b_h._df > .btn-6.btn"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 2.4 (foreground color: #ffffff, background color: #00b1ff, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1",
+            "source": "<a href=\"https://tivify.tv/player?channel=el_pais&amp;utm_source=webelpais&amp;utm_medium=button&amp;utm_campaign=webplayer_elpais\" class=\"btn btn-6\">MIRA EL CANAL EL PAIS</a>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T17:55:16.094Z",
+            "isExperimental": false,
+            "testUrl": "https://elpais.com/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "EL PAIS: el periódico global"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".btn-6.btn[data-ctn-subscription=\"\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 2.4 (foreground color: #ffffff, background color: #00b1ff, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1",
+            "source": "<a href=\"https://elpais.com/suscripciones/#/campaign?prm=pw_suscrip_cta_home_LOMEJOR\" data-ctn-subscription=\"\" class=\"btn btn-6\">SUSCRIBETE</a>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T17:55:16.094Z",
+            "isExperimental": false,
+            "testUrl": "https://elpais.com/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "EL PAIS: el periódico global"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-name",
+            "description": "Ensures links have discernible text",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".b-f_a > .c--m.c-d:nth-child(1) > .c_m > .c_m_c._db._pr"
+            ],
+            "summary": "Fix all of the following:\\n  Element is in tab order and does not have accessible text\\n\\nFix any of the following:\\n  Element does not have text that is visible to screen readers\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<a href=\"https://elpais.com/economia/2024-03-04/el-mapa-calle-a-calle-del-acceso-a-la-vivienda-donde-puedes-alquilar.html\" class=\"c_m_c _pr _db\">",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag244",
+                "wcag412",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.2.4.4",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T17:55:16.094Z",
+            "isExperimental": false,
+            "testUrl": "https://elpais.com/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "EL PAIS: el periódico global"
+        }
+    ]
+}

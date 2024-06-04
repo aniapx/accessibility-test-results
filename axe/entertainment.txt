@@ -1,0 +1,70 @@
+entertainment\player_items_list.json
+Serious Issues:
+link-name: 97: Ensures links have discernible text;
+
+entertainment\player_item_details.json
+Serious Issues:
+link-name: 23: Ensures links have discernible text;
+
+entertainment\player_main_page.json
+Serious Issues:
+link-name: 72: Ensures links have discernible text;
+
+entertainment\spotify_items_list.json
+Critical Issues:
+aria-allowed-attr: 6: Ensures an element's role supports its ARIA attributes;
+aria-required-children: 5: Ensures elements with an ARIA role that require child roles contain them;
+aria-required-attr: 1: Ensures elements with ARIA roles have all required ARIA attributes;
+aria-valid-attr-value: 1: Ensures all ARIA attributes have valid values;
+meta-viewport: 1: Ensures <meta name="viewport"> does not disable text scaling and zooming;
+
+entertainment\spotify_item_details.json
+Critical Issues:
+aria-allowed-attr: 7: Ensures an element's role supports its ARIA attributes;
+aria-required-children: 4: Ensures elements with an ARIA role that require child roles contain them;
+aria-required-attr: 1: Ensures elements with ARIA roles have all required ARIA attributes;
+aria-valid-attr-value: 1: Ensures all ARIA attributes have valid values;
+meta-viewport: 1: Ensures <meta name="viewport"> does not disable text scaling and zooming;
+
+Serious Issues:
+nested-interactive: 1: Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies;
+
+entertainment\spotify_main_page.json
+Critical Issues:
+aria-required-children: 4: Ensures elements with an ARIA role that require child roles contain them;
+aria-allowed-attr: 2: Ensures an element's role supports its ARIA attributes;
+aria-required-attr: 1: Ensures elements with ARIA roles have all required ARIA attributes;
+aria-valid-attr-value: 1: Ensures all ARIA attributes have valid values;
+meta-viewport: 1: Ensures <meta name="viewport"> does not disable text scaling and zooming;
+
+Serious Issues:
+aria-prohibited-attr: 1: Ensures ARIA attributes are not prohibited for an element's role;
+
+entertainment\youtube_items_list.json
+Critical Issues:
+aria-required-parent: 4: Ensures elements with an ARIA role that require parent roles are contained by them;
+aria-required-attr: 1: Ensures elements with ARIA roles have all required ARIA attributes;
+
+Serious Issues:
+aria-tooltip-name: 95: Ensures every ARIA tooltip node has an accessible name;
+nested-interactive: 53: Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies;
+
+entertainment\youtube_item_detials.json
+Critical Issues:
+aria-allowed-attr: 1: Ensures an element's role supports its ARIA attributes;
+aria-required-attr: 1: Ensures elements with ARIA roles have all required ARIA attributes;
+
+Serious Issues:
+aria-tooltip-name: 44: Ensures every ARIA tooltip node has an accessible name;
+nested-interactive: 23: Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies;
+link-name: 1: Ensures links have discernible text;
+
+entertainment\youtube_main_page.json
+Critical Issues:
+aria-required-attr: 5: Ensures elements with ARIA roles have all required ARIA attributes;
+aria-required-parent: 4: Ensures elements with an ARIA role that require parent roles are contained by them;
+
+Serious Issues:
+aria-tooltip-name: 27: Ensures every ARIA tooltip node has an accessible name;
+nested-interactive: 6: Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies;
+

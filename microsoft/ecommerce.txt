@@ -1,0 +1,56 @@
+.\ecommerce\eu_bol_item_details.html
+aria-allowed-attr: 54: Ensures ARIA attributes are allowed for an element's role;
+aria-command-name: 54: Ensures every ARIA button, link and menuitem has an accessible name;
+aria-hidden-focus: 54: Ensures aria-hidden elements are not focusable nor contain focusable elements;
+color-contrast: 54: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+duplicate-id-active: 54: Ensures every id attribute value of active elements is unique;
+link-name: 54: Ensures links have discernible text;
+list: 54: Ensures that lists are structured correctly;
+
+.\ecommerce\eu_bol_main_page.html
+color-contrast: 4: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+link-in-text-block: 4: Ensure links are distinguished from surrounding text in a way that does not rely on color;
+list: 4: Ensures that lists are structured correctly;
+
+.\ecommerce\pl_allegro_items_list.html
+aria-allowed-attr: 307: Ensures ARIA attributes are allowed for an element's role;
+aria-progressbar-name: 307: Ensures every ARIA progressbar node has an accessible name;
+aria-required-attr: 307: Ensures elements with ARIA roles have all required ARIA attributes;
+button-name: 307: Ensures buttons have discernible text;
+color-contrast: 307: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+duplicate-id-aria: 307: Ensures every id attribute value used in ARIA and in labels is unique;
+image-alt: 307: Ensures <img> elements have alternate text or a role of none or presentation;
+meta-viewport: 307: Ensures <meta name="viewport"> does not disable text scaling and zooming;
+select-name: 307: Ensures select element has an accessible name;
+
+.\ecommerce\pl_allegro_item_details.html
+aria-allowed-attr: 52: Ensures ARIA attributes are allowed for an element's role;
+aria-allowed-role: 52: Ensures role attribute has an appropriate value for the element;
+aria-progressbar-name: 52: Ensures every ARIA progressbar node has an accessible name;
+aria-required-attr: 52: Ensures elements with ARIA roles have all required ARIA attributes;
+button-name: 52: Ensures buttons have discernible text;
+color-contrast: 52: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+image-alt: 52: Ensures <img> elements have alternate text or a role of none or presentation;
+meta-viewport: 52: Ensures <meta name="viewport"> does not disable text scaling and zooming;
+role-img-alt: 52: Ensures [role='img'] elements have alternate text;
+
+.\ecommerce\pl_allegro_main_page.html
+aria-allowed-attr: 53: Ensures ARIA attributes are allowed for an element's role;
+aria-progressbar-name: 53: Ensures every ARIA progressbar node has an accessible name;
+aria-required-attr: 53: Ensures elements with ARIA roles have all required ARIA attributes;
+button-name: 53: Ensures buttons have discernible text;
+color-contrast: 53: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+image-alt: 53: Ensures <img> elements have alternate text or a role of none or presentation;
+link-name: 53: Ensures links have discernible text;
+meta-viewport: 53: Ensures <meta name="viewport"> does not disable text scaling and zooming;
+
+.\ecommerce\usa_amazon_items_list.html
+color-contrast: 429: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+frame-title: 429: Ensures <iframe> and <frame> elements have an accessible name;
+label: 429: Ensures every form element has a label;
+list: 429: Ensures that lists are structured correctly;
+listitem: 429: Ensures <li> elements are used semantically;
+
+.\ecommerce\usa_amazon_main_page.html
+aria-allowed-attr: 5: Ensures ARIA attributes are allowed for an element's role;
+

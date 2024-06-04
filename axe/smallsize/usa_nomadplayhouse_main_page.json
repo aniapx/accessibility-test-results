@@ -1,0 +1,448 @@
+{
+    "url": "https://www.nomadplayhouse.org/",
+    "extensionVersion": "4.76.0",
+    "axeVersion": "4.8.2",
+    "standard": "WCAG 2.1 AA",
+    "testingStartDate": "2024-03-04T19:18:01.679Z",
+    "testingEndDate": "2024-03-04T19:18:01.679Z",
+    "bestPracticesEnabled": false,
+    "experimentalEnabled": false,
+    "issueSummary": {
+        "critical": 3,
+        "serious": 8,
+        "moderate": 0,
+        "minor": 0,
+        "bestPractices": 0,
+        "needsReview": 0
+    },
+    "remainingTestingSummary": {
+        "run": false
+    },
+    "igtSummary": [],
+    "failedRules": [
+        {
+            "name": "frame-title",
+            "count": 1,
+            "mode": "automated"
+        },
+        {
+            "name": "html-has-lang",
+            "count": 1,
+            "mode": "automated"
+        },
+        {
+            "name": "image-alt",
+            "count": 3,
+            "mode": "automated"
+        },
+        {
+            "name": "link-name",
+            "count": 6,
+            "mode": "automated"
+        }
+    ],
+    "needsReview": [],
+    "source": {
+        "productName": "extension-chrome",
+        "productVersion": "4.76.0",
+        "productComponentName": "axe-extension"
+    },
+    "testDetails": {
+        "testId": "",
+        "axeVersion": "4.8.2",
+        "engine": "axe-core",
+        "standard": "WCAG 2.1 AA",
+        "startDate": "2024-03-04T19:18:01.679Z",
+        "endDate": "2024-03-04T19:18:01.679Z",
+        "bestPracticesEnabled": false,
+        "experimentalEnabled": false
+    },
+    "allIssues": [
+        {
+            "issueId": null,
+            "ruleId": "frame-title",
+            "description": "Ensures <iframe> and <frame> elements have an accessible name",
+            "help": "Frames must have an accessible name",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/frame-title?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "iframe"
+            ],
+            "summary": "Fix any of the following:\\n  Element has no title attribute\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+            "source": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3054.248814855744!2d-105.28202568420343!3d40.04754797940973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876beeee4414d287%3A0x13530d24a8010ca6!2sThe+Nomad+Playhouse!5e0!3m2!1sen!2sus!4v1504647196250\" width=\"200\" height=\"175\" frameborder=\"0\" style=\"border:0\" allowfullscreen=\"\">",
+            "tags": [
+                "cat.text-alternatives",
+                "wcag2a",
+                "wcag412",
+                "section508",
+                "section508.22.i",
+                "TTv5",
+                "TT12.d",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:18:01.679Z",
+            "isExperimental": false,
+            "testUrl": "https://www.nomadplayhouse.org/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "The Nomad Playhouse in Boulder, Colorado"
+        },
+        {
+            "issueId": null,
+            "ruleId": "html-has-lang",
+            "description": "Ensures every HTML document has a lang attribute",
+            "help": "<html> element must have a lang attribute",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-has-lang?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "html"
+            ],
+            "summary": "Fix any of the following:\\n  The <html> element does not have a lang attribute",
+            "source": "<html class=\"wf-quasimoda-i4-active wf-quasimoda-n4-active wf-quasimoda-n1-active wf-quasimoda-i8-active wf-quasimoda-n8-active wf-quasimoda-i1-active wf-active\">",
+            "tags": [
+                "cat.language",
+                "wcag2a",
+                "wcag311",
+                "TTv5",
+                "TT11.a",
+                "EN-301-549",
+                "EN-9.3.1.1",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:18:01.679Z",
+            "isExperimental": false,
+            "testUrl": "https://www.nomadplayhouse.org/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "The Nomad Playhouse in Boulder, Colorado"
+        },
+        {
+            "issueId": null,
+            "ruleId": "image-alt",
+            "description": "Ensures <img> elements have alternate text or a role of none or presentation",
+            "help": "Images must have alternate text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/image-alt?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "img[src$=\"facebook-40blue.png\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element does not have an alt attribute\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute\\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+            "source": "<img src=\"images/facebook-40blue.png\" width=\"50\" height=\"50\">",
+            "tags": [
+                "cat.text-alternatives",
+                "wcag2a",
+                "wcag111",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT7.a",
+                "TT7.b",
+                "EN-301-549",
+                "EN-9.1.1.1",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:18:01.679Z",
+            "isExperimental": false,
+            "testUrl": "https://www.nomadplayhouse.org/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "The Nomad Playhouse in Boulder, Colorado"
+        },
+        {
+            "issueId": null,
+            "ruleId": "image-alt",
+            "description": "Ensures <img> elements have alternate text or a role of none or presentation",
+            "help": "Images must have alternate text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/image-alt?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "img[src$=\"instagram_40blue.png\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element does not have an alt attribute\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute\\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+            "source": "<img src=\"images/instagram_40blue.png\" width=\"50\" height=\"50\">",
+            "tags": [
+                "cat.text-alternatives",
+                "wcag2a",
+                "wcag111",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT7.a",
+                "TT7.b",
+                "EN-301-549",
+                "EN-9.1.1.1",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:18:01.679Z",
+            "isExperimental": false,
+            "testUrl": "https://www.nomadplayhouse.org/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "The Nomad Playhouse in Boulder, Colorado"
+        },
+        {
+            "issueId": null,
+            "ruleId": "image-alt",
+            "description": "Ensures <img> elements have alternate text or a role of none or presentation",
+            "help": "Images must have alternate text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/image-alt?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".p7brm-image"
+            ],
+            "summary": "Fix any of the following:\\n  Element does not have an alt attribute\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute\\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+            "source": "<img class=\"p7brm-image\" src=\"https://www.nomadplayhouse.org/images/background.jpg\" style=\"height: 919px; width: auto; left: -4.5px; top: 0px;\">",
+            "tags": [
+                "cat.text-alternatives",
+                "wcag2a",
+                "wcag111",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT7.a",
+                "TT7.b",
+                "EN-301-549",
+                "EN-9.1.1.1",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:18:01.679Z",
+            "isExperimental": false,
+            "testUrl": "https://www.nomadplayhouse.org/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "The Nomad Playhouse in Boulder, Colorado"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-name",
+            "description": "Ensures links have discernible text",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".fgm-img > a[href$=\"calendar.html\"]"
+            ],
+            "summary": "Fix all of the following:\\n  Element is in tab order and does not have accessible text\\n\\nFix any of the following:\\n  Element does not have text that is visible to screen readers\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<a href=\"calendar.html\"><img src=\"images/flex-img/pagebuttons_calendar.jpg\" alt=\"\"></a>",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag244",
+                "wcag412",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.2.4.4",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:18:01.679Z",
+            "isExperimental": false,
+            "testUrl": "https://www.nomadplayhouse.org/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "The Nomad Playhouse in Boulder, Colorado"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-name",
+            "description": "Ensures links have discernible text",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".fgm-img > a[href$=\"sponsor.html\"]"
+            ],
+            "summary": "Fix all of the following:\\n  Element is in tab order and does not have accessible text\\n\\nFix any of the following:\\n  Element does not have text that is visible to screen readers\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<a href=\"sponsor.html\"><img src=\"images/flex-img/pagebuttons_sponsor.jpg\" alt=\"\"></a>",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag244",
+                "wcag412",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.2.4.4",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:18:01.679Z",
+            "isExperimental": false,
+            "testUrl": "https://www.nomadplayhouse.org/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "The Nomad Playhouse in Boulder, Colorado"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-name",
+            "description": "Ensures links have discernible text",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".fgm-img > a[href$=\"about.html\"]"
+            ],
+            "summary": "Fix all of the following:\\n  Element is in tab order and does not have accessible text\\n\\nFix any of the following:\\n  Element does not have text that is visible to screen readers\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<a href=\"about.html\"><img src=\"images/flex-img/pagebuttons_about.jpg\" alt=\"\"></a>",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag244",
+                "wcag412",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.2.4.4",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:18:01.679Z",
+            "isExperimental": false,
+            "testUrl": "https://www.nomadplayhouse.org/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "The Nomad Playhouse in Boulder, Colorado"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-name",
+            "description": "Ensures links have discernible text",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".fgm-img > a[href$=\"contact.html\"]"
+            ],
+            "summary": "Fix all of the following:\\n  Element is in tab order and does not have accessible text\\n\\nFix any of the following:\\n  Element does not have text that is visible to screen readers\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<a href=\"contact.html\"><img src=\"images/flex-img/pagebuttons_contact.jpg\" alt=\"\"></a>",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag244",
+                "wcag412",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.2.4.4",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:18:01.679Z",
+            "isExperimental": false,
+            "testUrl": "https://www.nomadplayhouse.org/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "The Nomad Playhouse in Boulder, Colorado"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-name",
+            "description": "Ensures links have discernible text",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "a[target=\"_blank\"]:nth-child(3)"
+            ],
+            "summary": "Fix all of the following:\\n  Element is in tab order and does not have accessible text\\n\\nFix any of the following:\\n  Element does not have text that is visible to screen readers\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<a href=\"https://www.facebook.com/nomadplayhouse/\" target=\"_blank\"><img src=\"images/facebook-40blue.png\" width=\"50\" height=\"50\"></a>",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag244",
+                "wcag412",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.2.4.4",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:18:01.679Z",
+            "isExperimental": false,
+            "testUrl": "https://www.nomadplayhouse.org/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "The Nomad Playhouse in Boulder, Colorado"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-name",
+            "description": "Ensures links have discernible text",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "a[target=\"_blank\"]:nth-child(4)"
+            ],
+            "summary": "Fix all of the following:\\n  Element is in tab order and does not have accessible text\\n\\nFix any of the following:\\n  Element does not have text that is visible to screen readers\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<a href=\"https://www.instagram.com/nomadplayhouse/?hl=en\" target=\"_blank\"><img src=\"images/instagram_40blue.png\" width=\"50\" height=\"50\"></a>",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag244",
+                "wcag412",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.2.4.4",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:18:01.679Z",
+            "isExperimental": false,
+            "testUrl": "https://www.nomadplayhouse.org/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "The Nomad Playhouse in Boulder, Colorado"
+        }
+    ]
+}

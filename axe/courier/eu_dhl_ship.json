@@ -1,0 +1,1510 @@
+{
+    "url": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+    "extensionVersion": "4.76.0",
+    "axeVersion": "4.8.2",
+    "standard": "WCAG 2.1 AA",
+    "testingStartDate": "2024-03-04T19:08:29.588Z",
+    "testingEndDate": "2024-03-04T19:08:29.588Z",
+    "bestPracticesEnabled": false,
+    "experimentalEnabled": false,
+    "issueSummary": {
+        "critical": 6,
+        "serious": 40,
+        "moderate": 0,
+        "minor": 0,
+        "bestPractices": 0,
+        "needsReview": 0
+    },
+    "remainingTestingSummary": {
+        "run": false
+    },
+    "igtSummary": [],
+    "failedRules": [
+        {
+            "name": "aria-allowed-attr",
+            "count": 3,
+            "mode": "automated"
+        },
+        {
+            "name": "aria-required-children",
+            "count": 2,
+            "mode": "automated"
+        },
+        {
+            "name": "autocomplete-valid",
+            "count": 14,
+            "mode": "automated"
+        },
+        {
+            "name": "color-contrast",
+            "count": 18,
+            "mode": "automated"
+        },
+        {
+            "name": "listitem",
+            "count": 2,
+            "mode": "automated"
+        },
+        {
+            "name": "meta-viewport",
+            "count": 1,
+            "mode": "automated"
+        },
+        {
+            "name": "svg-img-alt",
+            "count": 6,
+            "mode": "automated"
+        }
+    ],
+    "needsReview": [],
+    "source": {
+        "productName": "extension-chrome",
+        "productVersion": "4.76.0",
+        "productComponentName": "axe-extension"
+    },
+    "testDetails": {
+        "testId": "",
+        "axeVersion": "4.8.2",
+        "engine": "axe-core",
+        "standard": "WCAG 2.1 AA",
+        "startDate": "2024-03-04T19:08:29.588Z",
+        "endDate": "2024-03-04T19:08:29.588Z",
+        "bestPracticesEnabled": false,
+        "experimentalEnabled": false
+    },
+    "allIssues": [
+        {
+            "issueId": null,
+            "ruleId": "aria-allowed-attr",
+            "description": "Ensures an element's role supports its ARIA attributes",
+            "help": "Elements must only use supported ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-attr?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".primary-navigation__tab.has-dropdown:nth-child(1) > .active.primary-navigation__link > .primary-navigation__link-caption"
+            ],
+            "summary": "Fix all of the following:\\n  ARIA attribute is not allowed: aria-selected=\"true\"",
+            "source": "<div class=\"primary-navigation__link-caption\" aria-selected=\"true\">\\n                                                    Pakete versenden\\n\t\t\t\t\t\t\t\t\t\t\t\t</div>",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-allowed-attr",
+            "description": "Ensures an element's role supports its ARIA attributes",
+            "help": "Elements must only use supported ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-attr?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".primary-navigation__tab.has-dropdown:nth-child(2) > .primary-navigation__link > .primary-navigation__link-caption"
+            ],
+            "summary": "Fix all of the following:\\n  ARIA attribute is not allowed: aria-selected=\"false\"",
+            "source": "<div class=\"primary-navigation__link-caption\" aria-selected=\"false\">\\n                                                    Pakete empfangen\\n\t\t\t\t\t\t\t\t\t\t\t\t</div>",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-allowed-attr",
+            "description": "Ensures an element's role supports its ARIA attributes",
+            "help": "Elements must only use supported ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-attr?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".primary-navigation__tab.has-dropdown:nth-child(3) > .primary-navigation__link > .primary-navigation__link-caption"
+            ],
+            "summary": "Fix all of the following:\\n  ARIA attribute is not allowed: aria-selected=\"false\"",
+            "source": "<div class=\"primary-navigation__link-caption\" aria-selected=\"false\">\\n                                                    Hilfe und Kontakt\\n\t\t\t\t\t\t\t\t\t\t\t\t</div>",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-required-children",
+            "description": "Ensures elements with an ARIA role that require child roles contain them",
+            "help": "Certain ARIA roles must contain particular children",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-required-children?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".secondary-navigation__tab[role=\"tablist\"]:nth-child(1)"
+            ],
+            "summary": "Fix any of the following:\\n  Element has children which are not allowed: li[tabindex]\\n  Element uses aria-busy=\"true\" while showing a loader",
+            "source": "<ul role=\"tablist\" class=\"secondary-navigation__tab\">",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag131",
+                "EN-301-549",
+                "EN-9.1.3.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-required-children",
+            "description": "Ensures elements with an ARIA role that require child roles contain them",
+            "help": "Certain ARIA roles must contain particular children",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-required-children?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".secondary-navigation__tab[role=\"tablist\"]:nth-child(2)"
+            ],
+            "summary": "Fix any of the following:\\n  Element has children which are not allowed: li[tabindex]\\n  Element uses aria-busy=\"true\" while showing a loader",
+            "source": "<ul role=\"tablist\" class=\"secondary-navigation__tab\">\\n\t\t\t\t\t\t\t<li class=\"secondary-navigation__link\" tabindex=\"0\">\\n\t\t\t\t\t\t\t\t<a tabindex=\"-1\" href=\"/de/geschaeftskunden.html\" class=\"secondary-navigation__link\">\\n                                    Geschäftskunden\\n\t\t\t\t\t\t\t\t</a>\\n\t\t\t\t\t\t\t</li>\\n\t\t\t\t\t\t</ul>",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag131",
+                "EN-301-549",
+                "EN-9.1.3.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "autocomplete-valid",
+            "description": "Ensure the autocomplete attribute is correct and suitable for the form field",
+            "help": "autocomplete attribute must be used correctly",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/autocomplete-valid?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#address\\.receiver\\.name2"
+            ],
+            "summary": "Fix all of the following:\\n  the autocomplete attribute is incorrectly formatted",
+            "source": "<input type=\"text\" inputmode=\"text\" class=\"form-control\" name=\"address.receiver.name2\" id=\"address.receiver.name2\" minlength=\"0\" maxlength=\"35\" required=\"\" placeholder=\"\" autocomplete=\"nope\" value=\"\">",
+            "tags": [
+                "cat.forms",
+                "wcag21aa",
+                "wcag135",
+                "EN-301-549",
+                "EN-9.1.3.5",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "autocomplete-valid",
+            "description": "Ensure the autocomplete attribute is correct and suitable for the form field",
+            "help": "autocomplete attribute must be used correctly",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/autocomplete-valid?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#address\\.receiver\\.name3"
+            ],
+            "summary": "Fix all of the following:\\n  the autocomplete attribute is incorrectly formatted",
+            "source": "<input type=\"text\" inputmode=\"text\" class=\"form-control\" name=\"address.receiver.name3\" id=\"address.receiver.name3\" minlength=\"0\" maxlength=\"35\" placeholder=\"\" autocomplete=\"nope\" value=\"\">",
+            "tags": [
+                "cat.forms",
+                "wcag21aa",
+                "wcag135",
+                "EN-301-549",
+                "EN-9.1.3.5",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "autocomplete-valid",
+            "description": "Ensure the autocomplete attribute is correct and suitable for the form field",
+            "help": "autocomplete attribute must be used correctly",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/autocomplete-valid?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#address\\.receiver\\.plz"
+            ],
+            "summary": "Fix all of the following:\\n  the autocomplete attribute is incorrectly formatted",
+            "source": "<input type=\"text\" inputmode=\"text\" class=\"form-control\" name=\"address.receiver.plz\" id=\"address.receiver.plz\" minlength=\"0\" maxlength=\"17\" required=\"\" placeholder=\"\" autocomplete=\"nope\" value=\"\">",
+            "tags": [
+                "cat.forms",
+                "wcag21aa",
+                "wcag135",
+                "EN-301-549",
+                "EN-9.1.3.5",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "autocomplete-valid",
+            "description": "Ensure the autocomplete attribute is correct and suitable for the form field",
+            "help": "autocomplete attribute must be used correctly",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/autocomplete-valid?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#address\\.receiver\\.city"
+            ],
+            "summary": "Fix all of the following:\\n  the autocomplete attribute is incorrectly formatted",
+            "source": "<input type=\"text\" inputmode=\"text\" class=\"form-control\" name=\"address.receiver.city\" id=\"address.receiver.city\" minlength=\"0\" maxlength=\"35\" required=\"\" placeholder=\"\" autocomplete=\"nope\" value=\"\">",
+            "tags": [
+                "cat.forms",
+                "wcag21aa",
+                "wcag135",
+                "EN-301-549",
+                "EN-9.1.3.5",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "autocomplete-valid",
+            "description": "Ensure the autocomplete attribute is correct and suitable for the form field",
+            "help": "autocomplete attribute must be used correctly",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/autocomplete-valid?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#address\\.receiver\\.street"
+            ],
+            "summary": "Fix all of the following:\\n  the autocomplete attribute is incorrectly formatted",
+            "source": "<input type=\"text\" inputmode=\"text\" class=\"form-control\" name=\"address.receiver.street\" id=\"address.receiver.street\" minlength=\"0\" maxlength=\"35\" required=\"\" placeholder=\"\" autocomplete=\"nope\" value=\"\">",
+            "tags": [
+                "cat.forms",
+                "wcag21aa",
+                "wcag135",
+                "EN-301-549",
+                "EN-9.1.3.5",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "autocomplete-valid",
+            "description": "Ensure the autocomplete attribute is correct and suitable for the form field",
+            "help": "autocomplete attribute must be used correctly",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/autocomplete-valid?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#address\\.receiver\\.streetNumber"
+            ],
+            "summary": "Fix all of the following:\\n  the autocomplete attribute is incorrectly formatted",
+            "source": "<input type=\"text\" inputmode=\"text\" class=\"form-control\" name=\"address.receiver.streetNumber\" id=\"address.receiver.streetNumber\" minlength=\"0\" maxlength=\"10\" required=\"\" placeholder=\"\" autocomplete=\"nope\" value=\"\">",
+            "tags": [
+                "cat.forms",
+                "wcag21aa",
+                "wcag135",
+                "EN-301-549",
+                "EN-9.1.3.5",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "autocomplete-valid",
+            "description": "Ensure the autocomplete attribute is correct and suitable for the form field",
+            "help": "autocomplete attribute must be used correctly",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/autocomplete-valid?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#address\\.receiver\\.email"
+            ],
+            "summary": "Fix all of the following:\\n  the autocomplete attribute is incorrectly formatted",
+            "source": "<input type=\"text\" inputmode=\"email\" class=\"\" name=\"address.receiver.email\" id=\"address.receiver.email\" minlength=\"0\" maxlength=\"70\" placeholder=\"\" autocomplete=\"nope\" value=\"\">",
+            "tags": [
+                "cat.forms",
+                "wcag21aa",
+                "wcag135",
+                "EN-301-549",
+                "EN-9.1.3.5",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "autocomplete-valid",
+            "description": "Ensure the autocomplete attribute is correct and suitable for the form field",
+            "help": "autocomplete attribute must be used correctly",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/autocomplete-valid?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#address\\.sender\\.name2"
+            ],
+            "summary": "Fix all of the following:\\n  the autocomplete attribute is incorrectly formatted",
+            "source": "<input type=\"text\" inputmode=\"text\" class=\"form-control\" name=\"address.sender.name2\" id=\"address.sender.name2\" minlength=\"0\" maxlength=\"35\" required=\"\" placeholder=\"\" autocomplete=\"nope\" value=\"\">",
+            "tags": [
+                "cat.forms",
+                "wcag21aa",
+                "wcag135",
+                "EN-301-549",
+                "EN-9.1.3.5",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "autocomplete-valid",
+            "description": "Ensure the autocomplete attribute is correct and suitable for the form field",
+            "help": "autocomplete attribute must be used correctly",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/autocomplete-valid?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#address\\.sender\\.name3"
+            ],
+            "summary": "Fix all of the following:\\n  the autocomplete attribute is incorrectly formatted",
+            "source": "<input type=\"text\" inputmode=\"text\" class=\"form-control\" name=\"address.sender.name3\" id=\"address.sender.name3\" minlength=\"0\" maxlength=\"35\" placeholder=\"\" autocomplete=\"nope\" value=\"\">",
+            "tags": [
+                "cat.forms",
+                "wcag21aa",
+                "wcag135",
+                "EN-301-549",
+                "EN-9.1.3.5",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "autocomplete-valid",
+            "description": "Ensure the autocomplete attribute is correct and suitable for the form field",
+            "help": "autocomplete attribute must be used correctly",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/autocomplete-valid?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#address\\.sender\\.plz"
+            ],
+            "summary": "Fix all of the following:\\n  the autocomplete attribute is incorrectly formatted",
+            "source": "<input type=\"text\" inputmode=\"text\" class=\"form-control\" name=\"address.sender.plz\" id=\"address.sender.plz\" minlength=\"0\" maxlength=\"17\" required=\"\" placeholder=\"\" autocomplete=\"nope\" value=\"\">",
+            "tags": [
+                "cat.forms",
+                "wcag21aa",
+                "wcag135",
+                "EN-301-549",
+                "EN-9.1.3.5",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "autocomplete-valid",
+            "description": "Ensure the autocomplete attribute is correct and suitable for the form field",
+            "help": "autocomplete attribute must be used correctly",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/autocomplete-valid?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#address\\.sender\\.city"
+            ],
+            "summary": "Fix all of the following:\\n  the autocomplete attribute is incorrectly formatted",
+            "source": "<input type=\"text\" inputmode=\"text\" class=\"form-control\" name=\"address.sender.city\" id=\"address.sender.city\" minlength=\"0\" maxlength=\"35\" required=\"\" placeholder=\"\" autocomplete=\"nope\" value=\"\">",
+            "tags": [
+                "cat.forms",
+                "wcag21aa",
+                "wcag135",
+                "EN-301-549",
+                "EN-9.1.3.5",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "autocomplete-valid",
+            "description": "Ensure the autocomplete attribute is correct and suitable for the form field",
+            "help": "autocomplete attribute must be used correctly",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/autocomplete-valid?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#address\\.sender\\.street"
+            ],
+            "summary": "Fix all of the following:\\n  the autocomplete attribute is incorrectly formatted",
+            "source": "<input type=\"text\" inputmode=\"text\" class=\"form-control\" name=\"address.sender.street\" id=\"address.sender.street\" minlength=\"0\" maxlength=\"35\" required=\"\" placeholder=\"\" autocomplete=\"nope\" value=\"\">",
+            "tags": [
+                "cat.forms",
+                "wcag21aa",
+                "wcag135",
+                "EN-301-549",
+                "EN-9.1.3.5",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "autocomplete-valid",
+            "description": "Ensure the autocomplete attribute is correct and suitable for the form field",
+            "help": "autocomplete attribute must be used correctly",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/autocomplete-valid?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#address\\.sender\\.streetNumber"
+            ],
+            "summary": "Fix all of the following:\\n  the autocomplete attribute is incorrectly formatted",
+            "source": "<input type=\"text\" inputmode=\"text\" class=\"form-control\" name=\"address.sender.streetNumber\" id=\"address.sender.streetNumber\" minlength=\"0\" maxlength=\"10\" required=\"\" placeholder=\"\" autocomplete=\"nope\" value=\"\">",
+            "tags": [
+                "cat.forms",
+                "wcag21aa",
+                "wcag135",
+                "EN-301-549",
+                "EN-9.1.3.5",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "autocomplete-valid",
+            "description": "Ensure the autocomplete attribute is correct and suitable for the form field",
+            "help": "autocomplete attribute must be used correctly",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/autocomplete-valid?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#address\\.sender\\.email"
+            ],
+            "summary": "Fix all of the following:\\n  the autocomplete attribute is incorrectly formatted",
+            "source": "<input type=\"text\" inputmode=\"email\" class=\"\" name=\"address.sender.email\" id=\"address.sender.email\" minlength=\"0\" maxlength=\"70\" required=\"\" placeholder=\"\" autocomplete=\"nope\" value=\"\">",
+            "tags": [
+                "cat.forms",
+                "wcag21aa",
+                "wcag135",
+                "EN-301-549",
+                "EN-9.1.3.5",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".step-done > .progressbar__text > span"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 2.65 (foreground color: #48b451, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span>Produktauswahl</span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "label[for=\"address.receiver.name2\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 2.24 (foreground color: #adadad, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<label for=\"address.receiver.name2\" class=\"\" data-i18n=\"vls.web.address.DEU_STREET.name2.label\">Vor- und Nachname*</label>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "label[for=\"address.receiver.name3\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 2.24 (foreground color: #adadad, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<label for=\"address.receiver.name3\" class=\"\" data-i18n=\"vls.web.address.DEU_STREET.name3.label\">Adresszusatz</label>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "label[for=\"address.receiver.plz\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 2.24 (foreground color: #adadad, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<label for=\"address.receiver.plz\" class=\"\" data-i18n=\"vls.web.address.DEU_STREET.plz.label\">PLZ*</label>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "label[for=\"address.receiver.city\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 2.24 (foreground color: #adadad, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<label for=\"address.receiver.city\" class=\"\" data-i18n=\"vls.web.address.DEU_STREET.city.label\">Wohnort*</label>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "label[for=\"address.receiver.street\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 2.24 (foreground color: #adadad, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<label for=\"address.receiver.street\" class=\"\" data-i18n=\"vls.web.address.DEU_STREET.street.label\">Straße*</label>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "label[for=\"address.receiver.streetNumber\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 2.24 (foreground color: #adadad, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<label for=\"address.receiver.streetNumber\" class=\"\" data-i18n=\"vls.web.address.DEU_STREET.streetNumber.label\">Hausnummer*</label>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "label[for=\"address.receiver.country\"] > span"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 2.15 (foreground color: #adadad, background color: #fafafa, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span data-i18n=\"nepal.restweb.shipmenteditor.address.country.receiver\">Zielland / Zielregion</span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "label[for=\"address.receiver.email\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 2.24 (foreground color: #adadad, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<label for=\"address.receiver.email\" class=\"\" data-i18n=\"vls.web.address.receiver.DEU_STREET.email.label\">E-Mail des Empfängers</label>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "label[for=\"address.sender.name2\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 2.24 (foreground color: #adadad, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<label for=\"address.sender.name2\" class=\"\" data-i18n=\"vls.web.address.DEU_STREET.name2.label\">Vor- und Nachname*</label>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "label[for=\"address.sender.name3\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 2.24 (foreground color: #adadad, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<label for=\"address.sender.name3\" class=\"\" data-i18n=\"vls.web.address.DEU_STREET.name3.label\">Adresszusatz</label>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "label[for=\"address.sender.plz\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 2.24 (foreground color: #adadad, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<label for=\"address.sender.plz\" class=\"\" data-i18n=\"vls.web.address.DEU_STREET.plz.label\">PLZ*</label>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "label[for=\"address.sender.city\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 2.24 (foreground color: #adadad, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<label for=\"address.sender.city\" class=\"\" data-i18n=\"vls.web.address.DEU_STREET.city.label\">Wohnort*</label>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "label[for=\"address.sender.street\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 2.24 (foreground color: #adadad, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<label for=\"address.sender.street\" class=\"\" data-i18n=\"vls.web.address.DEU_STREET.street.label\">Straße*</label>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "label[for=\"address.sender.streetNumber\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 2.24 (foreground color: #adadad, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<label for=\"address.sender.streetNumber\" class=\"\" data-i18n=\"vls.web.address.DEU_STREET.streetNumber.label\">Hausnummer*</label>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "label[for=\"address.sender.country\"] > span"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 2.15 (foreground color: #adadad, background color: #fafafa, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span data-i18n=\"nepal.restweb.shipmenteditor.address.country.sender\">Land</span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "label[for=\"address.sender.email\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 2.24 (foreground color: #adadad, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<label for=\"address.sender.email\" class=\"\" data-i18n=\"vls.web.address.sender.DEU_STREET.email.label\">E-Mail des Absenders*</label>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".mm_payment-text > span"
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 2.05 (foreground color: #b5b5b5, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span data-i18n=\"nepal.restweb.paymentbanner.text\">mit SSL-Verschlüsselung (256Bit)</span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "listitem",
+            "description": "Ensures <li> elements are used semantically",
+            "help": "<li> elements must be contained in a <ul> or <ol>",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".secondary-navigation__tab[role=\"tablist\"]:nth-child(1) > .secondary-navigation__link"
+            ],
+            "summary": "Fix any of the following:\\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\"",
+            "source": "<li class=\"secondary-navigation__link\" tabindex=\"0\">\\n\t\t\t\t\t\t\t\t<a tabindex=\"-1\" href=\"/de/privatkunden.html\" class=\"secondary-navigation__link secondary-navigation__link--active\">\\n                                    Privatkunden\\n\t\t\t\t\t\t\t\t</a>\\n\t\t\t\t\t\t\t</li>",
+            "tags": [
+                "cat.structure",
+                "wcag2a",
+                "wcag131",
+                "EN-301-549",
+                "EN-9.1.3.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "listitem",
+            "description": "Ensures <li> elements are used semantically",
+            "help": "<li> elements must be contained in a <ul> or <ol>",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".secondary-navigation__tab[role=\"tablist\"]:nth-child(2) > .secondary-navigation__link"
+            ],
+            "summary": "Fix any of the following:\\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\"",
+            "source": "<li class=\"secondary-navigation__link\" tabindex=\"0\">\\n\t\t\t\t\t\t\t\t<a tabindex=\"-1\" href=\"/de/geschaeftskunden.html\" class=\"secondary-navigation__link\">\\n                                    Geschäftskunden\\n\t\t\t\t\t\t\t\t</a>\\n\t\t\t\t\t\t\t</li>",
+            "tags": [
+                "cat.structure",
+                "wcag2a",
+                "wcag131",
+                "EN-301-549",
+                "EN-9.1.3.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "meta-viewport",
+            "description": "Ensures <meta name=\"viewport\"> does not disable text scaling and zooming",
+            "help": "Zooming and scaling must not be disabled",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/meta-viewport?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "meta[name=\"viewport\"]"
+            ],
+            "summary": "Fix any of the following:\\n  maximum-scale on <meta> tag disables zooming on mobile devices",
+            "source": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1\">",
+            "tags": [
+                "cat.sensory-and-visual-cues",
+                "wcag2aa",
+                "wcag144",
+                "EN-301-549",
+                "EN-9.1.4.4",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "svg-img-alt",
+            "description": "Ensures <svg> elements with an img, graphics-document or graphics-symbol role have an accessible text",
+            "help": "<svg> elements with an img role must have an alternative text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/svg-img-alt?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".lang__option--current > .hidden--in.sub-menu__dropdown.link-icon > svg[role=\"img\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has no child that is a title\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<svg role=\"img\" class=\"icon\">\\n\t\t\t<use xlink:href=\"/.resources/dhl/webresources/assets/icons/sprite-dhl-v1-7.svg#chevronDown\"></use>\\n\t\t</svg>",
+            "tags": [
+                "cat.text-alternatives",
+                "wcag2a",
+                "wcag111",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT7.a",
+                "EN-301-549",
+                "EN-9.1.1.1",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "svg-img-alt",
+            "description": "Ensures <svg> elements with an img, graphics-document or graphics-symbol role have an accessible text",
+            "help": "<svg> elements with an img role must have an alternative text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/svg-img-alt?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "button[title=\"Info Packstation\"] > .info[version=\"1.1\"][xmlns=\"http://www.w3.org/2000/svg\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has no child that is a title\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<svg role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" class=\"info\"><use xmlns=\"http://www.w3.org/1999/xlink\" xlink:href=\"https://www.dhl.de/int-versenden/gw/restweb/nepal/assets/icons/icons-nepal.svg#info\"></use></svg>",
+            "tags": [
+                "cat.text-alternatives",
+                "wcag2a",
+                "wcag111",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT7.a",
+                "EN-301-549",
+                "EN-9.1.1.1",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "svg-img-alt",
+            "description": "Ensures <svg> elements with an img, graphics-document or graphics-symbol role have an accessible text",
+            "help": "<svg> elements with an img role must have an alternative text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/svg-img-alt?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "button[title=\"Info E-Mail Empfänger\"] > .info[version=\"1.1\"][xmlns=\"http://www.w3.org/2000/svg\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has no child that is a title\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<svg role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" class=\"info\"><use xmlns=\"http://www.w3.org/1999/xlink\" xlink:href=\"https://www.dhl.de/int-versenden/gw/restweb/nepal/assets/icons/icons-nepal.svg#info\"></use></svg>",
+            "tags": [
+                "cat.text-alternatives",
+                "wcag2a",
+                "wcag111",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT7.a",
+                "EN-301-549",
+                "EN-9.1.1.1",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "svg-img-alt",
+            "description": "Ensures <svg> elements with an img, graphics-document or graphics-symbol role have an accessible text",
+            "help": "<svg> elements with an img role must have an alternative text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/svg-img-alt?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "button[title=\"Info E-Mail Absender\"] > .info[version=\"1.1\"][xmlns=\"http://www.w3.org/2000/svg\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has no child that is a title\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<svg role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" class=\"info\"><use xmlns=\"http://www.w3.org/1999/xlink\" xlink:href=\"https://www.dhl.de/int-versenden/gw/restweb/nepal/assets/icons/icons-nepal.svg#info\"></use></svg>",
+            "tags": [
+                "cat.text-alternatives",
+                "wcag2a",
+                "wcag111",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT7.a",
+                "EN-301-549",
+                "EN-9.1.1.1",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "svg-img-alt",
+            "description": "Ensures <svg> elements with an img, graphics-document or graphics-symbol role have an accessible text",
+            "help": "<svg> elements with an img role must have an alternative text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/svg-img-alt?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".add"
+            ],
+            "summary": "Fix any of the following:\\n  Element has no child that is a title\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<svg role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" class=\"add\"><use xmlns=\"http://www.w3.org/1999/xlink\" xlink:href=\"https://www.dhl.de/int-versenden/gw/restweb/nepal/assets/icons/icons-frankieren.svg#add\"></use></svg>",
+            "tags": [
+                "cat.text-alternatives",
+                "wcag2a",
+                "wcag111",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT7.a",
+                "EN-301-549",
+                "EN-9.1.1.1",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        },
+        {
+            "issueId": null,
+            "ruleId": "svg-img-alt",
+            "description": "Ensures <svg> elements with an img, graphics-document or graphics-symbol role have an accessible text",
+            "help": "<svg> elements with an img role must have an alternative text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/svg-img-alt?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".icon-info > .info[version=\"1.1\"][xmlns=\"http://www.w3.org/2000/svg\"]"
+            ],
+            "summary": "Fix any of the following:\\n  Element has no child that is a title\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<svg role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" class=\"info\"><use xmlns=\"http://www.w3.org/1999/xlink\" xlink:href=\"https://www.dhl.de/int-versenden/gw/restweb/nepal/assets/icons/icons-nepal.svg#info\"></use></svg>",
+            "tags": [
+                "cat.text-alternatives",
+                "wcag2a",
+                "wcag111",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT7.a",
+                "EN-301-549",
+                "EN-9.1.1.1",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T19:08:29.588Z",
+            "isExperimental": false,
+            "testUrl": "https://www.dhl.de/de/privatkunden/pakete-versenden/online-frankieren.html?type=ShipmentEditorAddressInput",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "DHL Online Frankierung | DHL"
+        }
+    ]
+}

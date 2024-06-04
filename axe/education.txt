@@ -1,0 +1,52 @@
+education\harvard_main_page.json
+Critical Issues:
+
+Serious Issues:
+education\harvard_majors_list.json
+Critical Issues:
+
+Serious Issues:
+education\harvard_major_details.json
+Critical Issues:
+
+Serious Issues:
+education\pw_main_page.json
+Critical Issues:
+
+Serious Issues:
+education\pw_majors_list.json
+Serious Issues:
+nested-interactive: 84: Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies;
+
+education\pw_major_details.json
+Critical Issues:
+
+Serious Issues:
+education\uva_main_page.json
+Critical Issues:
+
+Serious Issues:
+education\uva_majors_list.json
+Critical Issues:
+
+Serious Issues:
+education\uva_major_details.json
+Critical Issues:
+
+Serious Issues:
+education\zut_main_page.json
+Critical Issues:
+image-alt: 1: Ensures <img> elements have alternate text or a role of none or presentation;
+
+Serious Issues:
+listitem: 9: Ensures <li> elements are used semantically;
+list: 2: Ensures that lists are structured correctly;
+
+education\zut_majors_list.json
+Serious Issues:
+list: 1: Ensures that lists are structured correctly;
+
+education\zut_major_details.json
+Serious Issues:
+list: 1: Ensures that lists are structured correctly;
+

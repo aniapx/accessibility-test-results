@@ -1,0 +1,64 @@
+healthcare\mayoclinic_disease_details.json
+Critical Issues:
+
+Serious Issues:
+healthcare\mayoclinic_disease_list.json
+Critical Issues:
+
+Serious Issues:
+healthcare\mayoclinic_main_page.json
+Serious Issues:
+link-name: 23: Ensures links have discernible text;
+
+healthcare\nhs_disease_details.json
+Critical Issues:
+
+Serious Issues:
+healthcare\nhs_disease_list.json
+Serious Issues:
+list: 1: Ensures that lists are structured correctly;
+
+healthcare\nhs_main_page.json
+Critical Issues:
+
+Serious Issues:
+healthcare\znanylekarz_details.json
+Critical Issues:
+aria-valid-attr-value: 9: Ensures all ARIA attributes have valid values;
+aria-allowed-attr: 2: Ensures an element's role supports its ARIA attributes;
+button-name: 2: Ensures buttons have discernible text;
+image-alt: 1: Ensures <img> elements have alternate text or a role of none or presentation;
+meta-viewport: 1: Ensures <meta name="viewport"> does not disable text scaling and zooming;
+
+Serious Issues:
+color-contrast: 53: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+aria-hidden-focus: 8: Ensures aria-hidden elements are not focusable nor contain focusable elements;
+link-name: 7: Ensures links have discernible text;
+list: 2: Ensures that lists are structured correctly;
+
+healthcare\znanylekarz_list.json
+Critical Issues:
+image-alt: 30: Ensures <img> elements have alternate text or a role of none or presentation;
+aria-allowed-attr: 2: Ensures an element's role supports its ARIA attributes;
+button-name: 1: Ensures buttons have discernible text;
+meta-viewport: 1: Ensures <meta name="viewport"> does not disable text scaling and zooming;
+
+Serious Issues:
+color-contrast: 42: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+link-name: 4: Ensures links have discernible text;
+list: 2: Ensures that lists are structured correctly;
+aria-command-name: 1: Ensures every ARIA button, link and menuitem has an accessible name;
+
+healthcare\znanylekarz_main_page.json
+Critical Issues:
+aria-allowed-attr: 2: Ensures an element's role supports its ARIA attributes;
+button-name: 1: Ensures buttons have discernible text;
+image-alt: 1: Ensures <img> elements have alternate text or a role of none or presentation;
+meta-viewport: 1: Ensures <meta name="viewport"> does not disable text scaling and zooming;
+
+Serious Issues:
+color-contrast: 38: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+aria-hidden-focus: 16: Ensures aria-hidden elements are not focusable nor contain focusable elements;
+link-name: 3: Ensures links have discernible text;
+link-in-text-block: 1: Ensure links are distinguished from surrounding text in a way that does not rely on color;
+

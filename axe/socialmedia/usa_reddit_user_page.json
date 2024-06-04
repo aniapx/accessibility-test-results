@@ -1,0 +1,606 @@
+{
+    "url": "https://www.reddit.com/user/MrEfil/",
+    "extensionVersion": "4.76.0",
+    "axeVersion": "4.8.2",
+    "standard": "WCAG 2.1 AA",
+    "testingStartDate": "2024-03-04T18:42:41.246Z",
+    "testingEndDate": "2024-03-04T18:42:41.246Z",
+    "bestPracticesEnabled": false,
+    "experimentalEnabled": false,
+    "issueSummary": {
+        "critical": 0,
+        "serious": 16,
+        "moderate": 0,
+        "minor": 0,
+        "bestPractices": 0,
+        "needsReview": 0
+    },
+    "remainingTestingSummary": {
+        "run": false
+    },
+    "igtSummary": [],
+    "failedRules": [
+        {
+            "name": "aria-prohibited-attr",
+            "count": 2,
+            "mode": "automated"
+        },
+        {
+            "name": "color-contrast",
+            "count": 7,
+            "mode": "automated"
+        },
+        {
+            "name": "link-in-text-block",
+            "count": 2,
+            "mode": "automated"
+        },
+        {
+            "name": "link-name",
+            "count": 2,
+            "mode": "automated"
+        },
+        {
+            "name": "nested-interactive",
+            "count": 3,
+            "mode": "automated"
+        }
+    ],
+    "needsReview": [],
+    "source": {
+        "productName": "extension-chrome",
+        "productVersion": "4.76.0",
+        "productComponentName": "axe-extension"
+    },
+    "testDetails": {
+        "testId": "",
+        "axeVersion": "4.8.2",
+        "engine": "axe-core",
+        "standard": "WCAG 2.1 AA",
+        "startDate": "2024-03-04T18:42:41.246Z",
+        "endDate": "2024-03-04T18:42:41.246Z",
+        "bestPracticesEnabled": false,
+        "experimentalEnabled": false
+    },
+    "allIssues": [
+        {
+            "issueId": null,
+            "ruleId": "aria-prohibited-attr",
+            "description": "Ensures ARIA attributes are not prohibited for an element's role",
+            "help": "Elements must only use permitted ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-prohibited-attr?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "shreddit-profile-comment[comment-id=\"t1_ksq7qy3\"] > .p-md > .text-12 > div:nth-child(1) > .float-left[source=\"comment_credit_bar\"][noun=\"subreddit\"] > shreddit-async-loader[bundlename=\"faceplate_hovercard\"] > faceplate-hovercard[data-id=\"community-hover-card\"]"
+            ],
+            "summary": "Fix all of the following:\\n  aria-label attribute cannot be used on a faceplate-hovercard with no valid role attribute.",
+            "source": "<faceplate-hovercard class=\"nd:visible\" position=\"bottom-start\" data-id=\"community-hover-card\" aria-label=\"r/ProgrammerHumor\" appearance=\"neutral\">",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:41.246Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/user/MrEfil/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "MrEfil (u/MrEfil) - Reddit"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-prohibited-attr",
+            "description": "Ensures ARIA attributes are not prohibited for an element's role",
+            "help": "Elements must only use permitted ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-prohibited-attr?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "shreddit-profile-comment[comment-id=\"t1_ksoygnc\"] > .p-md > .text-12 > div:nth-child(1) > .float-left[source=\"comment_credit_bar\"][noun=\"subreddit\"] > shreddit-async-loader[bundlename=\"faceplate_hovercard\"] > faceplate-hovercard[data-id=\"community-hover-card\"]"
+            ],
+            "summary": "Fix all of the following:\\n  aria-label attribute cannot be used on a faceplate-hovercard with no valid role attribute.",
+            "source": "<faceplate-hovercard class=\"nd:visible\" position=\"bottom-start\" data-id=\"community-hover-card\" aria-label=\"r/ProgrammerHumor\" appearance=\"neutral\">",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:41.246Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/user/MrEfil/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "MrEfil (u/MrEfil) - Reddit"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment-author-modifier-icon[thing-id=\"t1_ktarr4x\"]",
+                    ".op.comment-op-icon-js.text-alienblue-600"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 2.17 (foreground color: #0045ac, background color: #0b1416, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span aria-label=\"Comment distinguished as an original poster\" class=\"font-semibold text-12 tracking-wide uppercase ml-0 mr-[2px] op comment-op-icon-js text-alienblue-600\">\\n OP\\n </span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:41.246Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/user/MrEfil/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "MrEfil (u/MrEfil) - Reddit"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment-author-modifier-icon[thing-id=\"t1_ktaqykf\"]",
+                    ".op.comment-op-icon-js.text-alienblue-600"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 2.17 (foreground color: #0045ac, background color: #0b1416, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span aria-label=\"Comment distinguished as an original poster\" class=\"font-semibold text-12 tracking-wide uppercase ml-0 mr-[2px] op comment-op-icon-js text-alienblue-600\">\\n OP\\n </span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:41.246Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/user/MrEfil/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "MrEfil (u/MrEfil) - Reddit"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment-author-modifier-icon[thing-id=\"t1_ktanxbv\"]",
+                    ".op.comment-op-icon-js.text-alienblue-600"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 2.17 (foreground color: #0045ac, background color: #0b1416, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span aria-label=\"Comment distinguished as an original poster\" class=\"font-semibold text-12 tracking-wide uppercase ml-0 mr-[2px] op comment-op-icon-js text-alienblue-600\">\\n OP\\n </span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:41.246Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/user/MrEfil/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "MrEfil (u/MrEfil) - Reddit"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment-author-modifier-icon[thing-id=\"t1_kta58b0\"]",
+                    ".op.comment-op-icon-js.text-alienblue-600"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 2.17 (foreground color: #0045ac, background color: #0b1416, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span aria-label=\"Comment distinguished as an original poster\" class=\"font-semibold text-12 tracking-wide uppercase ml-0 mr-[2px] op comment-op-icon-js text-alienblue-600\">\\n OP\\n </span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:41.246Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/user/MrEfil/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "MrEfil (u/MrEfil) - Reddit"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment-author-modifier-icon[thing-id=\"t1_kta4jh0\"]",
+                    ".op.comment-op-icon-js.text-alienblue-600"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 2.17 (foreground color: #0045ac, background color: #0b1416, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span aria-label=\"Comment distinguished as an original poster\" class=\"font-semibold text-12 tracking-wide uppercase ml-0 mr-[2px] op comment-op-icon-js text-alienblue-600\">\\n OP\\n </span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:41.246Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/user/MrEfil/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "MrEfil (u/MrEfil) - Reddit"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment-author-modifier-icon[thing-id=\"t1_ksq7qy3\"]",
+                    ".op.comment-op-icon-js.text-alienblue-600"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 2.17 (foreground color: #0045ac, background color: #0b1416, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span aria-label=\"Comment distinguished as an original poster\" class=\"font-semibold text-12 tracking-wide uppercase ml-0 mr-[2px] op comment-op-icon-js text-alienblue-600\">\\n OP\\n </span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:41.246Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/user/MrEfil/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "MrEfil (u/MrEfil) - Reddit"
+        },
+        {
+            "issueId": null,
+            "ruleId": "color-contrast",
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "shreddit-comment-author-modifier-icon[thing-id=\"t1_ksoygnc\"]",
+                    ".op.comment-op-icon-js.text-alienblue-600"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has insufficient color contrast of 2.17 (foreground color: #0045ac, background color: #0b1416, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "source": "<span aria-label=\"Comment distinguished as an original poster\" class=\"font-semibold text-12 tracking-wide uppercase ml-0 mr-[2px] op comment-op-icon-js text-alienblue-600\">\\n OP\\n </span>",
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:41.246Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/user/MrEfil/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "MrEfil (u/MrEfil) - Reddit"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-in-text-block",
+            "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+            "help": "Links must be distinguishable without relying on color",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "shreddit-profile-comment[comment-id=\"t1_kta4jh0\"] > .p-md > .ml-\\[22px\\].pl-\\[10px\\].md > .text-neutral-content-strong > .pt-xs.md > p > .pointer-events-auto[rel=\"noopener nofollow ugc\"][target=\"_blank\"]"
+            ],
+            "summary": "Fix any of the following:\\n  The link has insufficient color contrast of 2.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #629fff, surrounding text: #f2f4f5)\\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+            "source": "<a class=\"relative pointer-events-auto\" href=\"https://i.imgur.com/nKyAck5.png\" rel=\"noopener nofollow ugc\" target=\"_blank\">https://i.imgur.com/nKyAck5.png</a>",
+            "tags": [
+                "cat.color",
+                "wcag2a",
+                "wcag141",
+                "TTv5",
+                "TT13.a",
+                "EN-301-549",
+                "EN-9.1.4.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:41.246Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/user/MrEfil/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "MrEfil (u/MrEfil) - Reddit"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-in-text-block",
+            "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+            "help": "Links must be distinguishable without relying on color",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "a[href$=\"floor796.com/\"]"
+            ],
+            "summary": "Fix any of the following:\\n  The link has insufficient color contrast of 2.4:1 with the surrounding text. (Minimum contrast is 3:1, link text: #629fff, surrounding text: #f2f4f5)\\n  The link has no styling (such as underline) to distinguish it from the surrounding text",
+            "source": "<a class=\"relative pointer-events-auto\" href=\"https://floor796.com/\" rel=\"noopener nofollow ugc\" target=\"_blank\">https://floor796.com/</a>",
+            "tags": [
+                "cat.color",
+                "wcag2a",
+                "wcag141",
+                "TTv5",
+                "TT13.a",
+                "EN-301-549",
+                "EN-9.1.4.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:41.246Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/user/MrEfil/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "MrEfil (u/MrEfil) - Reddit"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-name",
+            "description": "Ensures links have discernible text",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "shreddit-profile-comment[comment-id=\"t1_ksq7qy3\"] > .p-md > .text-12 > div:nth-child(1) > .float-left[source=\"comment_credit_bar\"][noun=\"subreddit\"] > shreddit-async-loader[bundlename=\"faceplate_hovercard\"] > faceplate-hovercard[data-id=\"community-hover-card\"] > .h-\\[24px\\].undefined[data-testid=\"location-anchor\"]"
+            ],
+            "summary": "Fix all of the following:\\n  Element is in tab order and does not have accessible text\\n\\nFix any of the following:\\n  Element does not have text that is visible to screen readers\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<a rpl=\"\" class=\"flex items-center text-tone-1 font-semibold whitespace-nowrap h-[24px] undefined a\\n  \\n  \\n  no-visited\\n  no-underline hover:no-underline\\n  \" data-testid=\"location-anchor\" href=\"/r/ProgrammerHumor/\" role=\"presentation\" aria-haspopup=\"dialog\" aria-expanded=\"false\">",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag244",
+                "wcag412",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.2.4.4",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:41.246Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/user/MrEfil/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "MrEfil (u/MrEfil) - Reddit"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-name",
+            "description": "Ensures links have discernible text",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "shreddit-profile-comment[comment-id=\"t1_ksoygnc\"] > .p-md > .text-12 > div:nth-child(1) > .float-left[source=\"comment_credit_bar\"][noun=\"subreddit\"] > shreddit-async-loader[bundlename=\"faceplate_hovercard\"] > faceplate-hovercard[data-id=\"community-hover-card\"] > .h-\\[24px\\].undefined[data-testid=\"location-anchor\"]"
+            ],
+            "summary": "Fix all of the following:\\n  Element is in tab order and does not have accessible text\\n\\nFix any of the following:\\n  Element does not have text that is visible to screen readers\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<a rpl=\"\" class=\"flex items-center text-tone-1 font-semibold whitespace-nowrap h-[24px] undefined a\\n  \\n  \\n  no-visited\\n  no-underline hover:no-underline\\n  \" data-testid=\"location-anchor\" href=\"/r/ProgrammerHumor/\" role=\"presentation\" aria-haspopup=\"dialog\" aria-expanded=\"false\">",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag244",
+                "wcag412",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.2.4.4",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:41.246Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/user/MrEfil/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "MrEfil (u/MrEfil) - Reddit"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "#profile-feed-tabgroup",
+                    "span[data-i=\"1\"]"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Element has focusable descendants",
+            "source": "<span role=\"tab\" data-i=\"1\" aria-selected=\"true\"> <slot name=\"page-1\"></slot> </span>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:41.246Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/user/MrEfil/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "MrEfil (u/MrEfil) - Reddit"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "#profile-feed-tabgroup",
+                    "span[data-i=\"2\"]"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Using a negative tabindex on an element inside an interactive control does not prevent assistive technologies from focusing the element (even with aria-hidden=\"true\")",
+            "source": "<span role=\"tab\" data-i=\"2\" aria-selected=\"false\"> <slot name=\"page-2\"></slot> </span>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:41.246Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/user/MrEfil/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "MrEfil (u/MrEfil) - Reddit"
+        },
+        {
+            "issueId": null,
+            "ruleId": "nested-interactive",
+            "description": "Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "help": "Interactive controls must not be nested",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                [
+                    "#profile-feed-tabgroup",
+                    "span[data-i=\"3\"]"
+                ]
+            ],
+            "summary": "Fix any of the following:\\n  Using a negative tabindex on an element inside an interactive control does not prevent assistive technologies from focusing the element (even with aria-hidden=\"true\")",
+            "source": "<span role=\"tab\" data-i=\"3\" aria-selected=\"false\"> <slot name=\"page-3\"></slot> </span>",
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:42:41.246Z",
+            "isExperimental": false,
+            "testUrl": "https://www.reddit.com/user/MrEfil/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "MrEfil (u/MrEfil) - Reddit"
+        }
+    ]
+}

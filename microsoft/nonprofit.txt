@@ -1,0 +1,70 @@
+.\nonprofit\eu_legambiente_donate.html
+color-contrast: 12: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+frame-title: 12: Ensures <iframe> and <frame> elements have an accessible name;
+html-has-lang: 12: Ensures every HTML document has a lang attribute;
+image-alt: 12: Ensures <img> elements have alternate text or a role of none or presentation;
+meta-viewport: 12: Ensures <meta name="viewport"> does not disable text scaling and zooming;
+
+.\nonprofit\eu_legambiente_main_page.html
+aria-hidden-focus: 37: Ensures aria-hidden elements are not focusable nor contain focusable elements;
+button-name: 37: Ensures buttons have discernible text;
+color-contrast: 37: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+image-alt: 37: Ensures <img> elements have alternate text or a role of none or presentation;
+link-in-text-block: 37: Ensure links are distinguished from surrounding text in a way that does not rely on color;
+link-name: 37: Ensures links have discernible text;
+
+.\nonprofit\eu_legambiente_volunteer.html
+color-contrast: 42: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+image-alt: 42: Ensures <img> elements have alternate text or a role of none or presentation;
+link-name: 42: Ensures links have discernible text;
+svg-img-alt: 42: Ensures <svg> elements with an img, graphics-document or graphics-symbol role have an accessible text;
+
+.\nonprofit\pl_wosp_donate.html
+aria-input-field-name: 36: Ensures every ARIA input field has an accessible name;
+aria-required-children: 36: Ensures elements with an ARIA role that require child roles contain them;
+color-contrast: 36: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+duplicate-id-aria: 36: Ensures every id attribute value used in ARIA and in labels is unique;
+image-alt: 36: Ensures <img> elements have alternate text or a role of none or presentation;
+label: 36: Ensures every form element has a label;
+link-name: 36: Ensures links have discernible text;
+list: 36: Ensures that lists are structured correctly;
+
+.\nonprofit\pl_wosp_main_page.html
+aria-input-field-name: 67: Ensures every ARIA input field has an accessible name;
+aria-required-children: 67: Ensures elements with an ARIA role that require child roles contain them;
+color-contrast: 67: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+duplicate-id-active: 67: Ensures every id attribute value of active elements is unique;
+duplicate-id-aria: 67: Ensures every id attribute value used in ARIA and in labels is unique;
+image-alt: 67: Ensures <img> elements have alternate text or a role of none or presentation;
+link-name: 67: Ensures links have discernible text;
+list: 67: Ensures that lists are structured correctly;
+
+.\nonprofit\pl_wosp_volunteer.html
+aria-input-field-name: 62: Ensures every ARIA input field has an accessible name;
+aria-required-children: 62: Ensures elements with an ARIA role that require child roles contain them;
+color-contrast: 62: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+duplicate-id-aria: 62: Ensures every id attribute value used in ARIA and in labels is unique;
+image-alt: 62: Ensures <img> elements have alternate text or a role of none or presentation;
+link-in-text-block: 62: Ensure links are distinguished from surrounding text in a way that does not rely on color;
+link-name: 62: Ensures links have discernible text;
+list: 62: Ensures that lists are structured correctly;
+
+.\nonprofit\usa_redcross_donate.html
+color-contrast: 5: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+link-in-text-block: 5: Ensure links are distinguished from surrounding text in a way that does not rely on color;
+
+.\nonprofit\usa_redcross_main_page.html
+aria-allowed-attr: 37: Ensures ARIA attributes are allowed for an element's role;
+aria-input-field-name: 37: Ensures every ARIA input field has an accessible name;
+color-contrast: 37: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+image-alt: 37: Ensures <img> elements have alternate text or a role of none or presentation;
+link-name: 37: Ensures links have discernible text;
+nested-interactive: 37: Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies;
+select-name: 37: Ensures select element has an accessible name;
+
+.\nonprofit\usa_redcross_volunteer.html
+aria-allowed-attr: 16: Ensures ARIA attributes are allowed for an element's role;
+aria-input-field-name: 16: Ensures every ARIA input field has an accessible name;
+color-contrast: 16: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+image-alt: 16: Ensures <img> elements have alternate text or a role of none or presentation;
+

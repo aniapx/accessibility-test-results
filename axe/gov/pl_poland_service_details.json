@@ -1,0 +1,297 @@
+{
+    "url": "https://www.gov.pl/web/gov/uzyskaj-jednorazowe-swiadczenie-w-wysokosci-4000-zl",
+    "extensionVersion": "4.76.0",
+    "axeVersion": "4.8.2",
+    "standard": "WCAG 2.1 AA",
+    "testingStartDate": "2024-03-04T18:57:56.529Z",
+    "testingEndDate": "2024-03-04T18:57:56.529Z",
+    "bestPracticesEnabled": false,
+    "experimentalEnabled": false,
+    "issueSummary": {
+        "critical": 4,
+        "serious": 4,
+        "moderate": 0,
+        "minor": 0,
+        "bestPractices": 0,
+        "needsReview": 0
+    },
+    "remainingTestingSummary": {
+        "run": false
+    },
+    "igtSummary": [],
+    "failedRules": [
+        {
+            "name": "aria-required-children",
+            "count": 1,
+            "mode": "automated"
+        },
+        {
+            "name": "aria-required-parent",
+            "count": 3,
+            "mode": "automated"
+        },
+        {
+            "name": "listitem",
+            "count": 3,
+            "mode": "automated"
+        },
+        {
+            "name": "valid-lang",
+            "count": 1,
+            "mode": "automated"
+        }
+    ],
+    "needsReview": [],
+    "source": {
+        "productName": "extension-chrome",
+        "productVersion": "4.76.0",
+        "productComponentName": "axe-extension"
+    },
+    "testDetails": {
+        "testId": "",
+        "axeVersion": "4.8.2",
+        "engine": "axe-core",
+        "standard": "WCAG 2.1 AA",
+        "startDate": "2024-03-04T18:57:56.529Z",
+        "endDate": "2024-03-04T18:57:56.529Z",
+        "bestPracticesEnabled": false,
+        "experimentalEnabled": false
+    },
+    "allIssues": [
+        {
+            "issueId": null,
+            "ruleId": "aria-required-children",
+            "description": "Ensures elements with an ARIA role that require child roles contain them",
+            "help": "Certain ARIA roles must contain particular children",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-required-children?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#tabs-example"
+            ],
+            "summary": "Fix any of the following:\\n  Element has children which are not allowed: li[tabindex]\\n  Element uses aria-busy=\"true\" while showing a loader",
+            "source": "<ul id=\"tabs-example\" role=\"tablist\">",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag131",
+                "EN-301-549",
+                "EN-9.1.3.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:57:56.529Z",
+            "isExperimental": false,
+            "testUrl": "https://www.gov.pl/web/gov/uzyskaj-jednorazowe-swiadczenie-w-wysokosci-4000-zl",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Uzyskaj jednorazowe swiadczenie w wysokosci 4000 zl - Gov.pl - Portal Gov.pl"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-required-parent",
+            "description": "Ensures elements with an ARIA role that require parent roles are contained by them",
+            "help": "Certain ARIA roles must be contained by particular parents",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-required-parent?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#ex-scenario_2a39c92c-e7a5-48d2-a934-a517c6a82b19_tab_0"
+            ],
+            "summary": "Fix any of the following:\\n  Required ARIA parent role not present: tablist",
+            "source": "<a id=\"ex-scenario_2a39c92c-e7a5-48d2-a934-a517c6a82b19_tab_0\" href=\"#scenario_2a39c92c-e7a5-48d2-a934-a517c6a82b19_tab_0\" class=\"active\" data-toggle=\"tab\" role=\"tab\" aria-controls=\"scenario_2a39c92c-e7a5-48d2-a934-a517c6a82b19_tab_0\" aria-selected=\"true\">\\nprzez internet\\n</a>",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag131",
+                "EN-301-549",
+                "EN-9.1.3.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:57:56.529Z",
+            "isExperimental": false,
+            "testUrl": "https://www.gov.pl/web/gov/uzyskaj-jednorazowe-swiadczenie-w-wysokosci-4000-zl",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Uzyskaj jednorazowe swiadczenie w wysokosci 4000 zl - Gov.pl - Portal Gov.pl"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-required-parent",
+            "description": "Ensures elements with an ARIA role that require parent roles are contained by them",
+            "help": "Certain ARIA roles must be contained by particular parents",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-required-parent?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#ex-scenario_2a39c92c-e7a5-48d2-a934-a517c6a82b19_tab_1"
+            ],
+            "summary": "Fix any of the following:\\n  Required ARIA parent role not present: tablist",
+            "source": "<a id=\"ex-scenario_2a39c92c-e7a5-48d2-a934-a517c6a82b19_tab_1\" href=\"#scenario_2a39c92c-e7a5-48d2-a934-a517c6a82b19_tab_1\" data-toggle=\"tab\" role=\"tab\" aria-controls=\"scenario_2a39c92c-e7a5-48d2-a934-a517c6a82b19_tab_1\" aria-selected=\"false\">\\nW urzedzie\\n</a>",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag131",
+                "EN-301-549",
+                "EN-9.1.3.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:57:56.529Z",
+            "isExperimental": false,
+            "testUrl": "https://www.gov.pl/web/gov/uzyskaj-jednorazowe-swiadczenie-w-wysokosci-4000-zl",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Uzyskaj jednorazowe swiadczenie w wysokosci 4000 zl - Gov.pl - Portal Gov.pl"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-required-parent",
+            "description": "Ensures elements with an ARIA role that require parent roles are contained by them",
+            "help": "Certain ARIA roles must be contained by particular parents",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-required-parent?application=AxeChrome",
+            "impact": "critical",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#ex-scenario_2a39c92c-e7a5-48d2-a934-a517c6a82b19_tab_2"
+            ],
+            "summary": "Fix any of the following:\\n  Required ARIA parent role not present: tablist",
+            "source": "<a id=\"ex-scenario_2a39c92c-e7a5-48d2-a934-a517c6a82b19_tab_2\" href=\"#scenario_2a39c92c-e7a5-48d2-a934-a517c6a82b19_tab_2\" data-toggle=\"tab\" role=\"tab\" aria-controls=\"scenario_2a39c92c-e7a5-48d2-a934-a517c6a82b19_tab_2\" aria-selected=\"false\">\\nListownie\\n</a>",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag131",
+                "EN-301-549",
+                "EN-9.1.3.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:57:56.529Z",
+            "isExperimental": false,
+            "testUrl": "https://www.gov.pl/web/gov/uzyskaj-jednorazowe-swiadczenie-w-wysokosci-4000-zl",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Uzyskaj jednorazowe swiadczenie w wysokosci 4000 zl - Gov.pl - Portal Gov.pl"
+        },
+        {
+            "issueId": null,
+            "ruleId": "listitem",
+            "description": "Ensures <li> elements are used semantically",
+            "help": "<li> elements must be contained in a <ul> or <ol>",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#tabs-example > li:nth-child(1)"
+            ],
+            "summary": "Fix any of the following:\\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\"",
+            "source": "<li>\\n<a id=\"ex-scenario_2a39c92c-e7a5-48d2-a934-a517c6a82b19_tab_0\" href=\"#scenario_2a39c92c-e7a5-48d2-a934-a517c6a82b19_tab_0\" class=\"active\" data-toggle=\"tab\" role=\"tab\" aria-controls=\"scenario_2a39c92c-e7a5-48d2-a934-a517c6a82b19_tab_0\" aria-selected=\"true\">\\nprzez internet\\n</a>\\n</li>",
+            "tags": [
+                "cat.structure",
+                "wcag2a",
+                "wcag131",
+                "EN-301-549",
+                "EN-9.1.3.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:57:56.529Z",
+            "isExperimental": false,
+            "testUrl": "https://www.gov.pl/web/gov/uzyskaj-jednorazowe-swiadczenie-w-wysokosci-4000-zl",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Uzyskaj jednorazowe swiadczenie w wysokosci 4000 zl - Gov.pl - Portal Gov.pl"
+        },
+        {
+            "issueId": null,
+            "ruleId": "listitem",
+            "description": "Ensures <li> elements are used semantically",
+            "help": "<li> elements must be contained in a <ul> or <ol>",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#tabs-example > li:nth-child(2)"
+            ],
+            "summary": "Fix any of the following:\\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\"",
+            "source": "<li>\\n<a id=\"ex-scenario_2a39c92c-e7a5-48d2-a934-a517c6a82b19_tab_1\" href=\"#scenario_2a39c92c-e7a5-48d2-a934-a517c6a82b19_tab_1\" data-toggle=\"tab\" role=\"tab\" aria-controls=\"scenario_2a39c92c-e7a5-48d2-a934-a517c6a82b19_tab_1\" aria-selected=\"false\">\\nW urzedzie\\n</a>\\n</li>",
+            "tags": [
+                "cat.structure",
+                "wcag2a",
+                "wcag131",
+                "EN-301-549",
+                "EN-9.1.3.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:57:56.529Z",
+            "isExperimental": false,
+            "testUrl": "https://www.gov.pl/web/gov/uzyskaj-jednorazowe-swiadczenie-w-wysokosci-4000-zl",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Uzyskaj jednorazowe swiadczenie w wysokosci 4000 zl - Gov.pl - Portal Gov.pl"
+        },
+        {
+            "issueId": null,
+            "ruleId": "listitem",
+            "description": "Ensures <li> elements are used semantically",
+            "help": "<li> elements must be contained in a <ul> or <ol>",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "#tabs-example > li:nth-child(3)"
+            ],
+            "summary": "Fix any of the following:\\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\"",
+            "source": "<li>\\n<a id=\"ex-scenario_2a39c92c-e7a5-48d2-a934-a517c6a82b19_tab_2\" href=\"#scenario_2a39c92c-e7a5-48d2-a934-a517c6a82b19_tab_2\" data-toggle=\"tab\" role=\"tab\" aria-controls=\"scenario_2a39c92c-e7a5-48d2-a934-a517c6a82b19_tab_2\" aria-selected=\"false\">\\nListownie\\n</a>\\n</li>",
+            "tags": [
+                "cat.structure",
+                "wcag2a",
+                "wcag131",
+                "EN-301-549",
+                "EN-9.1.3.1"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:57:56.529Z",
+            "isExperimental": false,
+            "testUrl": "https://www.gov.pl/web/gov/uzyskaj-jednorazowe-swiadczenie-w-wysokosci-4000-zl",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Uzyskaj jednorazowe swiadczenie w wysokosci 4000 zl - Gov.pl - Portal Gov.pl"
+        },
+        {
+            "issueId": null,
+            "ruleId": "valid-lang",
+            "description": "Ensures lang attributes have valid values",
+            "help": "lang attribute must have a valid value",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/valid-lang?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                "span[lang=\"ua-UA\"]"
+            ],
+            "summary": "Fix all of the following:\\n  Value of lang attribute not included in the list of valid languages",
+            "source": "<span lang=\"ua-UA\">&nbsp;Strona dla obywateli Ukrainy –</span>",
+            "tags": [
+                "cat.language",
+                "wcag2aa",
+                "wcag312",
+                "TTv5",
+                "TT11.b",
+                "EN-301-549",
+                "EN-9.3.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T18:57:56.529Z",
+            "isExperimental": false,
+            "testUrl": "https://www.gov.pl/web/gov/uzyskaj-jednorazowe-swiadczenie-w-wysokosci-4000-zl",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Uzyskaj jednorazowe swiadczenie w wysokosci 4000 zl - Gov.pl - Portal Gov.pl"
+        }
+    ]
+}

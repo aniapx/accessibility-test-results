@@ -1,0 +1,31 @@
+.\gov\eu_france_items_list.html
+
+.\gov\eu_france_item_details.html
+duplicate-id-aria: 2: Ensures every id attribute value used in ARIA and in labels is unique;
+
+.\gov\eu_france_main_page.html
+
+.\gov\pl_poland_items_list.html
+link-in-text-block: 12: Ensure links are distinguished from surrounding text in a way that does not rely on color;
+valid-lang: 12: Ensures lang attributes have valid values;
+
+.\gov\pl_poland_item_details.html
+aria-required-children: 8: Ensures elements with an ARIA role that require child roles contain them;
+aria-required-parent: 8: Ensures elements with an ARIA role that require parent roles are contained by them;
+listitem: 8: Ensures <li> elements are used semantically;
+valid-lang: 8: Ensures lang attributes have valid values;
+
+.\gov\pl_poland_main_page.html
+aria-required-children: 10: Ensures elements with an ARIA role that require child roles contain them;
+aria-required-parent: 10: Ensures elements with an ARIA role that require parent roles are contained by them;
+listitem: 10: Ensures <li> elements are used semantically;
+valid-lang: 10: Ensures lang attributes have valid values;
+
+.\gov\usa_usa_items_list.html
+
+.\gov\usa_usa_item_details.html
+
+.\gov\usa_usa_main_page.html
+aria-allowed-role: 2: Ensures role attribute has an appropriate value for the element;
+list: 2: Ensures that lists are structured correctly;
+

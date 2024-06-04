@@ -1,0 +1,93 @@
+ecommerce\allegro_main_page.json
+Critical Issues:
+image-alt: 15: Ensures <img> elements have alternate text or a role of none or presentation;
+aria-required-attr: 1: Ensures elements with ARIA roles have all required ARIA attributes;
+button-name: 1: Ensures buttons have discernible text;
+meta-viewport: 1: Ensures <meta name="viewport"> does not disable text scaling and zooming;
+
+Serious Issues:
+color-contrast: 28: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+link-name: 4: Ensures links have discernible text;
+aria-progressbar-name: 2: Ensures every ARIA progressbar node has an accessible name;
+aria-prohibited-attr: 1: Ensures ARIA attributes are not prohibited for an element's role;
+
+ecommerce\allegro_product_list.json
+Critical Issues:
+button-name: 31: Ensures buttons have discernible text;
+image-alt: 20: Ensures <img> elements have alternate text or a role of none or presentation;
+aria-required-attr: 1: Ensures elements with ARIA roles have all required ARIA attributes;
+meta-viewport: 1: Ensures <meta name="viewport"> does not disable text scaling and zooming;
+select-name: 1: Ensures select element has an accessible name;
+
+Serious Issues:
+color-contrast: 224: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+aria-prohibited-attr: 4: Ensures ARIA attributes are not prohibited for an element's role;
+aria-progressbar-name: 3: Ensures every ARIA progressbar node has an accessible name;
+
+ecommerce\amazon_main_page.json
+Serious Issues:
+aria-prohibited-attr: 5: Ensures ARIA attributes are not prohibited for an element's role;
+
+ecommerce\amazon_product_detail.json
+Critical Issues:
+aria-allowed-attr: 6: Ensures an element's role supports its ARIA attributes;
+aria-valid-attr-value: 5: Ensures all ARIA attributes have valid values;
+label: 3: Ensures every form element has a label;
+aria-required-attr: 1: Ensures elements with ARIA roles have all required ARIA attributes;
+select-name: 1: Ensures select element has an accessible name;
+
+Serious Issues:
+link-name: 17: Ensures links have discernible text;
+aria-progressbar-name: 5: Ensures every ARIA progressbar node has an accessible name;
+link-in-text-block: 2: Ensure links are distinguished from surrounding text in a way that does not rely on color;
+aria-hidden-focus: 1: Ensures aria-hidden elements are not focusable nor contain focusable elements;
+aria-prohibited-attr: 1: Ensures ARIA attributes are not prohibited for an element's role;
+color-contrast: 1: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+nested-interactive: 1: Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies;
+
+ecommerce\amazon_product_details.json
+Critical Issues:
+image-alt: 22: Ensures <img> elements have alternate text or a role of none or presentation;
+aria-required-attr: 1: Ensures elements with ARIA roles have all required ARIA attributes;
+button-name: 1: Ensures buttons have discernible text;
+meta-viewport: 1: Ensures <meta name="viewport"> does not disable text scaling and zooming;
+
+Serious Issues:
+color-contrast: 18: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+role-img-alt: 6: Ensures [role="img"] elements have alternate text;
+link-name: 3: Ensures links have discernible text;
+aria-progressbar-name: 2: Ensures every ARIA progressbar node has an accessible name;
+aria-prohibited-attr: 2: Ensures ARIA attributes are not prohibited for an element's role;
+
+ecommerce\amazon_product_list.json
+Critical Issues:
+label: 180: Ensures every form element has a label;
+
+Serious Issues:
+listitem: 201: Ensures <li> elements are used semantically;
+list: 39: Ensures that lists are structured correctly;
+frame-title: 3: Ensures <iframe> and <frame> elements have an accessible name;
+color-contrast: 1: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+
+ecommerce\bol_main_page.json
+Serious Issues:
+color-contrast: 5: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+link-in-text-block: 1: Ensure links are distinguished from surrounding text in a way that does not rely on color;
+list: 1: Ensures that lists are structured correctly;
+
+ecommerce\bol_product_details.json
+Serious Issues:
+aria-prohibited-attr: 21: Ensures ARIA attributes are not prohibited for an element's role;
+link-name: 21: Ensures links have discernible text;
+aria-hidden-focus: 4: Ensures aria-hidden elements are not focusable nor contain focusable elements;
+color-contrast: 3: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+list: 1: Ensures that lists are structured correctly;
+
+ecommerce\bol_product_list.json
+Serious Issues:
+link-name: 37: Ensures links have discernible text;
+color-contrast: 29: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+aria-prohibited-attr: 27: Ensures ARIA attributes are not prohibited for an element's role;
+link-in-text-block: 7: Ensure links are distinguished from surrounding text in a way that does not rely on color;
+list: 2: Ensures that lists are structured correctly;
+

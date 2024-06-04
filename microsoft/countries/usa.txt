@@ -1,0 +1,105 @@
+bigsize\usa_microsoft.html
+
+courier\usa_ups_main_page.html
+aria-allowed-attr: 8: Ensures ARIA attributes are allowed for an element's role;
+aria-required-children: 8: Ensures elements with an ARIA role that require child roles contain them;
+color-contrast: 8: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+duplicate-id-aria: 8: Ensures every id attribute value used in ARIA and in labels is unique;
+list: 8: Ensures that lists are structured correctly;
+
+courier\usa_ups_ship.html
+autocomplete-valid: 3: Ensure the autocomplete attribute is correct and suitable for the form field;
+color-contrast: 3: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+label: 3: Ensures every form element has a label;
+
+ecommerce\usa_amazon_items_list.html
+color-contrast: 429: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+frame-title: 429: Ensures <iframe> and <frame> elements have an accessible name;
+label: 429: Ensures every form element has a label;
+list: 429: Ensures that lists are structured correctly;
+listitem: 429: Ensures <li> elements are used semantically;
+
+ecommerce\usa_amazon_main_page.html
+aria-allowed-attr: 5: Ensures ARIA attributes are allowed for an element's role;
+
+education\usa_harvard_items_list.html
+
+education\usa_harvard_item_details.html
+
+education\usa_harvard_main_page.html
+
+entertainment\usa_youtube_items_list.html
+aria-required-attr: 139: Ensures elements with ARIA roles have all required ARIA attributes;
+aria-tooltip-name: 139: Ensures every ARIA tooltip node has an accessible name;
+duplicate-id-active: 139: Ensures every id attribute value of active elements is unique;
+nested-interactive: 139: Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies;
+
+entertainment\usa_youtube_item_details.html
+aria-allowed-attr: 64: Ensures ARIA attributes are allowed for an element's role;
+aria-required-attr: 64: Ensures elements with ARIA roles have all required ARIA attributes;
+aria-tooltip-name: 64: Ensures every ARIA tooltip node has an accessible name;
+duplicate-id-active: 64: Ensures every id attribute value of active elements is unique;
+link-name: 64: Ensures links have discernible text;
+nested-interactive: 64: Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies;
+
+entertainment\usa_youtube_main_page.html
+aria-tooltip-name: 67: Ensures every ARIA tooltip node has an accessible name;
+duplicate-id-active: 67: Ensures every id attribute value of active elements is unique;
+nested-interactive: 67: Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies;
+
+gov\usa_usa_items_list.html
+
+gov\usa_usa_item_details.html
+
+gov\usa_usa_main_page.html
+aria-allowed-role: 2: Ensures role attribute has an appropriate value for the element;
+list: 2: Ensures that lists are structured correctly;
+
+healthcare\usa_mayoclinic_items_list.html
+
+healthcare\usa_mayoclinic_item_details.html
+
+healthcare\usa_mayoclinic_main_page.html
+
+news\usa_cnn_article.html
+link-name: 11: Ensures links have discernible text;
+
+news\usa_cnn_main_page.html
+aria-allowed-attr: 5: Ensures ARIA attributes are allowed for an element's role;
+aria-input-field-name: 5: Ensures every ARIA input field has an accessible name;
+aria-valid-attr-value: 5: Ensures all ARIA attributes have valid values;
+link-name: 5: Ensures links have discernible text;
+
+nonprofit\usa_redcross_donate.html
+color-contrast: 5: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+link-in-text-block: 5: Ensure links are distinguished from surrounding text in a way that does not rely on color;
+
+nonprofit\usa_redcross_main_page.html
+aria-allowed-attr: 37: Ensures ARIA attributes are allowed for an element's role;
+aria-input-field-name: 37: Ensures every ARIA input field has an accessible name;
+color-contrast: 37: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+image-alt: 37: Ensures <img> elements have alternate text or a role of none or presentation;
+link-name: 37: Ensures links have discernible text;
+nested-interactive: 37: Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies;
+select-name: 37: Ensures select element has an accessible name;
+
+nonprofit\usa_redcross_volunteer.html
+aria-allowed-attr: 16: Ensures ARIA attributes are allowed for an element's role;
+aria-input-field-name: 16: Ensures every ARIA input field has an accessible name;
+color-contrast: 16: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+image-alt: 16: Ensures <img> elements have alternate text or a role of none or presentation;
+
+mediumsize\usa_ubereats.html
+aria-allowed-attr: 195: Ensures ARIA attributes are allowed for an element's role;
+button-name: 195: Ensures buttons have discernible text;
+color-contrast: 195: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+link-name: 195: Ensures links have discernible text;
+list: 195: Ensures that lists are structured correctly;
+listitem: 195: Ensures <li> elements are used semantically;
+
+smallsize\usa_nomadplayhouse.html
+frame-title: 11: Ensures <iframe> and <frame> elements have an accessible name;
+html-has-lang: 11: Ensures every HTML document has a lang attribute;
+image-alt: 11: Ensures <img> elements have alternate text or a role of none or presentation;
+link-name: 11: Ensures links have discernible text;
+

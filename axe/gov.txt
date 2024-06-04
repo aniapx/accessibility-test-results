@@ -1,0 +1,47 @@
+gov\france_main_page.json
+Critical Issues:
+
+Serious Issues:
+gov\france_services_list.json
+Critical Issues:
+
+Serious Issues:
+gov\france_service_details.json
+Critical Issues:
+
+Serious Issues:
+gov\poland_main_page.json
+Critical Issues:
+aria-required-parent: 4: Ensures elements with an ARIA role that require parent roles are contained by them;
+aria-required-children: 1: Ensures elements with an ARIA role that require child roles contain them;
+
+Serious Issues:
+listitem: 4: Ensures <li> elements are used semantically;
+valid-lang: 1: Ensures lang attributes have valid values;
+
+gov\poland_services_list.json
+Serious Issues:
+link-in-text-block: 13: Ensure links are distinguished from surrounding text in a way that does not rely on color;
+valid-lang: 1: Ensures lang attributes have valid values;
+
+gov\poland_service_details.json
+Critical Issues:
+aria-required-parent: 3: Ensures elements with an ARIA role that require parent roles are contained by them;
+aria-required-children: 1: Ensures elements with an ARIA role that require child roles contain them;
+
+Serious Issues:
+listitem: 3: Ensures <li> elements are used semantically;
+valid-lang: 1: Ensures lang attributes have valid values;
+
+gov\usa_main_page.json
+Serious Issues:
+list: 1: Ensures that lists are structured correctly;
+
+gov\usa_service_details.json
+Critical Issues:
+
+Serious Issues:
+gov\usa_services_list.json
+Critical Issues:
+
+Serious Issues:

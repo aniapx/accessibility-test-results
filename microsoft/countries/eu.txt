@@ -1,0 +1,121 @@
+bigsize\eu_volkswagen.html
+aria-allowed-attr: 6: Ensures ARIA attributes are allowed for an element's role;
+aria-allowed-role: 6: Ensures role attribute has an appropriate value for the element;
+aria-hidden-focus: 6: Ensures aria-hidden elements are not focusable nor contain focusable elements;
+button-name: 6: Ensures buttons have discernible text;
+svg-img-alt: 6: Ensures <svg> elements with an img, graphics-document or graphics-symbol role have an accessible text;
+
+courier\eu_dhl_main_page.html
+aria-allowed-attr: 21: Ensures ARIA attributes are allowed for an element's role;
+aria-required-children: 21: Ensures elements with an ARIA role that require child roles contain them;
+aria-valid-attr-value: 21: Ensures all ARIA attributes have valid values;
+image-alt: 21: Ensures <img> elements have alternate text or a role of none or presentation;
+listitem: 21: Ensures <li> elements are used semantically;
+meta-viewport: 21: Ensures <meta name="viewport"> does not disable text scaling and zooming;
+nested-interactive: 21: Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies;
+object-alt: 21: Ensures <object> elements have alternate text;
+svg-img-alt: 21: Ensures <svg> elements with an img, graphics-document or graphics-symbol role have an accessible text;
+
+courier\eu_dhl_ship.html
+aria-allowed-attr: 45: Ensures ARIA attributes are allowed for an element's role;
+aria-required-children: 45: Ensures elements with an ARIA role that require child roles contain them;
+autocomplete-valid: 45: Ensure the autocomplete attribute is correct and suitable for the form field;
+color-contrast: 45: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+listitem: 45: Ensures <li> elements are used semantically;
+meta-viewport: 45: Ensures <meta name="viewport"> does not disable text scaling and zooming;
+svg-img-alt: 45: Ensures <svg> elements with an img, graphics-document or graphics-symbol role have an accessible text;
+
+ecommerce\eu_bol_item_details.html
+aria-allowed-attr: 54: Ensures ARIA attributes are allowed for an element's role;
+aria-command-name: 54: Ensures every ARIA button, link and menuitem has an accessible name;
+aria-hidden-focus: 54: Ensures aria-hidden elements are not focusable nor contain focusable elements;
+color-contrast: 54: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+duplicate-id-active: 54: Ensures every id attribute value of active elements is unique;
+link-name: 54: Ensures links have discernible text;
+list: 54: Ensures that lists are structured correctly;
+
+ecommerce\eu_bol_main_page.html
+color-contrast: 4: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+link-in-text-block: 4: Ensure links are distinguished from surrounding text in a way that does not rely on color;
+list: 4: Ensures that lists are structured correctly;
+
+education\eu_uva_items_list.html
+
+education\eu_uva_item_details.html
+
+education\eu_uva_main_page.html
+
+entertainment\eu_spotify_items_list.html
+aria-allowed-attr: 75: Ensures ARIA attributes are allowed for an element's role;
+aria-required-attr: 75: Ensures elements with ARIA roles have all required ARIA attributes;
+aria-required-children: 75: Ensures elements with an ARIA role that require child roles contain them;
+aria-valid-attr-value: 75: Ensures all ARIA attributes have valid values;
+meta-viewport: 75: Ensures <meta name="viewport"> does not disable text scaling and zooming;
+presentation-role-conflict: 75: Elements marked as presentational should not have global ARIA or tabindex to ensure all screen readers ignore them;
+
+entertainment\eu_spotify_item_details.html
+aria-allowed-attr: 61: Ensures ARIA attributes are allowed for an element's role;
+aria-required-attr: 61: Ensures elements with ARIA roles have all required ARIA attributes;
+aria-required-children: 61: Ensures elements with an ARIA role that require child roles contain them;
+aria-valid-attr-value: 61: Ensures all ARIA attributes have valid values;
+meta-viewport: 61: Ensures <meta name="viewport"> does not disable text scaling and zooming;
+nested-interactive: 61: Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies;
+presentation-role-conflict: 61: Elements marked as presentational should not have global ARIA or tabindex to ensure all screen readers ignore them;
+
+entertainment\eu_spotify_main_page.html
+aria-allowed-attr: 171: Ensures ARIA attributes are allowed for an element's role;
+aria-required-attr: 171: Ensures elements with ARIA roles have all required ARIA attributes;
+aria-required-children: 171: Ensures elements with an ARIA role that require child roles contain them;
+aria-valid-attr-value: 171: Ensures all ARIA attributes have valid values;
+duplicate-id-aria: 171: Ensures every id attribute value used in ARIA and in labels is unique;
+meta-viewport: 171: Ensures <meta name="viewport"> does not disable text scaling and zooming;
+presentation-role-conflict: 171: Elements marked as presentational should not have global ARIA or tabindex to ensure all screen readers ignore them;
+
+gov\eu_france_items_list.html
+
+gov\eu_france_item_details.html
+duplicate-id-aria: 2: Ensures every id attribute value used in ARIA and in labels is unique;
+
+gov\eu_france_main_page.html
+
+healthcare\eu_nhs_items_list.html
+
+healthcare\eu_nhs_item_details.html
+
+healthcare\eu_nhs_main_page.html
+
+news\eu_elpais_article.html
+color-contrast: 1: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+
+news\eu_elpais_main_page.html
+color-contrast: 6: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+
+nonprofit\eu_legambiente_donate.html
+color-contrast: 12: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+frame-title: 12: Ensures <iframe> and <frame> elements have an accessible name;
+html-has-lang: 12: Ensures every HTML document has a lang attribute;
+image-alt: 12: Ensures <img> elements have alternate text or a role of none or presentation;
+meta-viewport: 12: Ensures <meta name="viewport"> does not disable text scaling and zooming;
+
+nonprofit\eu_legambiente_main_page.html
+aria-hidden-focus: 37: Ensures aria-hidden elements are not focusable nor contain focusable elements;
+button-name: 37: Ensures buttons have discernible text;
+color-contrast: 37: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+image-alt: 37: Ensures <img> elements have alternate text or a role of none or presentation;
+link-in-text-block: 37: Ensure links are distinguished from surrounding text in a way that does not rely on color;
+link-name: 37: Ensures links have discernible text;
+
+nonprofit\eu_legambiente_volunteer.html
+color-contrast: 42: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+image-alt: 42: Ensures <img> elements have alternate text or a role of none or presentation;
+link-name: 42: Ensures links have discernible text;
+svg-img-alt: 42: Ensures <svg> elements with an img, graphics-document or graphics-symbol role have an accessible text;
+
+mediumsize\eu_booking.html
+aria-progressbar-name: 2: Ensures every ARIA progressbar node has an accessible name;
+aria-valid-attr-value: 2: Ensures all ARIA attributes have valid values;
+
+smallsize\eu_osnabrueckhalle.html
+color-contrast: 21: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+link-name: 21: Ensures links have discernible text;
+

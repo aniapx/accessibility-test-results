@@ -1,0 +1,42 @@
+.\socialmedia\usa_facebook_main_page.html
+aria-allowed-attr: 90: Ensures ARIA attributes are allowed for an element's role;
+aria-hidden-focus: 90: Ensures aria-hidden elements are not focusable nor contain focusable elements;
+aria-required-children: 90: Ensures elements with an ARIA role that require child roles contain them;
+aria-required-parent: 90: Ensures elements with an ARIA role that require parent roles are contained by them;
+link-name: 90: Ensures links have discernible text;
+
+.\socialmedia\usa_facebook_post.html
+aria-allowed-attr: 3: Ensures ARIA attributes are allowed for an element's role;
+aria-hidden-focus: 3: Ensures aria-hidden elements are not focusable nor contain focusable elements;
+
+.\socialmedia\usa_facebook_user.html
+aria-allowed-attr: 5: Ensures ARIA attributes are allowed for an element's role;
+aria-hidden-focus: 5: Ensures aria-hidden elements are not focusable nor contain focusable elements;
+list: 5: Ensures that lists are structured correctly;
+nested-interactive: 5: Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies;
+
+.\socialmedia\usa_linkedin_main_page.html
+frame-title: 1: Ensures <iframe> and <frame> elements have an accessible name;
+
+.\socialmedia\usa_linkedin_post.html
+frame-title: 1: Ensures <iframe> and <frame> elements have an accessible name;
+
+.\socialmedia\usa_linkedin_user.html
+aria-hidden-focus: 3: Ensures aria-hidden elements are not focusable nor contain focusable elements;
+duplicate-id-active: 3: Ensures every id attribute value of active elements is unique;
+frame-title: 3: Ensures <iframe> and <frame> elements have an accessible name;
+
+.\socialmedia\usa_reddit_main_page.html
+nested-interactive: 2: Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies;
+
+.\socialmedia\usa_reddit_post.html
+nested-interactive: 4: Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies;
+
+.\socialmedia\usa_reddit_user.html
+aria-allowed-attr: 116: Ensures ARIA attributes are allowed for an element's role;
+aria-allowed-role: 116: Ensures role attribute has an appropriate value for the element;
+link-in-text-block: 116: Ensure links are distinguished from surrounding text in a way that does not rely on color;
+link-name: 116: Ensures links have discernible text;
+nested-interactive: 116: Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies;
+presentation-role-conflict: 116: Elements marked as presentational should not have global ARIA or tabindex to ensure all screen readers ignore them;
+

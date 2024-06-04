@@ -1,0 +1,154 @@
+{
+    "url": "https://edition.cnn.com/",
+    "extensionVersion": "4.76.0",
+    "axeVersion": "4.8.2",
+    "standard": "WCAG 2.1 AA",
+    "testingStartDate": "2024-03-04T17:53:53.181Z",
+    "testingEndDate": "2024-03-04T17:53:53.181Z",
+    "bestPracticesEnabled": false,
+    "experimentalEnabled": false,
+    "issueSummary": {
+        "critical": 0,
+        "serious": 3,
+        "moderate": 0,
+        "minor": 0,
+        "bestPractices": 0,
+        "needsReview": 0
+    },
+    "remainingTestingSummary": {
+        "run": false
+    },
+    "igtSummary": [],
+    "failedRules": [
+        {
+            "name": "aria-input-field-name",
+            "count": 1,
+            "mode": "automated"
+        },
+        {
+            "name": "aria-prohibited-attr",
+            "count": 1,
+            "mode": "automated"
+        },
+        {
+            "name": "link-name",
+            "count": 1,
+            "mode": "automated"
+        }
+    ],
+    "needsReview": [],
+    "source": {
+        "productName": "extension-chrome",
+        "productVersion": "4.76.0",
+        "productComponentName": "axe-extension"
+    },
+    "testDetails": {
+        "testId": "",
+        "axeVersion": "4.8.2",
+        "engine": "axe-core",
+        "standard": "WCAG 2.1 AA",
+        "startDate": "2024-03-04T17:53:53.181Z",
+        "endDate": "2024-03-04T17:53:53.181Z",
+        "bestPracticesEnabled": false,
+        "experimentalEnabled": false
+    },
+    "allIssues": [
+        {
+            "issueId": null,
+            "ruleId": "aria-input-field-name",
+            "description": "Ensures every ARIA input field has an accessible name",
+            "help": "ARIA input fields must have an accessible name",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-input-field-name?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".sc-bdVaJa"
+            ],
+            "summary": "Fix any of the following:\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<div class=\"sc-bdVaJa pui_volume-controls_volume-bar sc-bbmXgH hcOZvj\" role=\"slider\" aria-valuemin=\"0\" aria-valuemax=\"100\" aria-valuenow=\"0\" aria-valuetext=\"0\">",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412",
+                "TTv5",
+                "TT5.c",
+                "EN-301-549",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T17:53:53.181Z",
+            "isExperimental": false,
+            "testUrl": "https://edition.cnn.com/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Breaking News, Latest News and Videos | CNN"
+        },
+        {
+            "issueId": null,
+            "ruleId": "aria-prohibited-attr",
+            "description": "Ensures ARIA attributes are not prohibited for an element's role",
+            "help": "Elements must only use permitted ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-prohibited-attr?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".sc-eqIVtm"
+            ],
+            "summary": "Fix all of the following:\\n  aria-label attribute cannot be used on a div with no valid role attribute.",
+            "source": "<div aria-label=\"Volume bar\" color=\"rgba(255, 255, 255, 1)\" class=\"sc-eqIVtm bMsZTf\" style=\"left: 0%;\"></div>",
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412",
+                "EN-301-549",
+                "EN-9.4.1.2"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T17:53:53.181Z",
+            "isExperimental": false,
+            "testUrl": "https://edition.cnn.com/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Breaking News, Latest News and Videos | CNN"
+        },
+        {
+            "issueId": null,
+            "ruleId": "link-name",
+            "description": "Ensures links have discernible text",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=AxeChrome",
+            "impact": "serious",
+            "needsReview": false,
+            "isManual": false,
+            "selector": [
+                ".container__item--type-media-loop > .container_lead-package__link.container_lead-package__left[data-zjs-card_total_number=\"2\"]:nth-child(1)"
+            ],
+            "summary": "Fix all of the following:\\n  Element is in tab order and does not have accessible text\\n\\nFix any of the following:\\n  Element does not have text that is visible to screen readers\\n  aria-label attribute does not exist or is empty\\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\\n  Element has no title attribute",
+            "source": "<a href=\"/2024/03/04/americas/haiti-ariel-henry-gangs-protests-bsap-intl-latam/index.html\" class=\"container__link container__link--type-article container_lead-package__link container_lead-package__left container_lead-package__light\" data-link-type=\"article\" data-zjs=\"click\" data-zjs-cms_id=\"cms.cnn.com/_pages/clg35wfph000047qb0ndy7s77@published\" data-zjs-canonical_url=\"https://www.cnn.com\" data-zjs-zone_id=\"cms.cnn.com/_components/zone/instances/clnubvtb400003b6i6qk45g06@published\" data-zjs-zone_name=\"undefined\" data-zjs-zone_type=\"zone_layout--wide-left-balanced-2\" data-zjs-zone_position_number=\"1\" data-zjs-zone_total_number=\"8\" data-zjs-container_id=\"cms.cnn.com/_components/container/instances/clt9bs6hi00003b6h13gnf2jm@published\" data-zjs-container_name=\"undefined\" data-zjs-container_type=\"container_lead-package\" data-zjs-container_position_number=\"2\" data-zjs-container_total_number=\"4\" data-zjs-card_id=\"cms.cnn.com/_components/card/instances/cltctz7nq000i3j6faq5gwwe1@published\" data-zjs-card_name=\"Gangs rule Haiti’s capital. Now angry citizens say they’re ready to revolt\" data-zjs-card_type=\"card\" data-zjs-card_position_number=\"1\" data-zjs-card_total_number=\"2\">",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag244",
+                "wcag412",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.2.4.4",
+                "EN-9.4.1.2",
+                "ACT"
+            ],
+            "igt": "",
+            "shareURL": null,
+            "createdAt": "2024-03-04T17:53:53.181Z",
+            "isExperimental": false,
+            "testUrl": "https://edition.cnn.com/",
+            "axeVersion": "4.8.2",
+            "testPageTitle": "Breaking News, Latest News and Videos | CNN"
+        }
+    ]
+}

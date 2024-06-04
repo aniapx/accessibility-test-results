@@ -1,0 +1,244 @@
+bigsize\pl_orlen_main_page.json
+Critical Issues:
+aria-valid-attr-value: 1: Ensures all ARIA attributes have valid values;
+
+Serious Issues:
+nested-interactive: 6: Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies;
+link-name: 1: Ensures links have discernible text;
+
+courier\pl_inpost_main_page.json
+Critical Issues:
+aria-required-children: 2: Ensures elements with an ARIA role that require child roles contain them;
+button-name: 1: Ensures buttons have discernible text;
+image-alt: 1: Ensures <img> elements have alternate text or a role of none or presentation;
+
+Serious Issues:
+listitem: 15: Ensures <li> elements are used semantically;
+link-name: 12: Ensures links have discernible text;
+color-contrast: 2: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+
+courier\pl_inpost_ship.json
+Critical Issues:
+image-alt: 22: Ensures <img> elements have alternate text or a role of none or presentation;
+label: 1: Ensures every form element has a label;
+
+Serious Issues:
+color-contrast: 4: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+autocomplete-valid: 1: Ensure the autocomplete attribute is correct and suitable for the form field;
+
+ecommerce\pl_allegro_main_page.json
+Critical Issues:
+image-alt: 15: Ensures <img> elements have alternate text or a role of none or presentation;
+aria-required-attr: 1: Ensures elements with ARIA roles have all required ARIA attributes;
+button-name: 1: Ensures buttons have discernible text;
+meta-viewport: 1: Ensures <meta name="viewport"> does not disable text scaling and zooming;
+
+Serious Issues:
+color-contrast: 28: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+link-name: 4: Ensures links have discernible text;
+aria-progressbar-name: 2: Ensures every ARIA progressbar node has an accessible name;
+aria-prohibited-attr: 1: Ensures ARIA attributes are not prohibited for an element's role;
+
+ecommerce\pl_allegro_product_details.json
+Critical Issues:
+image-alt: 22: Ensures <img> elements have alternate text or a role of none or presentation;
+aria-required-attr: 1: Ensures elements with ARIA roles have all required ARIA attributes;
+button-name: 1: Ensures buttons have discernible text;
+meta-viewport: 1: Ensures <meta name="viewport"> does not disable text scaling and zooming;
+
+Serious Issues:
+color-contrast: 18: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+role-img-alt: 6: Ensures [role="img"] elements have alternate text;
+link-name: 3: Ensures links have discernible text;
+aria-progressbar-name: 2: Ensures every ARIA progressbar node has an accessible name;
+aria-prohibited-attr: 2: Ensures ARIA attributes are not prohibited for an element's role;
+
+ecommerce\pl_allegro_product_list.json
+Critical Issues:
+button-name: 31: Ensures buttons have discernible text;
+image-alt: 20: Ensures <img> elements have alternate text or a role of none or presentation;
+aria-required-attr: 1: Ensures elements with ARIA roles have all required ARIA attributes;
+meta-viewport: 1: Ensures <meta name="viewport"> does not disable text scaling and zooming;
+select-name: 1: Ensures select element has an accessible name;
+
+Serious Issues:
+color-contrast: 224: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+aria-prohibited-attr: 4: Ensures ARIA attributes are not prohibited for an element's role;
+aria-progressbar-name: 3: Ensures every ARIA progressbar node has an accessible name;
+
+education\pl_pw_main_page.json
+Critical Issues:
+
+Serious Issues:
+education\pl_pw_majors_list.json
+Serious Issues:
+nested-interactive: 84: Ensures interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies;
+
+education\pl_pw_major_details.json
+Critical Issues:
+
+Serious Issues:
+education\pl_zut_main_page.json
+Critical Issues:
+image-alt: 1: Ensures <img> elements have alternate text or a role of none or presentation;
+
+Serious Issues:
+listitem: 9: Ensures <li> elements are used semantically;
+list: 2: Ensures that lists are structured correctly;
+
+education\pl_zut_majors_list.json
+Serious Issues:
+list: 1: Ensures that lists are structured correctly;
+
+education\pl_zut_major_details.json
+Serious Issues:
+list: 1: Ensures that lists are structured correctly;
+
+entertainment\pl_player_items_list.json
+Serious Issues:
+link-name: 97: Ensures links have discernible text;
+
+entertainment\pl_player_item_details.json
+Serious Issues:
+link-name: 23: Ensures links have discernible text;
+
+entertainment\pl_player_main_page.json
+Serious Issues:
+link-name: 72: Ensures links have discernible text;
+
+gov\pl_poland_main_page.json
+Critical Issues:
+aria-required-parent: 4: Ensures elements with an ARIA role that require parent roles are contained by them;
+aria-required-children: 1: Ensures elements with an ARIA role that require child roles contain them;
+
+Serious Issues:
+listitem: 4: Ensures <li> elements are used semantically;
+valid-lang: 1: Ensures lang attributes have valid values;
+
+gov\pl_poland_services_list.json
+Serious Issues:
+link-in-text-block: 13: Ensure links are distinguished from surrounding text in a way that does not rely on color;
+valid-lang: 1: Ensures lang attributes have valid values;
+
+gov\pl_poland_service_details.json
+Critical Issues:
+aria-required-parent: 3: Ensures elements with an ARIA role that require parent roles are contained by them;
+aria-required-children: 1: Ensures elements with an ARIA role that require child roles contain them;
+
+Serious Issues:
+listitem: 3: Ensures <li> elements are used semantically;
+valid-lang: 1: Ensures lang attributes have valid values;
+
+healthcare\pl_znanylekarz_details.json
+Critical Issues:
+aria-valid-attr-value: 9: Ensures all ARIA attributes have valid values;
+aria-allowed-attr: 2: Ensures an element's role supports its ARIA attributes;
+button-name: 2: Ensures buttons have discernible text;
+image-alt: 1: Ensures <img> elements have alternate text or a role of none or presentation;
+meta-viewport: 1: Ensures <meta name="viewport"> does not disable text scaling and zooming;
+
+Serious Issues:
+color-contrast: 53: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+aria-hidden-focus: 8: Ensures aria-hidden elements are not focusable nor contain focusable elements;
+link-name: 7: Ensures links have discernible text;
+list: 2: Ensures that lists are structured correctly;
+
+healthcare\pl_znanylekarz_list.json
+Critical Issues:
+image-alt: 30: Ensures <img> elements have alternate text or a role of none or presentation;
+aria-allowed-attr: 2: Ensures an element's role supports its ARIA attributes;
+button-name: 1: Ensures buttons have discernible text;
+meta-viewport: 1: Ensures <meta name="viewport"> does not disable text scaling and zooming;
+
+Serious Issues:
+color-contrast: 42: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+link-name: 4: Ensures links have discernible text;
+list: 2: Ensures that lists are structured correctly;
+aria-command-name: 1: Ensures every ARIA button, link and menuitem has an accessible name;
+
+healthcare\pl_znanylekarz_main_page.json
+Critical Issues:
+aria-allowed-attr: 2: Ensures an element's role supports its ARIA attributes;
+button-name: 1: Ensures buttons have discernible text;
+image-alt: 1: Ensures <img> elements have alternate text or a role of none or presentation;
+meta-viewport: 1: Ensures <meta name="viewport"> does not disable text scaling and zooming;
+
+Serious Issues:
+color-contrast: 38: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+aria-hidden-focus: 16: Ensures aria-hidden elements are not focusable nor contain focusable elements;
+link-name: 3: Ensures links have discernible text;
+link-in-text-block: 1: Ensure links are distinguished from surrounding text in a way that does not rely on color;
+
+news\pl_wp_article.json
+Critical Issues:
+image-alt: 1: Ensures <img> elements have alternate text or a role of none or presentation;
+
+Serious Issues:
+color-contrast: 6: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+link-name: 5: Ensures links have discernible text;
+
+news\pl_wp_main_page.json
+Critical Issues:
+button-name: 1: Ensures buttons have discernible text;
+image-alt: 1: Ensures <img> elements have alternate text or a role of none or presentation;
+label: 1: Ensures every form element has a label;
+
+Serious Issues:
+color-contrast: 13: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+link-name: 1: Ensures links have discernible text;
+
+nonprofit\pl_wosp_donate.json
+Critical Issues:
+image-alt: 6: Ensures <img> elements have alternate text or a role of none or presentation;
+aria-required-children: 1: Ensures elements with an ARIA role that require child roles contain them;
+label: 1: Ensures every form element has a label;
+
+Serious Issues:
+link-name: 16: Ensures links have discernible text;
+color-contrast: 5: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+aria-input-field-name: 1: Ensures every ARIA input field has an accessible name;
+list: 1: Ensures that lists are structured correctly;
+
+nonprofit\pl_wosp_main_page.json
+Critical Issues:
+image-alt: 14: Ensures <img> elements have alternate text or a role of none or presentation;
+aria-required-children: 4: Ensures elements with an ARIA role that require child roles contain them;
+
+Serious Issues:
+link-name: 28: Ensures links have discernible text;
+color-contrast: 10: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+aria-input-field-name: 4: Ensures every ARIA input field has an accessible name;
+list: 1: Ensures that lists are structured correctly;
+
+nonprofit\pl_wosp_volunteer.json
+Critical Issues:
+image-alt: 6: Ensures <img> elements have alternate text or a role of none or presentation;
+aria-required-children: 1: Ensures elements with an ARIA role that require child roles contain them;
+
+Serious Issues:
+color-contrast: 22: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+link-name: 17: Ensures links have discernible text;
+link-in-text-block: 9: Ensure links are distinguished from surrounding text in a way that does not rely on color;
+aria-input-field-name: 1: Ensures every ARIA input field has an accessible name;
+list: 1: Ensures that lists are structured correctly;
+
+mediumsize\pl_ccc_main_page.json
+Critical Issues:
+image-alt: 22: Ensures <img> elements have alternate text or a role of none or presentation;
+button-name: 20: Ensures buttons have discernible text;
+aria-allowed-attr: 1: Ensures an element's role supports its ARIA attributes;
+aria-required-children: 1: Ensures elements with an ARIA role that require child roles contain them;
+meta-viewport: 1: Ensures <meta name="viewport"> does not disable text scaling and zooming;
+
+Serious Issues:
+link-name: 35: Ensures links have discernible text;
+listitem: 19: Ensures <li> elements are used semantically;
+aria-prohibited-attr: 18: Ensures ARIA attributes are not prohibited for an element's role;
+color-contrast: 3: Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds;
+list: 2: Ensures that lists are structured correctly;
+aria-input-field-name: 1: Ensures every ARIA input field has an accessible name;
+
+smallsize\pl_bagietka_main_page.json
+Serious Issues:
+aria-command-name: 6: Ensures every ARIA button, link and menuitem has an accessible name;
+
